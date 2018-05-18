@@ -1,0 +1,16 @@
+\t (00:01:53) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:01:53)     Journal start - Fri May 18 13:40:22 2018
+\t (00:01:53)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=10144 CPUs=4
+\t (00:01:53) 
+\t (00:02:04) Opening existing design...
+\w (00:02:04) WARNING(SPMHDB-214): Allegro PCB Designer opening an Allegro XL design.
+\w (00:02:04) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:02:04) WARNING(SPMHOD-33): Design was last saved by a higher capability product (Allegro XL). There may be constraints and other design data that may be ignored at the tool's current license levels.
+\i (00:02:08) fillin confirm
+\d (00:02:08) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (00:02:08) trapsize 12463
+\i (00:02:08) trapsize 12792
+\i (00:02:08) trapsize 17628
+\i (00:02:09) generaledit 
+\i (00:02:39) exit 
+\t (00:02:39)     Journal end - Fri May 18 13:41:08 2018

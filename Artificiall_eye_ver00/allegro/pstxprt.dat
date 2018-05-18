@@ -1,0 +1,30 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.5.0 p001May-18-2018 at 17:12:52 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ARTIFICIALL_EYE_VER00';
+ POST_TIME='Apr 21 2011 10:02:30';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ U1 'HEADER2X6_HEADER2X6_HEADER2X6':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12914557@LIBRARY2.HEADER2X6.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12914557@library2.\header2x6.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12914557@library2.\header2x6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'HEADER2X6_HEADER2X6_HEADER2X6':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12914623@LIBRARY2.HEADER2X6.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12914623@library2.\header2x6.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12914623@library2.\header2x6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
