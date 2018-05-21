@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Mon May 21 16:53:14 2018                      )
+(    Date/Time        : Mon May 21 17:40:11 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -26,11 +26,11 @@ CmdLine: netrev.exe -5 -y 1 -i d:\users\sihwan_lab\desktop\workspace\pcbdesign_s
 ------ Preparing to read pst files ------
 
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat 
-   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.04)
+   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.03)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat 
    Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat (00:00:00.00)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat 
-   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat (00:00:00.00)
+   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 21 16:53:14 2018
+netrev run on May 21 17:40:11 2018
    DESIGN NAME : 'ARTIFICIALL_EYE_VER00'
    PACKAGING ON Apr 21 2011 10:02:30
 
@@ -84,6 +84,6 @@ netrev run on May 21 16:53:14 2018
  No oversight detected
  No warning detected
 
-cpu time      0:00:38
+cpu time      0:00:23
 elapsed time  0:00:00
 

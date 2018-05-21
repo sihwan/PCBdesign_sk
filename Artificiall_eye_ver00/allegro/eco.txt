@@ -3,79 +3,13 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon May 21 16:53:14 2018  |
+|                                                    Mon May 21 17:40:11 2018  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from board drawing                                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N00202       pins MOVED FROM this net (to net name listed on right)
-                                 U1.7                           
-                                                                            VCC
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N12915756    pins ADDED TO this new net
-                                 U1.9                           
-                                 U3.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N12915771    pins ADDED TO this new net
-                                 U2.1                           
-                                 U3.10                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC          pins MOVED FROM this net (to net name listed on right)
-                                 U1.12                          
-                                                                         N00202
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ U4                  HEADER2X6_HEADER2X6_HEADER2X6                
 |------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon May 21 16:53:14 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- HEADER2X6_HEADER2X6_HEADER2X6
- OPTIC_NERVE_0_OPTICNERVE_OPTIC_
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon May 21 16:53:14 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to board drawing                                            |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U3                  OPTIC_NERVE_0_OPTICNERVE_OPTIC_ 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon May 21 16:53:14 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in board drawing          |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U1                  HEADER2X6_HEADER2X6_HEADER2X6                 HEADER2X6_HEADER2X6_HEADER2X6
- U2                  HEADER2X6_HEADER2X6_HEADER2X6                 HEADER2X6_HEADER2X6_HEADER2X6
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon May 21 16:53:14 2018  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to board drawing                                       |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U1.9                           PRIM_FILE      .\pstchip.dat
- U2.9                           PRIM_FILE      .\pstchip.dat
- U3.9                           PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|   total ECO changes reported  14                                             |
+|   total ECO changes reported  1                                              |
 |------------------------------------------------------------------------------|

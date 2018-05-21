@@ -1,119 +1,24 @@
-\t (00:03:56) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:03:56)     Journal start - Mon May 21 16:57:11 2018
-\t (00:03:56)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=7784 CPUs=4
-\t (00:03:56) 
-\t (00:04:06) Opening existing design...
-\w (00:04:06) WARNING(SPMHDB-214): Allegro PCB Designer opening an Allegro XL design.
-\w (00:04:06) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
-\w (00:04:06) WARNING(SPMHOD-33): Design was last saved by a higher capability product (Allegro XL). There may be constraints and other design data that may be ignored at the tool's current license levels.
-\i (00:04:10) fillin confirm
-\d (00:04:10) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
-\i (00:04:10) trapsize 12463
-\i (00:04:10) trapsize 12792
-\i (00:04:10) trapsize 17628
-\i (00:04:11) generaledit 
-\i (00:04:12) zoom out 1 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out 9730.77 11564.10
-\i (00:04:12) trapsize 17628
-\i (00:04:12) zoom out 1 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out 9625.00 11493.59
-\i (00:04:12) trapsize 17628
-\i (00:04:12) zoom out 1 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out 9589.74 11423.08
-\i (00:04:12) trapsize 17628
-\i (00:04:12) zoom out 1 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out 9519.23 11317.31
-\i (00:04:12) trapsize 17628
-\i (00:04:12) zoom out 1 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out 9448.72 11282.05
-\i (00:04:12) trapsize 17628
-\i (00:04:12) zoom out 1 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out 9378.21 11246.80
-\i (00:04:12) trapsize 17628
-\i (00:04:13) zoom out 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom out 8814.10 11000.00
-\i (00:04:13) trapsize 17628
-\i (00:04:13) zoom out 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom out 8814.10 11000.00
-\i (00:04:13) trapsize 17628
-\i (00:04:13) zoom out 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom out 8814.10 11000.00
-\i (00:04:13) trapsize 17628
-\i (00:04:13) zoom out 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom out 8814.10 11000.00
-\i (00:04:13) trapsize 17628
-\i (00:04:13) zoom out 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom out 8778.85 11000.00
-\i (00:04:13) trapsize 17628
-\i (00:04:13) zoom out 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom out 8778.85 10964.74
-\i (00:04:13) trapsize 17628
-\i (00:04:13) zoom in 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom in 8637.82 10929.49
-\i (00:04:13) trapsize 8814
-\i (00:04:13) zoom in 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom in 8637.82 10929.49
-\i (00:04:13) trapsize 4407
-\i (00:04:13) zoom in 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom in 8637.82 10929.49
-\i (00:04:13) trapsize 2204
-\i (00:04:13) zoom in 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom in 8637.83 10929.50
-\i (00:04:13) trapsize 1102
-\i (00:04:13) zoom in 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom in 8637.83 10929.50
-\i (00:04:13) trapsize 551
-\i (00:04:13) zoom in 1 
-\i (00:04:13) setwindow pcb
-\i (00:04:13) zoom in 8636.73 10929.51
-\i (00:04:13) trapsize 275
-\i (00:04:14) zoom in 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 8633.98 10930.61
-\i (00:04:14) trapsize 138
-\i (00:04:14) zoom in 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 8633.98 10930.62
-\i (00:04:14) trapsize 69
-\i (00:04:14) zoom in 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 8633.98 10930.62
-\i (00:04:14) trapsize 34
-\i (00:04:14) zoom in 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 8633.98 10930.69
-\i (00:04:14) trapsize 17
-\i (00:04:14) zoom in 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 8633.94 10930.77
-\i (00:04:14) trapsize 9
-\i (00:04:44) zoom out 1 
-\i (00:04:44) setwindow pcb
-\i (00:04:44) zoom out 8639.81 10930.20
-\i (00:04:44) trapsize 17
-\i (00:04:44) zoom out 1 
-\i (00:04:44) setwindow pcb
-\i (00:04:44) zoom out 8639.80 10930.21
-\i (00:04:44) trapsize 34
-\i (00:04:44) zoom out 1 
-\i (00:04:44) setwindow pcb
-\i (00:04:44) zoom out 8639.80 10930.21
-\i (00:04:44) trapsize 69
-\i (0
+\t (00:00:55) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:55)     Journal start - Mon May 21 17:39:32 2018
+\t (00:00:55)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=2708 CPUs=4
+\t (00:00:55) 
+\t (00:01:05) Opening existing design...
+\d (00:01:05) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\t (00:01:06) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:01:06) trapsize 2738
+\i (00:01:06) trapsize 2678
+\i (00:01:06) trapsize 2749
+\i (00:01:06) trapsize 2749
+\i (00:01:06) generaledit 
+\i (00:01:08) zoom out 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom out 19.5392 15.4134
+\t (00:01:08) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:01:08) trapsize 5497
+\i (00:01:13) status 
+\i (00:01:13) generaledit 
+\i (00:01:16) setwindow form.status
+\i (00:01:16) FORM status done  
+\i (00:01:17) setwindow pcb
+\i (00:01:17) exit 
+\t (00:01:18)     Journal end - Mon May 21 17:39:55 2018
