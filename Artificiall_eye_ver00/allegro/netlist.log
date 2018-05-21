@@ -1,5 +1,6 @@
-{ Using PSTWRITER 16.5.0 p001May-18-2018 at 17:12:51 }
+{ Using PSTWRITER 16.5.0 p001May-21-2018 at 16:32:16 }
 
+#1 WARNING(ORCAP-36006): Part Name "OPTIC_NERVE_0_OPTICNERVE_OPTIC_NERVE" is renamed to "OPTIC_NERVE_0_OPTICNERVE_OPTIC_".
 Scanning netlist files ...
 
 Loading... d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro/pstchip.dat

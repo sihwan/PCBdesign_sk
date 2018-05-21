@@ -132,7 +132,7 @@
     ("Allegro Netlist Output Board File" "allegro\artificiall_eye_ver00.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
-    ("Allegro Netlist Open Board in Allegro" "NEITHER")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
     ("Allegro Setup Configuration File"
        "D:\Cadence\SPB_16.5\tools\capture\allegro.cfg")
     ("Allegro Setup Backup Versions" "3")
@@ -142,7 +142,23 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Digikey Part #}\t{PCB footprint}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\tDigikey Part Number\tFoot Print")
+    (BOM_Include_File
+       "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    ("Allegro Netlist Input Board File" "allegro\artificiall_eye_ver00.brd"))
   (Folder "Outputs"
     (File ".\artificiall_eye_ver00.drc"
       (Type "Report"))
@@ -154,9 +170,30 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\artificiall_eye_ver00.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (Optic_nerve
+      (FullPartName "Optic_nerve.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
+    (header2x6
+      (FullPartName "header2x6.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6X2"
+      (FullPartName "HEADER 6X2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (header2x6b
+      (FullPartName "header2x6b.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -172,8 +209,6 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library_ae.olb")
       (Path "Outputs")
       (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
          "Main"))
@@ -186,9 +221,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1476 100 484")
-        (Scroll "0 11")
-        (Zoom "126")
+        (Placement "44 0 1 -1 -1 -8 -30 175 1258 175 559")
+        (Scroll "158 432")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")

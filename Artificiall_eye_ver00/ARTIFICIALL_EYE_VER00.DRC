@@ -1,12 +1,12 @@
-Date and Time : 05/18/18 13:28:31
+Date and Time : 05/21/18 16:19:48
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
 --------------------------------------------------
 Checking Electrical Rules 
-WARNING(ORCAP-1829): Possible pin type conflict U1,R6  Bidirectional Connected to Power
-                    SCHEMATIC1, Main  (88.90, 60.96) 
-WARNING(ORCAP-1829): Possible pin type conflict U2,L6  Bidirectional Connected to Power
+WARNING(ORCAP-1829): Possible pin type conflict U1,P7  Bidirectional Connected to Power
+                    SCHEMATIC1, Main  (86.36, 60.96) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,P6  Bidirectional Connected to Power
                     SCHEMATIC1, Main  (182.88, 76.20) 
 
 Checking For Unconnected Bus Nets

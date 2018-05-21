@@ -1,84 +1,131 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001May-18-2018 at 17:12:12}
+{ Using PSTWRITER 16.5.0 p001May-21-2018 at 16:27:01}
 primitive 'HEADER2X6_HEADER2X6_HEADER2X6';
   pin
-    'L1':
+    'P1':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'L2':
+    'P2':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'L3':
+    'P3':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'L4':
+    'P4':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'L5':
+    'P5':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'L6':
+    'P6':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'R1':
+    'P7':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'R2':
+    'P8':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'R3':
+    'P9':
       PIN_NUMBER='(9)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'R4':
+    'P10':
       PIN_NUMBER='(10)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'R5':
+    'P11':
       PIN_NUMBER='(11)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
-    'R6':
+    'P12':
       PIN_NUMBER='(12)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
-      PIN_GROUP='1';
       BIDIRECTIONAL='TRUE';
   end_pin;
   body
     PART_NAME='header2x6';
     JEDEC_TYPE='header2x6';
     VALUE='header2x6';
+  end_body;
+end_primitive;
+primitive 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_';
+  pin
+    'INOUT1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT2':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT3':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT4':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT5':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT6':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT7':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT8':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT9':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT10':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='Optic_nerve_0';
+    JEDEC_TYPE='Opticnerve';
+    VALUE='Optic_nerve';
   end_body;
 end_primitive;
 END.

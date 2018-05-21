@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Fri May 18 17:12:52 2018                      )
+(    Date/Time        : Mon May 21 16:32:17 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -21,12 +21,12 @@ BOARD_DIRECTORY '';
 OLD_BOARD_NAME 'd:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd';
 NEW_BOARD_NAME 'd:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd';
 
-CmdLine: netrev.exe -5 -y 1 -n -i d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro\artificiall_eye_ver00.brd d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro\artificiall_eye_ver00.brd
+CmdLine: netrev.exe -5 -y 1 -i d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro\artificiall_eye_ver00.brd d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro\artificiall_eye_ver00.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat 
-   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.05)
+   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.04)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat 
    Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat (00:00:00.00)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat 
@@ -34,10 +34,6 @@ Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'HEADER2X6' for device 'HEADER2X6_HEADER2X6_HEADER2X6': WARNING(SPMHUT-127): Could not find padstack C040. [help]
 
 ------ Library Paths ------
 MODULEPATH =  . 
@@ -63,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 18 17:12:52 2018
+netrev run on May 21 16:32:17 2018
    DESIGN NAME : 'ARTIFICIALL_EYE_VER00'
    PACKAGING ON Apr 21 2011 10:02:30
 
@@ -86,7 +82,7 @@ netrev run on May 18 17:12:52 2018
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
 cpu time      0:00:26
 elapsed time  0:00:00
