@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Mon May 21 16:32:17 2018                      )
+(    Date/Time        : Mon May 21 16:53:14 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 21 16:32:17 2018
+netrev run on May 21 16:53:14 2018
    DESIGN NAME : 'ARTIFICIALL_EYE_VER00'
    PACKAGING ON Apr 21 2011 10:02:30
 
@@ -84,6 +84,6 @@ netrev run on May 21 16:32:17 2018
  No oversight detected
  No warning detected
 
-cpu time      0:00:26
+cpu time      0:00:38
 elapsed time  0:00:00
 
