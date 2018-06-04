@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : Opticnerve.dra                                )
+(    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P003                                      )
-(    Date/Time        : Mon May 21 15:34:17 2018                      )
+(    Date/Time        : Tue May 29 22:33:36 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,10 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  6
+
+
+WARNING: 2 dynamic shape(s) out of date; checking skipped on these elements.
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

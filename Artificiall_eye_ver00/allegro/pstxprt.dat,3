@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001May-21-2018 at 17:38:36 }
+{ Using PSTWRITER 16.5.0 p001May-29-2018 at 22:07:15 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='ARTIFICIALL_EYE_VER00';
@@ -38,12 +38,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U4 'HEADER2X6_HEADER2X6_HEADER2X6':;
+ U4 'MICRO_USB_MICRO_USB_MICRO_USB':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12916094@LIBRARY_AE.HEADER2X6.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12916094@library_ae.\header2x6.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12916094@library_ae.\header2x6.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12916763@LIBRARY_AE.MICRO_USB.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12916763@library_ae.\micro_usb.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12916763@library_ae.\micro_usb.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

@@ -132,7 +132,7 @@
     ("Allegro Netlist Output Board File" "allegro\artificiall_eye_ver00.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
-    ("Allegro Netlist Open Board in Allegro" "NEITHER")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
     ("Allegro Setup Configuration File"
        "D:\Cadence\SPB_16.5\tools\capture\allegro.cfg")
     ("Allegro Setup Backup Versions" "3")
@@ -175,6 +175,27 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (micro_USB
+      (FullPartName "micro_USB.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
     (Optic_nerve
       (FullPartName "Optic_nerve.Normal")
       (LibraryName
@@ -209,9 +230,9 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
-         "Main"))
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library_ae.olb")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -222,8 +243,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1258 175 559")
-        (Scroll "158 372")
-        (Zoom "200")
+        (Scroll "0 0")
+        (Zoom "126")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")

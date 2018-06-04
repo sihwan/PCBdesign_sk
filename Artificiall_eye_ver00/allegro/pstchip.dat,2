@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001May-21-2018 at 16:53:14}
+{ Using PSTWRITER 16.5.0 p001May-29-2018 at 22:06:44}
 primitive 'HEADER2X6_HEADER2X6_HEADER2X6';
   pin
     'P1':
@@ -126,6 +126,58 @@ primitive 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_';
     PART_NAME='Optic_nerve_0';
     JEDEC_TYPE='Opticnerve';
     VALUE='Optic_nerve';
+  end_body;
+end_primitive;
+primitive 'MICRO_USB_MICRO_USB_MICRO_USB';
+  pin
+    'VBUS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'D-':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'D+':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'ID':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'S1':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'S2':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'S3':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'S4':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'S5':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'S6':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='micro_USB';
+    JEDEC_TYPE='micro_usb';
+    VALUE='micro_USB';
   end_body;
 end_primitive;
 END.
