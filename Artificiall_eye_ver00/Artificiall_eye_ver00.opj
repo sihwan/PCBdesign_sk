@@ -95,7 +95,7 @@
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "FALSE")
-    (DRC_View_Output "FALSE")
+    (DRC_View_Output "TRUE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
@@ -175,6 +175,30 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (ADG1636
+      (FullPartName "ADG1636.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
+    ("header 1x2"
+      (FullPartName "header 1x2.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
+    (OSC8
+      (FullPartName "OSC8.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (93LC46B_0
+      (FullPartName "93LC46B_0.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
+    (FT2232_LQFP_48P
+      (FullPartName "FT2232_LQFP_48P.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -230,9 +254,9 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library_ae.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
+         "Main"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -242,9 +266,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1258 175 559")
-        (Scroll "0 0")
-        (Zoom "126")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "1677 3096")
+        (Zoom "176")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")

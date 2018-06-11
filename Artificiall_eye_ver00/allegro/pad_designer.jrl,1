@@ -1,12 +1,11 @@
-\t (00:00:25) pad_designer 16.5 P002 (v16-5-13B) i86
-\t (00:00:25)     Journal start - Tue May 29 22:22:49 2018
-\t (00:00:25)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9072 CPUs=4
-\t (00:00:25) 
-\i (00:00:31) FORM padedit layers  
-\i (00:00:40) FORM padedit parameters  
-\i (00:00:43) FORM padedit layers  
-\i (00:00:50) FORM padedit parameters  
-\i (00:00:54) pse_open 
-\i (00:01:35) fillin "F:\PCB_Designs\cadsp_padstacks\micro_usb_pins.pad"
-\i (00:01:35) cd "F:\PCB_Designs\cadsp_padstacks"
-\t (00:01:35)     Journal end - Tue May 29 22:23:59 2018
+\t (00:00:14) pad_designer 16.5 P002 (v16-5-13B) i86
+\t (00:00:14)     Journal start - Tue Jun 05 14:56:19 2018
+\t (00:00:14)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9028 CPUs=4
+\t (00:00:14) 
+\i (00:00:17) FORM padedit layers  
+\i (00:00:20) FORM padedit grid row begin_layer 
+\i (00:00:26) FORM padedit grid row soldermask_top 
+\i (00:01:22) pse_open 
+\i (00:01:30) fillin "menu_cancel"
+\i (00:02:35) pse_exit
+\t (00:02:35)     Journal end - Tue Jun 05 14:58:40 2018

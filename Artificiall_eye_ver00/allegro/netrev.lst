@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Tue May 29 22:09:33 2018                      )
+(    Date/Time        : Mon Jun 11 10:34:46 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -26,7 +26,7 @@ CmdLine: netrev.exe -5 -y 1 -i d:\users\sihwan_lab\desktop\workspace\pcbdesign_s
 ------ Preparing to read pst files ------
 
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat 
-   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.03)
+   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.04)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat 
    Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat (00:00:00.00)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 29 22:09:33 2018
+netrev run on Jun 11 10:34:46 2018
    DESIGN NAME : 'ARTIFICIALL_EYE_VER00'
    PACKAGING ON Apr 21 2011 10:02:30
 
@@ -85,5 +85,5 @@ netrev run on May 29 22:09:33 2018
  No warning detected
 
 cpu time      0:00:23
-elapsed time  0:00:00
+elapsed time  0:00:01
 

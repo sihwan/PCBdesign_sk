@@ -1,54 +1,24 @@
-<<<<<<< HEAD
-\t (00:01:00) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:01:00)     Journal start - Wed May 30 20:47:04 2018
-\t (00:01:00)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=7800 CPUs=4
-\t (00:01:00) 
-\t (00:01:10) Opening existing design...
-\d (00:01:10) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
-\t (00:01:11) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:01:11) trapsize 1369
-\i (00:01:11) trapsize 1339
-\i (00:01:11) trapsize 1374
-\i (00:01:11) trapsize 1374
-\i (00:01:11) generaledit 
-\i (00:01:25) zoom out 1 
-\i (00:01:25) setwindow pcb
-\i (00:01:25) zoom out 8.9092 9.9263
-\i (00:01:25) trapsize 2749
-\i (00:01:25) zoom out 1 
-\i (00:01:25) setwindow pcb
-\i (00:01:25) zoom out 8.7994 9.8714
-\t (00:01:25) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:01:25) trapsize 5498
-\i (00:01:26) open 
-\i (00:01:40) fillin "F:\PCB_Designs\RASP30_prototype\allegro\rasp30_prototype_routed1.brd"
-\i (00:01:40) cd "F:\PCB_Designs\RASP30_prototype\allegro"
-\t (00:01:40) Opening existing design...
-\i (00:01:41) trapsize 2204
-\t (00:01:41)     Journal end - Wed May 30 20:47:45 2018
-=======
-\t (00:00:55) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:55)     Journal start - Mon May 21 17:39:32 2018
-\t (00:00:55)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=2708 CPUs=4
-\t (00:00:55) 
-\t (00:01:05) Opening existing design...
-\d (00:01:05) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
-\t (00:01:06) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:01:06) trapsize 2738
-\i (00:01:06) trapsize 2678
-\i (00:01:06) trapsize 2749
-\i (00:01:06) trapsize 2749
-\i (00:01:06) generaledit 
-\i (00:01:08) zoom out 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom out 19.5392 15.4134
-\t (00:01:08) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:01:08) trapsize 5497
-\i (00:01:13) status 
-\i (00:01:13) generaledit 
-\i (00:01:16) setwindow form.status
-\i (00:01:16) FORM status done  
-\i (00:01:17) setwindow pcb
-\i (00:01:17) exit 
-\t (00:01:18)     Journal end - Mon May 21 17:39:55 2018
->>>>>>> b0ceb06c37d76c3e295d11748b5ed7404acbd94a
+\t (00:04:47) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:04:47)     Journal start - Mon Jun 11 10:24:53 2018
+\t (00:04:47)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=7212 CPUs=4
+\t (00:04:47) 
+\d (00:04:47) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/tssop16.dra
+\i (00:04:47) generaledit 
+\i (00:06:17) prmed 
+\i (00:06:18) setwindow form.prmedit
+\i (00:06:18) FORM prmedit design  
+\i (00:06:21) FORM prmedit units Millimeter 
+\e (00:06:21) Change may cause round-off; run dbcheck.
+\i (00:06:22) FORM prmedit done  
+\w (00:06:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:06:22) setwindow pcb
+\i (00:06:22) trapsize 740
+\t (00:06:22) Performing DRC...
+\t (00:06:22) No DRC errors detected.
+\i (00:06:22) generaledit 
+\i (00:06:23) save 
+\i (00:06:24) fillin yes 
+\t (00:06:25) Symbol 'tssop16.psm' created.
+\i (00:06:25) generaledit 
+\i (00:06:26) exit 
+\t (00:06:26)     Journal end - Mon Jun 11 10:26:32 2018
