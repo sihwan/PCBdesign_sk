@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Mon Jun 11 10:34:46 2018                      )
+(    Date/Time        : Wed Jun 13 16:03:27 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -39,27 +39,15 @@ Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_
 MODULEPATH =  . 
            D:/Cadence/SPB_16.5/share/local/pcb/modules 
 
-PSMPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           D:/Cadence/SPB_16.5/share/local/pcb/symbols 
-           D:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+PSMPATH =  F:\PCB_DESIGNS\RASP30_PROTOTYPE\ALLEGRO\ 
 
-PADPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           D:/Cadence/SPB_16.5/share/local/pcb/padstacks 
-           D:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+PADPATH =  F:\PCB_Designs\RASP30_prototype\allegro\ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jun 11 10:34:46 2018
+netrev run on Jun 13 16:03:27 2018
    DESIGN NAME : 'ARTIFICIALL_EYE_VER00'
    PACKAGING ON Apr 21 2011 10:02:30
 
@@ -84,6 +72,6 @@ netrev run on Jun 11 10:34:46 2018
  No oversight detected
  No warning detected
 
-cpu time      0:00:23
-elapsed time  0:00:01
+cpu time      0:00:31
+elapsed time  0:00:00
 

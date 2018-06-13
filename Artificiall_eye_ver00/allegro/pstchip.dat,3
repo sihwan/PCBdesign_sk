@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-11-2018 at 10:34:30}
+{ Using PSTWRITER 16.5.0 p001Jun-13-2018 at 16:03:09}
 primitive 'CAP_SMD2917_470UF';
   pin
     '1':
@@ -13,6 +13,36 @@ primitive 'CAP_SMD2917_470UF';
     PART_NAME='CAP';
     JEDEC_TYPE='SMD2917';
     VALUE='470UF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_RC0805_SMK_33NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='rc0805_smk';
+    VALUE='33nF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_RC0805_SMK_150PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='rc0805_smk';
+    VALUE='150pF';
   end_body;
 end_primitive;
 primitive 'CAP NP_RC0805_SMK_1UF';
@@ -60,21 +90,6 @@ primitive 'CAP_RC0805_SMK_4.7UF';
     VALUE='4.7uF';
   end_body;
 end_primitive;
-primitive 'CAP NP_RC0805_SMK_33NF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='rc0805_smk';
-    VALUE='33nF';
-  end_body;
-end_primitive;
 primitive 'CAP NP_0603_SHN_4700P';
   pin
     '1':
@@ -88,6 +103,24 @@ primitive 'CAP NP_0603_SHN_4700P';
     PART_NAME='CAP NP';
     JEDEC_TYPE='0603_shn';
     VALUE='4700p';
+  end_body;
+end_primitive;
+primitive 'DIODE_SCHOTTKY31_SOT23_LONGERPA';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE_SCHOTTKY31';
+    JEDEC_TYPE='sot23_longerpads';
+    VALUE='ZHCS500';
   end_body;
 end_primitive;
 primitive 'HEADER 1X2_HEADER1X2_HEADER 1X2';
@@ -118,6 +151,21 @@ primitive 'INDUCTOR_RC0805_SMK_FEB';
     PART_NAME='INDUCTOR';
     JEDEC_TYPE='rc0805_smk';
     VALUE='FEB';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_FERRITE_BEAD_9UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='ferrite_bead';
+    VALUE='9uH';
   end_body;
 end_primitive;
 primitive 'MOSFET_I_EP_SOT23_LONGERPADS_IR';
@@ -166,6 +214,51 @@ primitive 'R_RC0805_SMK_10K';
     PART_NAME='R';
     JEDEC_TYPE='rc0805_smk';
     VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'R_0603_SHN_1M';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603_shn';
+    VALUE='1M';
+  end_body;
+end_primitive;
+primitive 'R_RC0805_SMK_38.3K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='rc0805_smk';
+    VALUE='38.3K';
+  end_body;
+end_primitive;
+primitive 'R_RC0805_SMK_34K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='rc0805_smk';
+    VALUE='34K';
   end_body;
 end_primitive;
 primitive 'R_RC0805_SMK_27';
@@ -228,21 +321,6 @@ primitive 'R_RC0805_SMK_1.0M';
     VALUE='1.0M';
   end_body;
 end_primitive;
-primitive 'R_0603_SHN_1M';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0603_shn';
-    VALUE='1M';
-  end_body;
-end_primitive;
 primitive 'R_RC0805_SMK_2.2K';
   pin
     '1':
@@ -274,65 +352,6 @@ primitive 'MCP1700X_SOT23_3P_SOT23_LONGERP';
     PART_NAME='MCP1700X_SOT23_3P';
     JEDEC_TYPE='sot23_longerpads';
     VALUE='MCP1700';
-  end_body;
-end_primitive;
-primitive 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_';
-  pin
-    'INOUT1':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT2':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT3':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT4':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT5':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT6':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT7':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT8':
-      PIN_NUMBER='(8)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT9':
-      PIN_NUMBER='(9)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-    'INOUT10':
-      PIN_NUMBER='(10)';
-      INPUT_LOAD='(*)';
-      OUTPUT_LOAD='(*)';
-      BIDIRECTIONAL='TRUE';
-  end_pin;
-  body
-    PART_NAME='Optic_nerve_0';
-    JEDEC_TYPE='Opticnerve';
-    VALUE='Optic_nerve';
   end_body;
 end_primitive;
 primitive 'ADG1636_TSSOP16_ADG1636';
@@ -416,6 +435,65 @@ primitive 'ADG1636_TSSOP16_ADG1636';
     PART_NAME='ADG1636';
     JEDEC_TYPE='tssop16';
     VALUE='ADG1636';
+  end_body;
+end_primitive;
+primitive 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_';
+  pin
+    'INOUT1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT2':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT3':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT4':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT5':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT6':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT7':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT8':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT9':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INOUT10':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='Optic_nerve_0';
+    JEDEC_TYPE='Opticnerve';
+    VALUE='Optic_nerve';
   end_body;
 end_primitive;
 primitive 'MICRO_USB_MICRO_USB_MICRO_USB';
@@ -783,6 +861,124 @@ primitive 'HEADER2X6_HEADER2X6_HEADER2X6';
     PART_NAME='header2x6';
     JEDEC_TYPE='header2x6';
     VALUE='header2x6';
+  end_body;
+end_primitive;
+primitive 'ADP1612_3_MSOP8_ADP1612_3';
+  pin
+    'COMP':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'FB':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'EN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'VIN':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'FREQ':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+    'SS':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SW':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='ADP1612_3';
+    JEDEC_TYPE='msop8';
+    VALUE='ADP1612_3';
+  end_body;
+end_primitive;
+primitive 'ADG1604_TSSOP14_ADG1604';
+  pin
+    'A0':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'EN':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'VSS':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'S1':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'S2':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'D':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'NC1':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'NC2':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'NC3':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'S4':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'S3':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'VDD':
+      PIN_NUMBER='(12)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(13)';
+      PINUSE='POWER';
+    'A1':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='ADG1604';
+    JEDEC_TYPE='tssop14';
+    VALUE='ADG1604';
   end_body;
 end_primitive;
 primitive 'OSC6_SM_MURATA_OSC_CST6.00MGW';

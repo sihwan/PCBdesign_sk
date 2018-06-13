@@ -1,24 +1,20 @@
-\t (00:04:47) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:04:47)     Journal start - Mon Jun 11 10:24:53 2018
-\t (00:04:47)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=7212 CPUs=4
-\t (00:04:47) 
-\d (00:04:47) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/tssop16.dra
-\i (00:04:47) generaledit 
-\i (00:06:17) prmed 
-\i (00:06:18) setwindow form.prmedit
-\i (00:06:18) FORM prmedit design  
-\i (00:06:21) FORM prmedit units Millimeter 
-\e (00:06:21) Change may cause round-off; run dbcheck.
-\i (00:06:22) FORM prmedit done  
-\w (00:06:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:22) setwindow pcb
-\i (00:06:22) trapsize 740
-\t (00:06:22) Performing DRC...
-\t (00:06:22) No DRC errors detected.
-\i (00:06:22) generaledit 
-\i (00:06:23) save 
-\i (00:06:24) fillin yes 
-\t (00:06:25) Symbol 'tssop16.psm' created.
-\i (00:06:25) generaledit 
-\i (00:06:26) exit 
-\t (00:06:26)     Journal end - Mon Jun 11 10:26:32 2018
+\t (00:01:19) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:01:19)     Journal start - Tue Jun 12 09:30:46 2018
+\t (00:01:19)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=436 CPUs=4
+\t (00:01:19) 
+\t (00:01:21) Opening existing design...
+\d (00:01:21) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/tssop16.dra
+\i (00:01:21) trapsize 737
+\i (00:01:21) trapsize 721
+\i (00:01:21) trapsize 740
+\i (00:01:21) trapsize 740
+\i (00:01:22) generaledit 
+\i (00:01:45) open 
+\i (00:02:06) fillin "F:\PCB_Designs\RASP30_prototype\allegro\rasp30_prototype_routed1.brd"
+\i (00:02:06) cd "F:\PCB_Designs\RASP30_prototype\allegro"
+\t (00:02:15) Opening existing design...
+\i (00:02:15) trapsize 276
+\i (00:02:15) trapsize 268
+\i (00:02:15) trapsize 276
+\i (00:02:15) trapsize 276
+\t (00:02:16)     Journal end - Tue Jun 12 09:31:42 2018

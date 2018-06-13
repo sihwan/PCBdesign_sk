@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-11-2018 at 10:34:46 }
+{ Using PSTWRITER 16.5.0 p001Jun-13-2018 at 16:03:27 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='ARTIFICIALL_EYE_VER00';
@@ -14,6 +14,26 @@ SECTION_NUMBER 1
  '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13143421@DISCRETE.CAP.NORMAL(CHIPS)':
  C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13143421@discrete.\cap.normal\(chips)',
  P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13143421@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_RC0805_SMK_33NF':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196752@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196752@discrete.\cap np.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196752@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_RC0805_SMK_150PF':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196716@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196716@discrete.\cap np.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196716@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -98,6 +118,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ CR1 'DIODE_SCHOTTKY31_SOT23_LONGERPA':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196558@DISCRETE.DIODE_SCHOTTKY31.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196558@discrete.\diode_schottky31.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196558@discrete.\diode_schottky31.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  J1 'HEADER 1X2_HEADER1X2_HEADER 1X2':;
 
 SECTION_NUMBER 1
@@ -114,6 +144,16 @@ SECTION_NUMBER 1
  '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13144115@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
  C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13144115@discrete.\inductor.normal\(chips)',
  P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13144115@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_FERRITE_BEAD_9UH':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196662@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196662@discrete.\inductor.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196662@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -154,6 +194,66 @@ SECTION_NUMBER 1
  '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13143715@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13143715@discrete.\r.normal\(chips)',
  P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13143715@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_0603_SHN_1M':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13187216@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13187216@discrete.\r.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13187216@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RC0805_SMK_10K':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13187190@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13187190@discrete.\r.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13187190@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RC0805_SMK_1.0K':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13187164@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13187164@discrete.\r.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13187164@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RC0805_SMK_38.3K':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196082@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196082@discrete.\r.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196082@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RC0805_SMK_10K':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196602@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196602@discrete.\r.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196602@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RC0805_SMK_34K':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13196644@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13196644@discrete.\r.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13196644@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -248,12 +348,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U10 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_':;
+ U10 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12915391@ARTIFICIALL_EYE_VER00.OPTIC_NERVE_0.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12915391@artificiall_eye_ver00.\optic_nerve_0.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12915391@artificiall_eye_ver00.\optic_nerve_0.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13185390@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13185390@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13185390@library_ae.\adg1636.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -261,9 +361,9 @@ PART_NAME
  U11 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13170022@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13170022@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13170022@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13175842@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13175842@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13175842@library_ae.\adg1636.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -271,9 +371,9 @@ PART_NAME
  U12 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13168376@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13168376@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13168376@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13191816@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13191816@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13191816@library_ae.\adg1636.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -281,9 +381,9 @@ PART_NAME
  U13 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13170144@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13170144@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13170144@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13204672@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13204672@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13204672@library_ae.\adg1636.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -291,9 +391,59 @@ PART_NAME
  U14 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13168859@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13168859@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13168859@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13205373@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13205373@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13205373@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U15 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13205249@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13205249@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13205249@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13166455@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13166455@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13166455@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U17 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13168971@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13168971@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13168971@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U18 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13167873@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13167873@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13167873@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U19 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12915391@ARTIFICIALL_EYE_VER00.OPTIC_NERVE_0.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12915391@artificiall_eye_ver00.\optic_nerve_0.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12915391@artificiall_eye_ver00.\optic_nerve_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -304,6 +454,96 @@ SECTION_NUMBER 1
  '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12916763@LIBRARY_AE.MICRO_USB.NORMAL(CHIPS)':
  C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12916763@library_ae.\micro_usb.normal\(chips)',
  P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12916763@library_ae.\micro_usb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U20 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13169910@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13169910@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13169910@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U21 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13168376@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13168376@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13168376@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13170022@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13170022@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13170022@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U23 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13168859@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13168859@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13168859@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13170144@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13170144@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13170144@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U25 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13206999@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13206999@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13206999@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U26 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13206875@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13206875@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13206875@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U27 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13207263@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13207263@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13207263@library_ae.\adg1636.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U28 'ADG1636_TSSOP16_ADG1636':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13207135@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13207135@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13207135@library_ae.\adg1636.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -328,32 +568,32 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U5 'ADG1636_TSSOP16_ADG1636':;
+ U5 'HEADER2X6_HEADER2X6_HEADER2X6':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13168971@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13168971@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13168971@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13176727@LIBRARY_AE.HEADER2X6.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13176727@library_ae.\header2x6.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13176727@library_ae.\header2x6.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U6 'ADG1636_TSSOP16_ADG1636':;
+ U6 'ADP1612_3_MSOP8_ADP1612_3':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13166455@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13166455@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13166455@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13203254@LIBRARY_AE.ADP1612_3.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13203254@library_ae.\adp1612_3.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13203254@library_ae.\adp1612_3.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U7 'ADG1636_TSSOP16_ADG1636':;
+ U7 'HEADER2X6_HEADER2X6_HEADER2X6':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13169910@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13169910@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13169910@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13186483@LIBRARY_AE.HEADER2X6.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13186483@library_ae.\header2x6.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13186483@library_ae.\header2x6.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -361,19 +601,19 @@ PART_NAME
  U8 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13167873@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13167873@library_ae.\adg1636.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13167873@library_ae.\adg1636.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13174162@LIBRARY_AE.ADG1636.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13174162@library_ae.\adg1636.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13174162@library_ae.\adg1636.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U9 'HEADER2X6_HEADER2X6_HEADER2X6':;
+ U9 'ADG1604_TSSOP14_ADG1604':;
 
 SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12915125@LIBRARY_AE.HEADER2X6.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12915125@library_ae.\header2x6.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12915125@library_ae.\header2x6.normal\(chips)',
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13182402@LIBRARY_AE.ADG1604.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13182402@library_ae.\adg1604.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13182402@library_ae.\adg1604.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

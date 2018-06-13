@@ -1,15 +1,17 @@
-{ Using PSTWRITER 16.5.0 p001Jun-11-2018 at 10:34:45 }
+{ Using PSTWRITER 16.5.0 p001Jun-13-2018 at 16:03:26 }
 
-#1 WARNING(ORCAP-36006): Part Name "MOSFET_I_EP_SOT23_LONGERPADS_IRLML2244" is renamed to "MOSFET_I_EP_SOT23_LONGERPADS_IR".
-#2 WARNING(ORCAP-36006): Part Name "MCP1700X_SOT23_3P_SOT23_LONGERPADS_MCP1700" is renamed to "MCP1700X_SOT23_3P_SOT23_LONGERP".
-#3 WARNING(ORCAP-36006): Part Name "OPTIC_NERVE_0_OPTICNERVE_OPTIC_NERVE" is renamed to "OPTIC_NERVE_0_OPTICNERVE_OPTIC_".
-#4 WARNING(ORCAP-36006): Part Name "FT2232_LQFP_48P_LQFP_48_REV3_FT2232_LQFP_48P" is renamed to "FT2232_LQFP_48P_LQFP_48_REV3_FT".
-#5 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
-#6 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
-#7 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#25" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
-#8 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#34" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
-#9 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#3" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
-#10 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#42" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U10.2" ignored for U10: SCHEMATIC1, Main (228.60, 327.66). Connecting pin to net "ADC_MEAS_R".
+#2 WARNING(ORCAP-36006): Part Name "DIODE_SCHOTTKY31_SOT23_LONGERPADS_ZHCS500" is renamed to "DIODE_SCHOTTKY31_SOT23_LONGERPA".
+#3 WARNING(ORCAP-36006): Part Name "MOSFET_I_EP_SOT23_LONGERPADS_IRLML2244" is renamed to "MOSFET_I_EP_SOT23_LONGERPADS_IR".
+#4 WARNING(ORCAP-36006): Part Name "MCP1700X_SOT23_3P_SOT23_LONGERPADS_MCP1700" is renamed to "MCP1700X_SOT23_3P_SOT23_LONGERP".
+#5 WARNING(ORCAP-36006): Part Name "OPTIC_NERVE_0_OPTICNERVE_OPTIC_NERVE" is renamed to "OPTIC_NERVE_0_OPTICNERVE_OPTIC_".
+#6 WARNING(ORCAP-36006): Part Name "FT2232_LQFP_48P_LQFP_48_REV3_FT2232_LQFP_48P" is renamed to "FT2232_LQFP_48P_LQFP_48_REV3_FT".
+#7 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
+#8 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
+#9 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#25" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
+#10 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#34" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
+#11 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#3" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
+#12 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#42" as visible power pin of same name already exists in Package FT2232_LQFP_48P , U3: SCHEMATIC1, Main (170.18, 99.06).
 Scanning netlist files ...
 
 Loading... d:\users\sihwan_lab\desktop\workspace\pcbdesign_sk\artificiall_eye_ver00\allegro/pstchip.dat

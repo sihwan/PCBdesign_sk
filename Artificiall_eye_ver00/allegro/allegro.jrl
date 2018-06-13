@@ -1,32 +1,352 @@
-\t (00:01:50) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:01:50)     Journal start - Mon Jun 11 10:36:38 2018
-\t (00:01:50)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=5132 CPUs=4
-\t (00:01:50) 
-\t (00:02:03) Opening existing design...
-\d (00:02:03) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
-\t (00:02:03) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:02:03) trapsize 5477
-\i (00:02:03) trapsize 5357
-\i (00:02:03) trapsize 5498
-\i (00:02:04) trapsize 5498
-\i (00:02:04) generaledit 
-\i (00:02:29) zoom out 1 
+\t (00:01:02) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:01:02)     Journal start - Wed Jun 13 16:04:30 2018
+\t (00:01:02)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9736 CPUs=4
+\t (00:01:02) 
+\t (00:01:12) Opening existing design...
+\d (00:01:12) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\t (00:01:12) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:01:12) trapsize 5477
+\i (00:01:12) trapsize 5357
+\i (00:01:12) trapsize 5498
+\i (00:01:12) trapsize 5498
+\i (00:01:13) generaledit 
+\i (00:01:17) pick grid 42.6694 24.2515
+\t (00:01:17) last pick:  42.7000  24.3000
+\i (00:01:17) zoom out 1 
+\i (00:01:17) setwindow pcb
+\i (00:01:17) zoom out 28.4850 19.6333
+\i (00:01:17) trapsize 10996
+\i (00:01:17) zoom out 1 
+\i (00:01:17) setwindow pcb
+\i (00:01:17) zoom out 25.6868 4.6611
+\i (00:01:17) trapsize 16827
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in 16.4423 22.5000
+\i (00:01:18) trapsize 8413
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in 17.1154 21.4904
+\t (00:01:18) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:01:18) trapsize 4207
+\i (00:01:29) place manual 
+\i (00:01:31) setwindow form.plc_manual
+\i (00:01:31) FORM plc_manual tree 'MULTISEL YES' C10 'Components by refdes' 
+\t (00:01:31) Placing C10 / CAP NP_RC0805_SMK_33NF / RC0805_SMK on Top.
+\i (00:01:31) FORM plc_manual tree  C10 'Components by refdes' 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) pick grid 48.4976 32.6803
+\t (00:01:35) last pick:  48.0000  33.0000
+\i (00:01:37) setwindow form.plc_manual
+\i (00:01:37) FORM plc_manual tree 'MULTISEL YES' C11 'Components by refdes' 
+\t (00:01:37) Placing C11 / CAP NP_RC0805_SMK_150PF / RC0805_SMK on Top.
+\i (00:01:37) FORM plc_manual tree  C11 'Components by refdes' 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick grid 48.2452 30.4928
+\t (00:01:38) last pick:  48.0000  30.0000
+\i (00:01:39) setwindow form.plc_manual
+\i (00:01:39) FORM plc_manual tree 'MULTISEL YES' CR1 'Components by refdes' 
+\t (00:01:39) Placing CR1 / DIODE_SCHOTTKY31_SOT23_LONGERPA / SOT23_LONGERPADS on Top.
+\i (00:01:39) FORM plc_manual tree  CR1 'Components by refdes' 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) pick grid 47.2356 26.5385
+\t (00:01:40) last pick:  47.0000  27.0000
+\i (00:01:41) setwindow form.plc_manual
+\i (00:01:41) FORM plc_manual tree 'MULTISEL YES' L2 'Components by refdes' 
+\t (00:01:41) Placing L2 / INDUCTOR_FERRITE_BEAD_9UH / FERRITE_BEAD on Top.
+\i (00:01:41) FORM plc_manual tree  L2 'Components by refdes' 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) pick grid 49.5072 19.4712
+\t (00:01:42) last pick:  50.0000  19.0000
+\i (00:01:43) setwindow form.plc_manual
+\i (00:01:43) FORM plc_manual tree 'MULTISEL YES' R2 'Components by refdes' 
+\t (00:01:43) Placing R2 / R_RC0805_SMK_27 / RC0805_SMK on Top.
+\i (00:01:43) FORM plc_manual tree  R2 'Components by refdes' 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) pick grid 49.4231 13.2452
+\t (00:01:44) last pick:  49.0000  13.0000
+\i (00:01:45) setwindow form.plc_manual
+\i (00:01:45) FORM plc_manual tree 'MULTISEL YES' R11 'Components by refdes' 
+\t (00:01:45) Placing R11 / R_0603_SHN_1M / 0603_SHN on Top.
+\i (00:01:45) FORM plc_manual tree  R11 'Components by refdes' 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) pick grid 49.8438 9.5433
+\t (00:01:46) last pick:  50.0000  10.0000
+\i (00:01:47) setwindow form.plc_manual
+\i (00:01:47) FORM plc_manual tree 'MULTISEL YES' R12 'Components by refdes' 
+\t (00:01:47) Placing R12 / R_RC0805_SMK_10K / RC0805_SMK on Top.
+\i (00:01:47) FORM plc_manual tree  R12 'Components by refdes' 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) pick grid 49.2548 6.5144
+\t (00:01:48) last pick:  49.0000  7.0000
+\i (00:01:49) setwindow form.plc_manual
+\i (00:01:49) FORM plc_manual tree 'MULTISEL YES' R13 'Components by refdes' 
+\t (00:01:49) Placing R13 / R_RC0805_SMK_1.0K / RC0805_SMK on Top.
+\i (00:01:49) FORM plc_manual tree  R13 'Components by refdes' 
+\i (00:01:50) setwindow pcb
+\i (00:01:50) pick grid 49.4231 4.3269
+\t (00:01:50) last pick:  49.0000  4.0000
+\i (00:01:51) setwindow form.plc_manual
+\i (00:01:51) FORM plc_manual tree 'MULTISEL YES' R14 'Components by refdes' 
+\t (00:01:51) Placing R14 / R_RC0805_SMK_38.3K / RC0805_SMK on Top.
+\i (00:01:51) FORM plc_manual tree  R14 'Components by refdes' 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) pick grid 56.4904 32.5120
+\t (00:01:53) last pick:  56.0000  33.0000
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 73.9063 21.3221
+\i (00:01:53) trapsize 8413
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 73.9063 20.9856
+\t (00:01:53) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:01:53) trapsize 16827
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 45.3846 22.5000
+\i (00:01:54) trapsize 8413
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 45.2163 22.1635
+\i (00:01:54) trapsize 4207
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 45.3005 22.1635
+\i (00:01:54) trapsize 2103
+\i (00:01:55) zoom out 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom out 46.4363 22.5001
+\i (00:01:55) trapsize 4207
+\i (00:02:00) setwindow form.plc_manual
+\i (00:02:00) FORM plc_manual done  
+\t (00:02:00) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:02:00) setwindow pcb
+\i (00:02:00) generaledit 
+\i (00:02:02) place manual 
+\i (00:02:04) setwindow form.plc_manual
+\i (00:02:04) FORM plc_manual tree 'MULTISEL YES' R15 'Components by refdes' 
+\t (00:02:04) Placing R15 / R_RC0805_SMK_10K / RC0805_SMK on Top.
+\i (00:02:04) FORM plc_manual tree  R15 'Components by refdes' 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) pick grid 56.2801 29.4833
+\t (00:02:05) last pick:  56.0000  29.0000
+\i (00:02:06) setwindow form.plc_manual
+\i (00:02:06) FORM plc_manual tree 'MULTISEL YES' R16 'Components by refdes' 
+\t (00:02:06) Placing R16 / R_RC0805_SMK_34K / RC0805_SMK on Top.
+\i (00:02:06) FORM plc_manual tree  R16 'Components by refdes' 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) pick grid 58.4676 26.2021
+\t (00:02:07) last pick:  58.0000  26.0000
+\i (00:02:08) setwindow form.plc_manual
+\i (00:02:08) FORM plc_manual tree 'MULTISEL YES' U5 'Components by refdes' 
+\t (00:02:08) Placing U5 / HEADER2X6_HEADER2X6_HEADER2X6 / HEADER2X6 on Top.
+\i (00:02:08) FORM plc_manual tree  U5 'Components by refdes' 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) pick grid 59.4772 15.6852
+\t (00:02:09) last pick:  59.0000  16.0000
+\i (00:02:11) setwindow form.plc_manual
+\i (00:02:11) FORM plc_manual tree 'MULTISEL YES' U7 'Components by refdes' 
+\t (00:02:11) Placing U7 / HEADER2X6_HEADER2X6_HEADER2X6 / HEADER2X6 on Top.
+\i (00:02:11) FORM plc_manual tree  U7 'Components by refdes' 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) pick grid 64.8618 16.4424
+\t (00:02:12) last pick:  65.0000  16.0000
+\i (00:02:13) setwindow form.plc_manual
+\i (00:02:13) FORM plc_manual tree 'MULTISEL YES' U8 'Components by refdes' 
+\w (00:02:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:13) Placing U8 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:13) FORM plc_manual tree  U8 'Components by refdes' 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) pick grid 57.9628 4.4112
+\t (00:02:14) last pick:  58.0000  4.0000
+\i (00:02:16) setwindow form.plc_manual
+\i (00:02:16) FORM plc_manual tree 'MULTISEL YES' U9 'Components by refdes' 
+\w (00:02:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:16) Placing U9 / ADG1604_TSSOP14_ADG1604 / TSSOP14 on Top.
+\i (00:02:16) FORM plc_manual tree  U9 'Components by refdes' 
+\i (00:02:17) setwindow pcb
+\i (00:02:17) pick grid 67.5541 3.3174
+\t (00:02:17) last pick:  68.0000  3.0000
+\i (00:02:19) setwindow form.plc_manual
+\i (00:02:19) FORM plc_manual tree 'MULTISEL YES' U10 'Components by refdes' 
+\t (00:02:19) Placing U10 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:19) FORM plc_manual tree  U10 'Components by refdes' 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) pick grid 74.7897 11.4785
+\t (00:02:20) last pick:  75.0000  11.0000
+\i (00:02:21) setwindow form.plc_manual
+\i (00:02:21) FORM plc_manual tree 'MULTISEL YES' U11 'Components by refdes' 
+\t (00:02:21) Placing U11 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:21) FORM plc_manual tree  U11 'Components by refdes' 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) pick grid 75.1263 19.4713
+\t (00:02:22) last pick:  75.0000  19.0000
+\i (00:02:23) setwindow form.plc_manual
+\i (00:02:23) FORM plc_manual tree 'MULTISEL YES' U12 'Components by refdes' 
+\t (00:02:23) Placing U12 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:23) FORM plc_manual tree  U12 'Components by refdes' 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) pick grid 75.4628 25.6973
+\t (00:02:24) last pick:  75.0000  26.0000
+\i (00:02:25) setwindow form.plc_manual
+\i (00:02:25) FORM plc_manual tree 'MULTISEL YES' U13 'Components by refdes' 
+\t (00:02:25) Placing U13 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:25) FORM plc_manual tree  U13 'Components by refdes' 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) pick grid 74.8738 32.5122
+\t (00:02:26) last pick:  75.0000  33.0000
+\i (00:02:29) setwindow form.plc_manual
+\i (00:02:29) FORM plc_manual done  
 \i (00:02:29) setwindow pcb
-\i (00:02:29) zoom out 49.2668 39.6455
-\i (00:02:29) trapsize 10996
-\i (00:02:30) zoom in 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom in 36.7867 25.3512
-\i (00:02:30) trapsize 5498
-\i (00:02:30) zoom in 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom in 36.7867 25.2413
-\t (00:02:30) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:02:30) trapsize 2749
-\i (00:02:31) zoom out 1 
-\i (00:02:31) setwindow pcb
-\i (00:02:31) zoom out 36.8417 25.2413
-\t (00:02:31) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:02:31) trapsize 5498
-\i (00:02:53) exit 
-\t (00:02:54)     Journal end - Mon Jun 11 10:37:41 2018
+\i (00:02:29) generaledit 
+\i (00:02:32) place manual 
+\i (00:02:35) setwindow form.plc_manual
+\i (00:02:35) FORM plc_manual tree 'MULTISEL YES' U14 'Components by refdes' 
+\t (00:02:35) Placing U14 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:35) FORM plc_manual tree  U14 'Components by refdes' 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom out 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom out 64.1887 10.8054
+\i (00:02:41) trapsize 8413
+\i (00:02:41) zoom out 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom out 64.1888 10.8054
+\t (00:02:41) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:02:41) trapsize 16827
+\i (00:02:42) zoom out 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom out 125.4808 -22.2596
+\i (00:02:42) trapsize 16827
+\i (00:02:42) zoom in 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom in 95.8654 7.6923
+\i (00:02:42) trapsize 8413
+\i (00:02:42) zoom in 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom in 69.7885 13.4135
+\i (00:02:42) trapsize 4207
+\i (00:02:43) zoom out 1 
+\i (00:02:43) setwindow pcb
+\i (00:02:43) zoom out 80.3054 24.3511
+\i (00:02:43) trapsize 8413
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 85.3534 30.0722
+\i (00:02:44) trapsize 4207
+\i (00:02:45) pick grid 85.4375 32.5121
+\t (00:02:45) last pick:  85.0000  33.0000
+\i (00:02:46) setwindow form.plc_manual
+\i (00:02:46) FORM plc_manual tree 'MULTISEL YES' U15 'Components by refdes' 
+\t (00:02:46) Placing U15 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:46) FORM plc_manual tree  U15 'Components by refdes' 
+\i (00:02:48) setwindow pcb
+\i (00:02:48) pick grid 86.4471 25.2766
+\t (00:02:48) last pick:  86.0000  25.0000
+\i (00:02:49) setwindow form.plc_manual
+\i (00:02:49) FORM plc_manual tree 'MULTISEL YES' U16 'Components by refdes' 
+\t (00:02:49) Placing U16 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:49) FORM plc_manual tree  U16 'Components by refdes' 
+\i (00:02:50) setwindow pcb
+\i (00:02:50) pick grid 86.4471 17.7886
+\t (00:02:50) last pick:  86.0000  18.0000
+\i (00:02:51) setwindow form.plc_manual
+\i (00:02:51) FORM plc_manual tree 'MULTISEL YES' U17 'Components by refdes' 
+\t (00:02:51) Placing U17 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:51) FORM plc_manual tree  U17 'Components by refdes' 
+\i (00:02:52) setwindow pcb
+\i (00:02:52) pick grid 86.7837 11.4785
+\t (00:02:52) last pick:  87.0000  11.0000
+\i (00:02:53) setwindow form.plc_manual
+\i (00:02:53) FORM plc_manual tree 'MULTISEL YES' U18 'Components by refdes' 
+\t (00:02:53) Placing U18 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:53) FORM plc_manual tree  U18 'Components by refdes' 
+\i (00:02:54) setwindow pcb
+\i (00:02:54) pick grid 87.2044 4.4953
+\t (00:02:54) last pick:  87.0000  4.0000
+\i (00:02:55) setwindow form.plc_manual
+\i (00:02:55) FORM plc_manual tree 'MULTISEL YES' U20 'Components by refdes' 
+\t (00:02:55) Placing U20 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:55) FORM plc_manual tree  U20 'Components by refdes' 
+\i (00:02:56) setwindow pcb
+\i (00:02:56) pick grid 95.5337 32.4280
+\t (00:02:56) last pick:  96.0000  32.0000
+\i (00:02:58) setwindow form.plc_manual
+\i (00:02:58) FORM plc_manual tree 'MULTISEL YES' U21 'Components by refdes' 
+\t (00:02:58) Placing U21 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:02:58) FORM plc_manual tree  U21 'Components by refdes' 
+\i (00:02:59) setwindow pcb
+\i (00:02:59) pick grid 97.4688 24.6876
+\t (00:02:59) last pick:  97.0000  25.0000
+\i (00:03:00) setwindow form.plc_manual
+\i (00:03:00) FORM plc_manual tree 'MULTISEL YES' U22 'Components by refdes' 
+\t (00:03:00) Placing U22 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:00) FORM plc_manual tree  U22 'Components by refdes' 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) pick grid 96.4592 17.9568
+\t (00:03:01) last pick:  96.0000  18.0000
+\i (00:03:02) setwindow form.plc_manual
+\i (00:03:02) FORM plc_manual tree 'MULTISEL YES' U23 'Components by refdes' 
+\t (00:03:02) Placing U23 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:02) FORM plc_manual tree  U23 'Components by refdes' 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) pick grid 96.5433 10.8054
+\t (00:03:03) last pick:  97.0000  11.0000
+\i (00:03:04) setwindow form.plc_manual
+\i (00:03:04) FORM plc_manual tree 'MULTISEL YES' U24 'Components by refdes' 
+\t (00:03:04) Placing U24 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:04) FORM plc_manual tree  U24 'Components by refdes' 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) pick grid 96.5433 4.2429
+\t (00:03:05) last pick:  97.0000  4.0000
+\i (00:03:06) zoom out 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom out 95.9544 7.3559
+\i (00:03:06) trapsize 8413
+\i (00:03:07) zoom out 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom out 95.4495 10.8895
+\i (00:03:07) trapsize 16827
+\i (00:03:08) zoom in 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom in 119.7596 24.1827
+\i (00:03:08) trapsize 8413
+\i (00:03:10) setwindow form.plc_manual
+\i (00:03:10) FORM plc_manual tree 'MULTISEL YES' U25 'Components by refdes' 
+\t (00:03:10) Placing U25 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:10) FORM plc_manual tree  U25 'Components by refdes' 
+\i (00:03:11) setwindow pcb
+\i (00:03:11) pick grid 107.4808 32.0914
+\t (00:03:11) last pick:  107.0000  32.0000
+\i (00:03:12) setwindow form.plc_manual
+\i (00:03:12) FORM plc_manual tree 'MULTISEL YES' U26 'Components by refdes' 
+\t (00:03:12) Placing U26 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:12) FORM plc_manual tree  U26 'Components by refdes' 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) pick grid 107.4808 24.5193
+\t (00:03:14) last pick:  107.0000  25.0000
+\i (00:03:15) setwindow form.plc_manual
+\i (00:03:15) FORM plc_manual tree 'MULTISEL YES' U27 'Components by refdes' 
+\t (00:03:15) Placing U27 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:15) FORM plc_manual tree  U27 'Components by refdes' 
+\i (00:03:16) setwindow pcb
+\i (00:03:16) pick grid 108.3221 16.6106
+\t (00:03:16) last pick:  108.0000  17.0000
+\i (00:03:17) setwindow form.plc_manual
+\i (00:03:17) FORM plc_manual tree 'MULTISEL YES' U28 'Components by refdes' 
+\t (00:03:17) Placing U28 / ADG1636_TSSOP16_ADG1636 / TSSOP16 on Top.
+\i (00:03:17) FORM plc_manual tree  U28 'Components by refdes' 
+\i (00:03:18) setwindow pcb
+\i (00:03:18) pick grid 109.3317 7.5241
+\t (00:03:18) last pick:  109.0000  8.0000
+\i (00:03:19) setwindow form.plc_manual
+\i (00:03:19) FORM plc_manual done  
+\t (00:03:19) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:03:19) setwindow pcb
+\i (00:03:19) generaledit 
+\i (00:04:00) save 
+\i (00:04:02) fillin yes 
+\i (00:04:02) generaledit 
+\i (00:04:03) exit 
+\t (00:04:04)     Journal end - Wed Jun 13 16:07:32 2018

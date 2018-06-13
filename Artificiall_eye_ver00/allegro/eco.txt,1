@@ -3,399 +3,661 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  430_SPI_CLK_FTDI_SPI_CLK pins DELETED FROM this net (all pins deleted)
-                                 U3.24           31.7508 29.9995
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  430_SPI_CS_N_FTDI_SPI_CS_N pins DELETED FROM this net (all pins deleted)
-                                 U3.21           30.2497 29.9995
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  430_SPI_SDI_FTDI_SPI_SDO pins DELETED FROM this net (all pins deleted)
-                                 U3.23           31.2504 29.9995
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  430_SPI_SDO_FTDI_SPI_SDI pins DELETED FROM this net (all pins deleted)
-                                 U3.22           30.7501 29.9995
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DBG_EN_FTDI  pins DELETED FROM this net (all pins deleted)
-                                 U3.20           29.7493 29.9995
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins MOVED FROM this net (to net name listed on right)
-                                 C7.1            18.9992  7.0000
-                                                                          VCC5V
-                                 R6.2            11.0008 34.0000
-                                                                      N13144639
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.5                           
-                                 U5.6                           
-                                 U7.5                           
-                                 U7.6                           
-                                 U8.5                           
-                                 U8.6                           
-                                 U11.5                          
-                                 U11.6                          
-                                 U12.5                          
-                                 U12.6                          
-                                 U13.5                          
-                                 U13.6                          
-                                 U14.5                          
-                                 U14.6                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00202       pins DELETED FROM this net (all pins deleted)
-                                 U9.12            5.2700 26.3500
-               pins MOVED FROM this net (to net name listed on right)
-                                 U6.5            31.1298 19.6749
+  5V_OR_EXT_1  pins MOVED FROM this net (to net name listed on right)
+                                 U15.2                          
                                                                             GND
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N12915771    pins DELETED FROM this net (all pins deleted)
-                                 U10.10          28.0000 25.0800
+  5V_OR_EXT_2  pins MOVED FROM this net (to net name listed on right)
+                                 U15.10                         
+                                                                            GND
+                                 U17.9                          
+                                                                      ROW_ADD_9
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  5V_OR_EXT_3  pins MOVED FROM this net (to net name listed on right)
+                                 U16.2                          
+                                                                   ROW_IN_UNSEL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  5V_OR_EXT_4  pins MOVED FROM this net (to net name listed on right)
+                                 U16.10                         
+                                                                   ROW_IN_UNSEL
+                                 U17.11                         
+                                                                          ROW_9
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  6V_REG_OUT   pins ADDED TO this new net
+                                 CR1.3                          
+                                 R14.1                          
+                                 U7.5                           
+                                 U7.6                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC_MEAS_R   pins MOVED FROM this net (to net name listed on right)
+                                 U18.2                          
+                                                                   ROW_IN_UNSEL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC_MSP430   pins MOVED FROM this net (to net name listed on right)
+                                 U18.3                          
+                                                                          ROW_2
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC_RES_CTRL net RENAMED (to net name listed on right)           ROW_ADD_2    
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ARRAY_MRG    net RENAMED (to net name listed on right)           ROW_1        
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N12917204    pins MOVED FROM this net (to net name listed on right)
-                                 R6.1             8.9992 34.0000
-                                                                      N13144619
+  ARRAY_MRG_CTRL net RENAMED (to net name listed on right)           ROW_ADD_1    
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13143453    pins MOVED FROM this net (to net name listed on right)
-                                 R2.2                           
-                                                                      N13143635
+  ARRAY_RST    net RENAMED (to net name listed on right)           ROW_0        
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13143545    pins MOVED FROM this net (to net name listed on right)
-                                 R2.1                           
-                                                                      N13147161
+  ARRAY_RST_CTRL net RENAMED (to net name listed on right)           ROW_ADD_0    
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13143635    pins MOVED FROM this net (to net name listed on right)
-                                 R3.2             6.0008 37.0000
-                                                                      N13143651
+  ARRAY_VDD    net RENAMED (to net name listed on right)           COL_7        
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13143651    pins MOVED FROM this net (to net name listed on right)
-                                 R4.2             6.0008 34.0000
-                                                                     N131437971
-                                 R5.1            27.9992  3.0000
-                                                                      N13144459
+  ARRAY_VDD_CTRL net RENAMED (to net name listed on right)           COL_ADD_7    
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13144459    pins MOVED FROM this net (to net name listed on right)
-                                 R1.1            35.9992  3.0000
-                                                                      N13143545
+  COL_8        pins ADDED TO this new net
+                                 U25.3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13144619    pins MOVED FROM this net (to net name listed on right)
-                                 R7.1             9.2000 37.0000
-                                                                      N12917204
+  COL_9        pins ADDED TO this new net
+                                 U25.11                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13144639    pins MOVED FROM this net (to net name listed on right)
-                                 R7.2            10.8000 37.0000
-                                                                            GND
+  COL_10       pins ADDED TO this new net
+                                 U26.3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13147161    pins MOVED FROM this net (to net name listed on right)
-                                 R3.1             3.9992 37.0000
-                                                                      N13147176
+  COL_11       pins ADDED TO this new net
+                                 U26.11                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N13147176    pins MOVED FROM this net (to net name listed on right)
-                                 R4.1             3.9992 34.0000
-                                                                      N13143651
+  COL_12       pins ADDED TO this new net
+                                 U27.3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N131437971   pins MOVED FROM this net (to net name listed on right)
-                                 R5.2            30.0008  3.0000
-                                                                       VCC5_USB
+  COL_13       pins ADDED TO this new net
+                                 U27.11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_14       pins ADDED TO this new net
+                                 U28.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_15       pins ADDED TO this new net
+                                 U28.11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_ADD_8    pins ADDED TO this new net
+                                 U25.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_ADD_9    pins ADDED TO this new net
+                                 U25.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_ADD_10   pins ADDED TO this new net
+                                 U26.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_ADD_11   pins ADDED TO this new net
+                                 U26.9                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  RESET_N_FTDI pins DELETED FROM this net (all pins deleted)
-                                 U3.19           29.2489 29.9995
+  COL_ADD_12   pins ADDED TO this new net
+                                 U27.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_0    pins ADDED TO this new net
-                                 U6.1            31.1298 22.2758
+  COL_ADD_13   pins ADDED TO this new net
+                                 U27.9                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_1    pins ADDED TO this new net
-                                 U6.9            36.8702 17.7242
+  COL_ADD_14   pins ADDED TO this new net
+                                 U28.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_2    pins ADDED TO this new net
-                                 U8.1                           
+  COL_ADD_15   pins ADDED TO this new net
+                                 U28.9                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_3    pins ADDED TO this new net
-                                 U8.9                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_4    pins ADDED TO this new net
-                                 U12.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_5    pins ADDED TO this new net
-                                 U12.9                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_6    pins ADDED TO this new net
-                                 U14.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_7    pins ADDED TO this new net
-                                 U14.9                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_8    pins ADDED TO this new net
-                                 U5.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_9    pins ADDED TO this new net
-                                 U5.9                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_10   pins ADDED TO this new net
-                                 U7.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_11   pins ADDED TO this new net
-                                 U7.9                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_12   pins ADDED TO this new net
-                                 U11.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_13   pins ADDED TO this new net
-                                 U11.9                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ROW_ADD_14   pins ADDED TO this new net
-                                 U13.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_ADD_15   pins ADDED TO this new net
-                                 U13.9                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_IN_SEL   pins ADDED TO this new net
-                                 U5.2                           
-                                 U5.10                          
-                                 U6.2            31.1298 21.6256
-                                 U6.10           36.8702 18.3744
-                                 U7.2                           
-                                 U7.10                          
-                                 U8.2                           
-                                 U8.10                          
-                                 U11.2                          
-                                 U11.10                         
-                                 U12.2                          
-                                 U12.10                         
-                                 U13.2                          
-                                 U13.10                         
-                                 U14.2                          
-                                 U14.10                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_IN_UNSEL pins ADDED TO this new net
-                                 U5.4                           
-                                 U5.12                          
-                                 U6.4            31.1298 20.3251
-                                 U6.12           36.8702 19.6749
-                                 U7.4                           
+  COL_IN_SEL   pins ADDED TO this new net
                                  U7.12                          
-                                 U8.4                           
-                                 U8.12                          
-                                 U11.4                          
-                                 U11.12                         
                                  U12.4                          
                                  U12.12                         
                                  U13.4                          
                                  U13.12                         
                                  U14.4                          
                                  U14.12                         
+                                 U25.4                          
+                                 U25.12                         
+                                 U26.4                          
+                                 U26.12                         
+                                 U27.4                          
+                                 U27.12                         
+                                 U28.4                          
+                                 U28.12                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_0    pins ADDED TO this new net
-                                 U6.3            31.1298 20.9754
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ROW_OUT_1    pins ADDED TO this new net
-                                 U6.11           36.8702 19.0246
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_2    pins ADDED TO this new net
-                                 U8.3                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_3    pins ADDED TO this new net
-                                 U8.11                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_4    pins ADDED TO this new net
-                                 U12.3                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_5    pins ADDED TO this new net
-                                 U12.11                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_6    pins ADDED TO this new net
-                                 U14.3                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_7    pins ADDED TO this new net
-                                 U14.11                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_8    pins ADDED TO this new net
-                                 U5.3                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_9    pins ADDED TO this new net
-                                 U5.11                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_10   pins ADDED TO this new net
-                                 U7.3                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_11   pins ADDED TO this new net
+  COL_SW_VDD   pins ADDED TO this new net
                                  U7.11                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_12   pins ADDED TO this new net
-                                 U11.3                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_13   pins ADDED TO this new net
-                                 U11.11                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_14   pins ADDED TO this new net
-                                 U13.3                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ROW_OUT_15   pins ADDED TO this new net
-                                 U13.11                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  VCC5V        pins MOVED FROM this net (to net name listed on right)
-                                 C7.2            21.0008  7.0000
-                                                                            GND
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.13                          
-                                 U5.14                          
-                                 U6.13           36.8702 20.3251
-                                 U6.14           36.8702 20.9754
-                                 U7.13                          
-                                 U7.14                          
-                                 U8.13                          
-                                 U8.14                          
-                                 U11.13                         
-                                 U11.14                         
                                  U12.13                         
                                  U12.14                         
                                  U13.13                         
                                  U13.14                         
                                  U14.13                         
                                  U14.14                         
+                                 U25.13                         
+                                 U25.14                         
+                                 U26.13                         
+                                 U26.14                         
+                                 U27.13                         
+                                 U27.14                         
+                                 U28.13                         
+                                 U28.14                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 U5.5                           
+                                                                          VCC5V
+                                 U5.6                           
+                                                                          VCC5V
+                                 U6.6            36.4003 19.6749
+                                                                          VCC5V
+                                 U15.4                          
+                                                                     COL_IN_SEL
+                                 U16.4                          
+                                                                     ROW_IN_SEL
+                                 U16.12                         
+                                                                     ROW_IN_SEL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 C10.1                          
+                                 C11.1                          
+                                 R15.2                          
+                                 U10.5                          
+                                 U10.6                          
+                                 U25.2                          
+                                 U25.5                          
+                                 U25.6                          
+                                 U25.10                         
+                                 U26.2                          
+                                 U26.5                          
+                                 U26.6                          
+                                 U26.10                         
+                                 U27.2                          
+                                 U27.5                          
+                                 U27.6                          
+                                 U27.10                         
+                                 U28.2                          
+                                 U28.5                          
+                                 U28.6                          
+                                 U28.10                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC5_USB     pins MOVED FROM this net (to net name listed on right)
-                                 R1.2            38.0008  3.0000
-                                                                      N13143453
+  N13196250    pins ADDED TO this new net
+                                 CR1.1                          
+                                 L2.2                           
+                                 U6.5            36.4003 19.0246
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13196262    pins ADDED TO this new net
+                                 R14.2                          
+                                 R15.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U6.2            31.5997 20.3251
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13196294    pins ADDED TO this new net
+                                 R16.2                          
+                                 U6.1            31.5997 20.9754
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13196302    pins ADDED TO this new net
+                                 C11.2                          
+                                 R16.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13196326    pins ADDED TO this new net
+                                 C10.2                          
+                                 U6.8            36.4003 20.9754
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N131865130   pins MOVED FROM this net (to net name listed on right)
+                                 R13.2                          
+                                                                     N131865132
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N131865132   pins MOVED FROM this net (to net name listed on right)
+                                 R11.2                          
+                                                                     N131865130
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_0        pins MOVED FROM this net (to net name listed on right)
+                                 U6.3            31.5997 19.6749
+                                                                          VCC5V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_2        pins MOVED FROM this net (to net name listed on right)
+                                 U8.3                           
+                                                                   ROW_IN_UNSEL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_3        net RENAMED (to net name listed on right)           ARRAY_VDD    
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U18.11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_4        net RENAMED (to net name listed on right)           COL_0        
+               pins MOVED FROM this net (to net name listed on right)
+                                 U21.3                          
+                                                                          ROW_4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_5        net RENAMED (to net name listed on right)           COL_1        
+               pins MOVED FROM this net (to net name listed on right)
+                                 U21.11                         
+                                                                          ROW_5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_6        net RENAMED (to net name listed on right)           COL_4        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+               pins MOVED FROM this net (to net name listed on right)
+                                 U23.3                          
+                                                                          ROW_6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_7        net RENAMED (to net name listed on right)           COL_5        
+               pins MOVED FROM this net (to net name listed on right)
+                                 U23.11                         
+                                                                          ROW_7
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_8        pins MOVED FROM this net (to net name listed on right)
+                                 U5.3                           
+                                                                          VCC5V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_9        pins MOVED FROM this net (to net name listed on right)
+                                 U5.11                          
+                                                                    5V_OR_EXT_4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_10       pins MOVED FROM this net (to net name listed on right)
+                                 U7.3                           
+                                                                     N131865132
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_12       net RENAMED (to net name listed on right)           ARRAY_RST    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U22.3                          
+                                                                         ROW_12
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_13       net RENAMED (to net name listed on right)           ARRAY_MRG    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U22.11                         
+                                                                         ROW_13
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_14       net RENAMED (to net name listed on right)           COL_2        
+               pins MOVED FROM this net (to net name listed on right)
+                                 U24.3                          
+                                                                         ROW_14
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_15       net RENAMED (to net name listed on right)           COL_3        
+               pins MOVED FROM this net (to net name listed on right)
+                                 U24.11                         
+                                                                         ROW_15
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_2    net RENAMED (to net name listed on right)           ROW_IN_UNSEL_CTRL 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_3    net RENAMED (to net name listed on right)           ARRAY_VDD_CTRL 
+               pins ADDED TO this existing net (pins not previously on any net)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   7  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- ADG1636_TSSOP16_ADG1636
- CAP_RC0805_SMK_4.7UF
+                                 U18.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_4    net RENAMED (to net name listed on right)           COL_ADD_0    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U21.1                          
+                                                                      ROW_ADD_4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_5    net RENAMED (to net name listed on right)           COL_ADD_1    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U21.9                          
+                                                                      ROW_ADD_5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_6    net RENAMED (to net name listed on right)           COL_ADD_4    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U23.1                          
+                                                                      ROW_ADD_6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_7    net RENAMED (to net name listed on right)           COL_ADD_5    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U23.9                          
+                                                                      ROW_ADD_7
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_8    pins MOVED FROM this net (to net name listed on right)
+                                 U5.1                           
+                                                                          VCC5V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_9    pins MOVED FROM this net (to net name listed on right)
+                                 U5.9                           
+                                                                    5V_OR_EXT_2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_10   pins MOVED FROM this net (to net name listed on right)
+                                 U7.1                           
+                                                                     N131865130
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_11   pins MOVED FROM this net (to net name listed on right)
+                                 U7.9                           
+                                                                     ADC_MEAS_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_12   net RENAMED (to net name listed on right)           ARRAY_RST_CTRL 
+               pins MOVED FROM this net (to net name listed on right)
+                                 U22.1                          
+                                                                     ROW_ADD_12
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_13   net RENAMED (to net name listed on right)           ARRAY_MRG_CTRL 
+               pins MOVED FROM this net (to net name listed on right)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   8  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from board drawing                                        |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R4                  R_RC0805_SMK_1.5K      5.0000 31.0000
+                                 U22.9                          
+                                                                     ROW_ADD_13
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_14   net RENAMED (to net name listed on right)           COL_ADD_2    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U24.1                          
+                                                                     ROW_ADD_14
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_ADD_15   net RENAMED (to net name listed on right)           COL_ADD_3    
+               pins MOVED FROM this net (to net name listed on right)
+                                 U24.9                          
+                                                                     ROW_ADD_15
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_IN_SEL   pins MOVED FROM this net (to net name listed on right)
+                                 U5.2                           
+                                                                          VCC5V
+                                 U5.10                          
+                                                                    5V_OR_EXT_3
+                                 U7.2                           
+                                                                     N131865131
+                                 U7.10                          
+                                                                       MEAS_EXT
+                                 U8.2                           
+                                                                    5V_OR_EXT_1
+                                 U8.10                          
+                                                                    5V_OR_EXT_2
+                                 U11.2                          
+                                                                    5V_OR_EXT_3
+                                 U11.10                         
+                                                                    5V_OR_EXT_4
+                                 U12.2                          
+                                                                            GND
+                                 U12.10                         
+                                                                            GND
+                                 U13.2                          
+                                                                            GND
+                                 U13.10                         
+                                                                            GND
+                                 U14.2                          
+                                                                            GND
+                                 U14.10                         
+                                                                            GND
+                                 U17.2                          
+                                                                   ROW_IN_UNSEL
+                                 U17.10                         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   9  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to board drawing                                            |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R2                  R_RC0805_SMK_27       
- U5                  ADG1636_TSSOP16_ADG1636 
- U7                  ADG1636_TSSOP16_ADG1636 
- U8                  ADG1636_TSSOP16_ADG1636 
- U11                 ADG1636_TSSOP16_ADG1636 
- U12                 ADG1636_TSSOP16_ADG1636 
- U13                 ADG1636_TSSOP16_ADG1636 
- U14                 ADG1636_TSSOP16_ADG1636 
+                                                                   ROW_IN_UNSEL
+                                 U20.2                          
+                                                                   ROW_IN_UNSEL
+                                 U20.10                         
+                                                                   ROW_IN_UNSEL
+                                 U21.2                          
+                                                                   ROW_IN_UNSEL
+                                 U21.10                         
+                                                                   ROW_IN_UNSEL
+                                 U22.2                          
+                                                                   ROW_IN_UNSEL
+                                 U22.10                         
+                                                                   ROW_IN_UNSEL
+                                 U23.2                          
+                                                                   ROW_IN_UNSEL
+                                 U23.10                         
+                                                                   ROW_IN_UNSEL
+                                 U24.2                          
+                                                                   ROW_IN_UNSEL
+                                 U24.10                         
+                                                                   ROW_IN_UNSEL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U18.4                          
+                                 U18.12                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_IN_UNSEL pins MOVED FROM this net (to net name listed on right)
+                                 U5.4                           
+                                                                          VCC5V
+                                 U5.12                          
+                                                                      N13187266
+                                 U6.4            31.5997 19.0246
+                                                                            GND
+                                 U8.4                           
+                                                                            GND
+                                 U8.12                          
+                                                                        VCC3_3V
+                                 U11.4                          
+                                                                            GND
+                                 U11.12                         
+                                                                            GND
+                                 U15.3                          
+                                                                          COL_6
+                                 U17.4                          
+                                                                     ROW_IN_SEL
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page  10  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in board drawing          |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C4                  CAP_RC0805_SMK_4.7UF  14.0000 10.0000 CAP NP_RC0805_SMK_0.1UF
- C7                  CAP_RC0805_SMK_4.7UF  20.0000  7.0000 CAP NP_RC0805_SMK_0.1UF
- R4                  R_RC0805_SMK_1.5K      5.0000 34.0000 R_RC0805_SMK_27
- U6                  ADG1636_TSSOP16_ADG1636 34.0000 20.0000 HEADER2X6_HEADER2X6_HEADER2X6
+                                 U17.12                         
+                                                                     ROW_IN_SEL
+                                 U20.4                          
+                                                                     ROW_IN_SEL
+                                 U20.12                         
+                                                                     ROW_IN_SEL
+                                 U21.4                          
+                                                                     ROW_IN_SEL
+                                 U21.12                         
+                                                                     ROW_IN_SEL
+                                 U22.4                          
+                                                                     ROW_IN_SEL
+                                 U22.12                         
+                                                                     ROW_IN_SEL
+                                 U23.4                          
+                                                                     ROW_IN_SEL
+                                 U23.12                         
+                                                                     ROW_IN_SEL
+                                 U24.4                          
+                                                                     ROW_IN_SEL
+                                 U24.12                         
+                                                                     ROW_IN_SEL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U18.10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_IN_UNSEL_CTRL net RENAMED (to net name listed on right)           COL_ADD_6    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC3_3V      pins MOVED FROM this net (to net name listed on right)
+                                 U15.12                         
+                                                                     COL_IN_SEL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC5V        pins MOVED FROM this net (to net name listed on right)
+                                 U15.13                         
+                                                                     COL_SW_VDD
+                                 U15.14                         
+                                                                     COL_SW_VDD
+                                 U17.1                          
+                                                                      ROW_ADD_8
+                                 U17.3                          
+                                                                          ROW_8
+                                 U17.5                          
+                                                                            GND
+                                 U17.6                          
+                                                                            GND
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page  11  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Mon Jun 11 10:34:31 2018  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L2.1                           
+                                 U6.7            36.4003 20.3251
+                                 U10.13                         
+                                 U10.14                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ADP1612_3_MSOP8_ADP1612_3
+ CAP NP_RC0805_SMK_150PF
+ DIODE_SCHOTTKY31_SOT23_LONGERPA
+ INDUCTOR_FERRITE_BEAD_9UH
+ R_RC0805_SMK_34K
+ R_RC0805_SMK_38.3K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C10                 CAP NP_RC0805_SMK_33NF 
+ C11                 CAP NP_RC0805_SMK_150PF 
+ CR1                 DIODE_SCHOTTKY31_SOT23_LONGERPA 
+ L2                  INDUCTOR_FERRITE_BEAD_9UH 
+ R14                 R_RC0805_SMK_38.3K    
+ R15                 R_RC0805_SMK_10K      
+ R16                 R_RC0805_SMK_34K      
+ U10                 ADG1636_TSSOP16_ADG1636 
+ U11                 ADG1636_TSSOP16_ADG1636 
+ U12                 ADG1636_TSSOP16_ADG1636 
+ U13                 ADG1636_TSSOP16_ADG1636 
+ U14                 ADG1636_TSSOP16_ADG1636 
+ U25                 ADG1636_TSSOP16_ADG1636 
+ U26                 ADG1636_TSSOP16_ADG1636 
+ U27                 ADG1636_TSSOP16_ADG1636 
+ U28                 ADG1636_TSSOP16_ADG1636 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in board drawing          |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U6                  ADP1612_3_MSOP8_ADP1612_3 34.0000 20.0000 ADG1636_TSSOP16_ADG1636
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Wed Jun 13 16:03:10 2018  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C4.2           14.0000 10.0000 PRIM_FILE      .\pstchip.dat
- C7.2           20.0000  7.0000 PRIM_FILE      .\pstchip.dat
- R2.2                           PRIM_FILE      .\pstchip.dat
- R4.2            5.0000 34.0000 PRIM_FILE      .\pstchip.dat
- U5.5                           PRIM_FILE      .\pstchip.dat
- U6.5           34.0000 20.0000 PRIM_FILE      .\pstchip.dat
- U7.5                           PRIM_FILE      .\pstchip.dat
- U8.5                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ CR1.2                          PRIM_FILE      .\pstchip.dat
+ L2.2                           PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ U6.6           34.0000 20.0000 PRIM_FILE      .\pstchip.dat
+ U10.5                          PRIM_FILE      .\pstchip.dat
  U11.5                          PRIM_FILE      .\pstchip.dat
  U12.5                          PRIM_FILE      .\pstchip.dat
  U13.5                          PRIM_FILE      .\pstchip.dat
  U14.5                          PRIM_FILE      .\pstchip.dat
+ U25.5                          PRIM_FILE      .\pstchip.dat
+ U26.5                          PRIM_FILE      .\pstchip.dat
+ U27.5                          PRIM_FILE      .\pstchip.dat
+ U28.5                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  146                                            |
+|   total ECO changes reported  256                                            |
 |------------------------------------------------------------------------------|
