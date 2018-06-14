@@ -175,6 +175,15 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (74HC154PW
+      (FullPartName "74HC154PW.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
+    (74HC154
+      (FullPartName "74HC154.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
     (ADP1612_3
       (FullPartName "ADP1612_3.Normal")
       (LibraryName
@@ -275,8 +284,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "-329 -6")
-        (Zoom "24")
+        (Scroll "371 1455")
+        (Zoom "96")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")

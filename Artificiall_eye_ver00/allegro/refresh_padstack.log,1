@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : tssop24.dra                                   )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Thu Jun 14 15:25:18 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Jun 14 15:25:18 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/tssop24.dra'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  F:\PCB_DESIGNS\RASP30_PROTOTYPE\ALLEGRO\ 
+
+PADPATH =  F:\PCB_Designs\RASP30_prototype\allegro\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SMD65REC13'  pad stack refresh starting.
+
+     'SMD65REC13'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.
