@@ -1,46 +1,91 @@
-\t (00:03:54) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:03:54)     Journal start - Thu Jun 14 15:36:57 2018
-\t (00:03:54)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9404 CPUs=4
-\t (00:03:54) 
-\t (00:04:04) Opening existing design...
-\d (00:04:04) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
-\t (00:04:04) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:04:04) trapsize 8382
-\i (00:04:04) trapsize 8198
-\i (00:04:05) trapsize 8413
-\i (00:04:05) trapsize 8413
-\i (00:04:05) generaledit 
-\i (00:06:33) place manual 
-\i (00:06:34) setwindow form.plc_manual
-\i (00:06:34) FORM plc_manual tree  U29 'Components by refdes' 
-\i (00:06:35) FORM plc_manual tree 'MULTISEL YES' U29 'Components by refdes' 
-\t (00:06:35) Placing U29 / 74HC154PW_TSSOP24_74HC154PW / TSSOP24 on Top.
-\i (00:06:36) FORM plc_manual tree 'MULTISEL YES' U30 'Components by refdes' 
-\i (00:06:36) FORM plc_manual tree  U30 'Components by refdes' 
-\i (00:06:37) FORM plc_manual tree 'MULTISEL NO' U30 'Components by refdes' 
-\i (00:06:41) setwindow pcb
-\i (00:06:41) pick grid 76.3510 45.0481
-\t (00:06:41) last pick:  76.0000  45.0000
-\i (00:06:44) setwindow form.plc_manual
-\i (00:06:44) FORM plc_manual tree 'MULTISEL YES' U30 'Components by refdes' 
-\t (00:06:44) Placing U30 / 74HC154PW_TSSOP24_74HC154PW / TSSOP24 on Top.
-\i (00:06:45) setwindow pcb
-\i (00:06:45) pick grid 90.9904 43.5337
-\t (00:06:45) last pick:  91.0000  44.0000
-\i (00:06:45) zoom in 1 
-\i (00:06:45) setwindow pcb
-\i (00:06:45) zoom in 92.6731 30.5770
-\i (00:06:45) trapsize 4207
-\i (00:06:47) zoom out 1 
-\i (00:06:47) setwindow pcb
-\i (00:06:47) zoom out 92.3366 30.6611
-\i (00:06:47) trapsize 8413
-\i (00:06:49) setwindow form.plc_manual
-\i (00:06:49) FORM plc_manual done  
-\i (00:06:49) setwindow pcb
-\i (00:06:49) generaledit 
-\i (00:06:51) save 
-\i (00:06:52) fillin yes 
-\i (00:06:52) generaledit 
-\i (00:06:56) exit 
-\t (00:06:56)     Journal end - Thu Jun 14 15:40:00 2018
+\t (00:00:58) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:58)     Journal start - Sun Jun 17 17:09:47 2018
+\t (00:00:58)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9484 CPUs=4
+\t (00:00:58) 
+\t (00:01:09) Opening existing design...
+\d (00:01:09) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\t (00:01:09) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:01:09) trapsize 8382
+\i (00:01:09) trapsize 8198
+\i (00:01:09) trapsize 8413
+\i (00:01:10) trapsize 8413
+\i (00:01:10) generaledit 
+\i (00:01:25) place manual 
+\i (00:01:26) setwindow form.plc_manual
+\i (00:01:26) FORM plc_manual tree 'MULTISEL YES' U31 'Components by refdes' 
+\t (00:01:26) Placing U31 / HEADER2X6_HEADER2X6_HEADER2X6 / HEADER2X6 on Top.
+\i (00:01:26) FORM plc_manual tree  U31 'Components by refdes' 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) pick grid 35.6298 50.8535
+\t (00:01:30) last pick:  36.0000  51.0000
+\i (00:01:31) setwindow form.plc_manual
+\i (00:01:31) FORM plc_manual tree 'MULTISEL YES' U33 'Components by refdes' 
+\t (00:01:31) Placing U33 / MSP430F247_MSP430F247_PQFP64_MS / MSP430F247_PQFP64 on Top.
+\i (00:01:31) FORM plc_manual tree  U33 'Components by refdes' 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) pick grid 53.4664 46.4785
+\t (00:01:33) last pick:  53.0000  46.0000
+\i (00:01:34) setwindow form.plc_manual
+\i (00:01:34) FORM plc_manual done  
+\i (00:01:34) setwindow pcb
+\i (00:01:34) generaledit 
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 52.2885 43.1131
+\t (00:01:35) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:01:35) trapsize 4207
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 52.2044 43.1972
+\i (00:01:35) trapsize 2103
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 52.2044 43.1972
+\i (00:01:35) trapsize 1052
+\i (00:01:36) zoom out 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom out 52.2675 43.1972
+\i (00:01:36) trapsize 2103
+\i (00:01:36) zoom out 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom out 52.3518 43.1973
+\i (00:01:36) trapsize 4207
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 50.5007 41.9353
+\i (00:01:37) trapsize 2103
+\i (00:01:38) save 
+\i (00:01:40) fillin yes 
+\i (00:01:40) generaledit 
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 59.4190 35.0783
+\i (00:02:25) trapsize 4207
+\i (00:02:26) zoom out 1 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) zoom out 59.8398 40.2947
+\t (00:02:26) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:02:26) trapsize 8413
+\i (00:02:27) zoom in 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom in 36.4503 15.0544
+\t (00:02:27) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:02:27) trapsize 4207
+\i (00:02:27) zoom in 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom in 36.4503 15.0544
+\i (00:02:27) trapsize 2103
+\i (00:02:28) zoom in 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom in 36.4503 15.0544
+\i (00:02:28) trapsize 1052
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out 36.4503 15.0544
+\i (00:02:28) trapsize 2103
+\i (00:02:29) zoom out 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out 36.4503 15.0544
+\i (00:02:29) trapsize 4207
+\i (00:02:34) exit 
+\t (00:02:34)     Journal end - Sun Jun 17 17:11:23 2018

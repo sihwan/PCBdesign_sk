@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Thu Jun 14 15:33:02 2018                      )
+(    Date/Time        : Sun Jun 17 17:08:48 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -26,11 +26,11 @@ CmdLine: netrev.exe -5 -y 1 -i d:\users\sihwan_lab\desktop\workspace\pcbdesign_s
 ------ Preparing to read pst files ------
 
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat 
-   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.04)
+   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstchip.dat (00:00:00.06)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat 
    Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxprt.dat (00:00:00.00)
 Starting to read d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat 
-   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat (00:00:00.00)
+   Finished reading d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -47,7 +47,7 @@ PADPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VE
 ------ Summary Statistics ------
 
 
-netrev run on Jun 14 15:33:02 2018
+netrev run on Jun 17 17:08:48 2018
    DESIGN NAME : 'ARTIFICIALL_EYE_VER00'
    PACKAGING ON Apr 21 2011 10:02:30
 
@@ -73,5 +73,5 @@ netrev run on Jun 14 15:33:02 2018
  No warning detected
 
 cpu time      0:00:29
-elapsed time  0:00:01
+elapsed time  0:00:00
 

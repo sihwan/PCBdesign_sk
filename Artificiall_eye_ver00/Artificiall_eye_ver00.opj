@@ -175,6 +175,11 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (MSP430F247
+      (FullPartName "MSP430F247.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
     (74HC154PW
       (FullPartName "74HC154PW.Normal")
       (LibraryName
@@ -273,19 +278,20 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 346"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "371 1455")
-        (Zoom "96")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "1027 211")
+        (Zoom "88")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")

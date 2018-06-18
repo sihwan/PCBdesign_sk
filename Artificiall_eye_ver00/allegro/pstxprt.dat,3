@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-14-2018 at 15:32:45 }
+{ Using PSTWRITER 16.5.0 p001Jun-17-2018 at 17:08:16 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='ARTIFICIALL_EYE_VER00';
@@ -574,6 +574,26 @@ SECTION_NUMBER 1
  '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13219418@LIBRARY_AE.74HC154PW.NORMAL(CHIPS)':
  C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13219418@library_ae.\74hc154pw.normal\(chips)',
  P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13219418@library_ae.\74hc154pw.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U31 'HEADER2X6_HEADER2X6_HEADER2X6':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13231739@LIBRARY_AE.HEADER2X6.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13231739@library_ae.\header2x6.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13231739@library_ae.\header2x6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U33 'MSP430F247_MSP430F247_PQFP64_MS':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13239178@LIBRARY_AE.MSP430F247.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13239178@library_ae.\msp430f247.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13239178@library_ae.\msp430f247.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

@@ -1,7 +1,8 @@
-\t (00:00:13) pad_designer 16.5 P002 (v16-5-13B) i86
-\t (00:00:13)     Journal start - Wed Jun 13 21:42:05 2018
-\t (00:00:13)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9668 CPUs=4
-\t (00:00:13) 
-\i (00:00:16) FORM padedit layers  
-\i (00:00:42) pse_exit
-\t (00:00:42)     Journal end - Wed Jun 13 21:42:34 2018
+\t (00:00:15) pad_designer 16.5 P002 (v16-5-13B) i86
+\t (00:00:15)     Journal start - Thu Jun 14 13:53:25 2018
+\t (00:00:15)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=6040 CPUs=4
+\t (00:00:15) 
+\i (00:00:18) FORM padedit layers  
+\i (00:00:19) FORM padedit grid row begin_layer 
+\i (01:27:43) pse_exit
+\t (01:27:43)     Journal end - Thu Jun 14 15:20:53 2018
