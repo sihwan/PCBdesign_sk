@@ -3,113 +3,8 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Sun Jun 17 17:08:16 2018  |
+|                                                    Thu Jun 21 23:32:32 2018  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ADBUS0_FTDI  pins ADDED TO this new net
-                                 U3.24           31.7508 29.9995
-                                 U31.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADBUS1_FTDI  pins ADDED TO this new net
-                                 U3.23           31.2504 29.9995
-                                 U31.3                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BDBUS0_FTDI  pins ADDED TO this new net
-                                 U31.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BDBUS1_FTDI  pins ADDED TO this new net
-                                 U31.4                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  EECS         pins MOVED FROM this net (to net name listed on right)
-                                 U4.1            14.5997 31.9754
-                                                                    EECS_EEPROM
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U31.12                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  EECS_EEPROM  pins ADDED TO this new net
-                                 U31.6                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  EEDATA       pins MOVED FROM this net (to net name listed on right)
-                                 R9.2            16.0008 37.0000
-                                                                  EEDATA_EEPROM
-                                 R10.1           14.9992 34.0000
-                                                                  EEDATA_EEPROM
-                                 U4.3            14.5997 30.6749
-                                                                  EEDATA_EEPROM
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U31.11                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  EEDATA_EEPROM pins ADDED TO this new net
-                                 U31.5                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RXD_430_TXD_FTDI pins MOVED FROM this net (to net name listed on right)
-                                 U3.40           30.2497 38.0005
-                                                                    BDBUS0_FTDI
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U31.7                          
-                                 U31.8                          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Sun Jun 17 17:08:16 2018  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  TXD_430_RXD_FTDI pins MOVED FROM this net (to net name listed on right)
-                                 U3.39           30.7501 38.0005
-                                                                    BDBUS1_FTDI
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U31.9                          
-                                 U31.10                         
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Sun Jun 17 17:08:16 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MSP430F247_MSP430F247_PQFP64_MS
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Sun Jun 17 17:08:16 2018  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to board drawing                                            |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U31                 HEADER2X6_HEADER2X6_HEADER2X6 
- U33                 MSP430F247_MSP430F247_PQFP64_MS 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Sun Jun 17 17:08:16 2018  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to board drawing                                       |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U31.9                          PRIM_FILE      .\pstchip.dat
- U33.52                         PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|   total ECO changes reported  25                                             |
+|   total ECO changes reported  0                                              |
 |------------------------------------------------------------------------------|

@@ -175,6 +175,11 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (header_2x2
+      (FullPartName "header_2x2.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
     (MSP430F5529
       (FullPartName "MSP430F5529.Normal")
       (LibraryName
@@ -283,13 +288,28 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library_ae.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
+         "Main"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 346"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346"))
       (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "205 135")
+        (Zoom "88")
+        (Occurrence "/"))
+      (Path
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Main"))
     (Doc
       (Type "COrPartDoc")
       (Frame
@@ -297,20 +317,9 @@
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "478 0")
-        (Zoom "184"))
+        (Scroll "0 54")
+        (Zoom "92"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
-      (Package "MSP430F5529"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "957 243")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path
-         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "Main")))
+      (Package "MSP430F5529")))
   (ISPCBBASICLICENSE "false"))
