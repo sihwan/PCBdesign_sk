@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : msop8.dra                                     )
+(    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P003                                      )
-(    Date/Time        : Tue Jun 05 13:50:54 2018                      )
+(    Date/Time        : Fri Jun 22 11:16:04 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,10 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  92
+
+
+WARNING: 2 dynamic shape(s) out of date; checking skipped on these elements.
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

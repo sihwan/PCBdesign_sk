@@ -4,17 +4,17 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Fri Jun 22 10:37:14 2018                      )
+(    Date/Time        : Fri Jun 22 10:32:30 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Jun 22 10:37:14 2018				Page     1
+Fri Jun 22 10:32:30 2018				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design = 'D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd'
+Input design = 'd:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd'
 Output design = ''
 Reset symbol text and size locations = 'NO'
 
