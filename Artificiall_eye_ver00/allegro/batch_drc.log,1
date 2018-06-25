@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P003                                      )
-(    Date/Time        : Sat Jun 23 19:19:57 2018                      )
+(    Date/Time        : Mon Jun 25 13:22:18 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -23,7 +23,7 @@
  ..... Total number of DRC errors  1
 
 
-WARNING: 2 dynamic shape(s) out of date; checking skipped on these elements.
+WARNING: 1 dynamic shape(s) out of date; checking skipped on these elements.
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

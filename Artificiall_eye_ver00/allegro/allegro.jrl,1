@@ -1,232 +1,1955 @@
-\t (00:00:58) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:58)     Journal start - Sun Jun 24 22:52:11 2018
-\t (00:00:58)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=7996 CPUs=4
-\t (00:00:58) 
-\t (00:01:09) Opening existing design...
-\d (00:01:09) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
-\t (00:01:09) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:01:09) trapsize 2426
-\i (00:01:09) trapsize 2372
-\i (00:01:09) trapsize 2435
-\i (00:01:09) trapsize 2435
-\i (00:01:10) generaledit 
-\i (00:01:21) zoom out 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom out 41.0158 14.4428
-\i (00:01:21) trapsize 4869
-\i (00:01:22) roam y -96 
-\i (00:01:22) roam y -96
-\i (00:01:26) zoom in 1 
-\i (00:01:26) setwindow pcb
-\i (00:01:26) zoom in 59.2271 57.5716
-\i (00:01:26) trapsize 2435
-\i (00:01:27) roam y -96 
-\i (00:01:27) roam y -96
-\i (00:01:28) roam x -96 
-\i (00:01:28) roam x -96
-\i (00:01:32) setwindow form.vf_vis
-\i (00:01:32) FORM vf_vis 3 all_colorvisible NO 
-\i (00:01:32) FORM vf_vis 2 all_colorvisible NO 
-\i (00:01:34) setwindow pcb
-\i (00:01:34) pick grid 60.5905 57.4254
-\t (00:01:34) last pick:  60.6000  57.4000
-\i (00:01:37) zoom in 1 
-\i (00:01:37) setwindow pcb
-\i (00:01:37) zoom in 58.4480 58.2532
-\i (00:01:37) trapsize 1217
-\i (00:01:42) setwindow form.find
-\i (00:01:42) FORM find symbols NO 
-\i (00:01:42) setwindow pcb
-\i (00:01:42) pick grid 62.1487 51.2657
-\t (00:01:42) last pick:  62.1000  51.3000
-\i (00:01:43) drag_start grid 59.8115 52.7996
-\i (00:01:43) move 
-\t (00:01:43) last pick:  59.1874  54.0206
-\t (00:01:43) Pick new location for the element(s).
-\i (00:01:46) drag_stop grid 58.1802 52.4587
-\i (00:01:46) generaledit 
-\i (00:01:48) drag_start grid 60.7123 57.3767
-\i (00:01:48) move 
-\t (00:01:48) last pick:  58.6604  56.9000
-\t (00:01:48) Pick new location for the element(s).
-\i (00:01:52) drag_stop grid 54.1874 58.1315
-\i (00:01:52) generaledit 
-\i (00:01:53) save 
-\i (00:01:54) fillin yes 
-\i (00:01:55) generaledit 
-\i (00:02:16) status 
-\i (00:02:16) generaledit 
-\i (00:02:19) setwindow form.status
-\i (00:02:19) FORM status done  
-\i (00:02:20) setwindow form.vf_vis
-\i (00:02:20) FORM vf_vis 2 all_colorvisible YES 
-\i (00:02:21) FORM vf_vis 3 all_colorvisible YES 
-\i (00:02:23) setwindow pcb
-\i (00:02:23) zoom out 1 
-\i (00:02:23) setwindow pcb
-\i (00:02:23) zoom out 45.6661 51.4605
-\i (00:02:23) trapsize 2435
-\i (00:02:23) zoom out 1 
-\i (00:02:23) setwindow pcb
-\i (00:02:23) zoom out 42.3062 50.8762
-\i (00:02:23) trapsize 4869
-\i (00:02:26) zoom fit 
-\i (00:02:26) trapsize 4869
-\i (00:02:30) zoom out 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom out 82.2966 36.7197
-\t (00:02:30) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:02:30) trapsize 9739
-\i (00:02:30) zoom out 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom out 82.2965 36.7196
-\i (00:02:30) trapsize 16827
-\i (00:02:30) zoom out 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom out 185.7211 28.2211
-\i (00:02:30) trapsize 16827
-\i (00:02:31) zoom fit 
-\t (00:02:31) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:02:31) trapsize 4869
-\i (00:02:33) roam x -96 
-\i (00:02:33) roam x -96
-\i (00:03:32) auto_route 
-\e (00:03:32) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
-\w (00:03:32) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
-\w (00:03:32) Xtalk table in drawing d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd does not exist. For xtalk estimation or xtalk DRC update, xtalk tables must be generated.
-   (00:03:32) Loading vse.cxt 
-   (00:03:32) Loading axlcore.cxt 
-\i (00:03:48) setwindow form.vse_armain
-\i (00:03:48) FORM vse_armain setup_routinglayers cell dir_top 
-\i (00:03:56) FORM vse_armain routing_passes  
-\i (00:03:58) FORM vse_armain router_setup  
-\i (00:04:01) FORM vse_armain execute  
-\i (00:04:38) setwindow form.vf_vis
-\i (00:04:38) FORM vf_vis 2 all_colorvisible NO 
-\i (00:04:39) FORM vf_vis 3 all_colorvisible NO 
-\i (00:04:41) setwindow pcb
-\i (00:04:41) zoom in 1 
-\i (00:04:41) setwindow pcb
-\i (00:04:41) zoom in 43.0608 48.8930
-\i (00:04:41) trapsize 2435
-\i (00:04:41) zoom in 1 
-\i (00:04:41) setwindow pcb
-\i (00:04:41) zoom in 43.0122 48.6009
-\i (00:04:41) trapsize 1217
-\i (00:04:43) zoom in 1 
-\i (00:04:43) setwindow pcb
-\i (00:04:43) zoom in 46.3477 48.2844
-\i (00:04:43) trapsize 609
-\i (00:04:45) zoom out 1 
-\i (00:04:45) setwindow pcb
-\i (00:04:45) zoom out 45.7147 48.3696
-\i (00:04:45) trapsize 1217
-\i (00:04:46) zoom in 1 
-\i (00:04:46) setwindow pcb
-\i (00:04:46) zoom in 45.7146 48.3696
-\i (00:04:46) trapsize 609
-\i (00:04:48) setwindow form.find
-\i (00:04:48) FORM find nets YES 
-\i (00:04:51) setwindow pcb
-\i (00:04:51) zoom out 1 
-\i (00:04:51) setwindow pcb
-\i (00:04:51) zoom out 45.7024 48.3331
-\i (00:04:51) trapsize 1217
-\i (00:04:52) zoom out 1 
-\i (00:04:52) setwindow pcb
-\i (00:04:52) zoom out 45.7023 48.3331
-\i (00:04:52) trapsize 2435
-\i (00:04:52) zoom out 1 
-\i (00:04:52) setwindow pcb
-\i (00:04:52) zoom out 45.7023 48.3331
-\i (00:04:52) trapsize 4869
-\i (00:04:53) zoom in 1 
-\i (00:04:53) setwindow pcb
-\i (00:04:53) zoom in 6.7477 25.6420
-\i (00:04:53) trapsize 2435
-\i (00:04:53) zoom in 1 
-\i (00:04:53) setwindow pcb
-\i (00:04:53) zoom in 6.6503 25.4960
-\i (00:04:53) trapsize 1217
-\i (00:04:56) zoom out 1 
-\i (00:04:56) setwindow pcb
-\i (00:04:56) zoom out 6.6503 25.3743
-\i (00:04:56) trapsize 2435
-\i (00:04:56) zoom out 1 
-\i (00:04:56) setwindow pcb
-\i (00:04:56) zoom out 6.6504 25.2768
-\i (00:04:56) trapsize 4869
-\i (00:05:02) setwindow form.vse_armain
-\i (00:05:02) FORM vse_armain undo  
-\i (00:05:05) FORM vse_armain setup_stategysmart YES 
-\i (00:05:11) FORM vse_armain execute  
-\i (00:05:51) FORM vse_armain results  
-\i (00:05:58) setwindow form.vse_progress
-\i (00:05:58) FORM vse_progress close  
-\i (00:06:23) setwindow form.vse_armain
-\i (00:06:23) FORM vse_armain undo  
-\i (00:06:25) FORM vse_armain close  
-\i (00:06:25) setwindow pcb
-\i (00:06:25) generaledit 
-\i (00:06:27) zoom in 1 
-\i (00:06:27) setwindow pcb
-\i (00:06:27) zoom in 3.2419 23.7187
-\i (00:06:27) trapsize 2435
-\i (00:06:27) zoom in 1 
-\i (00:06:27) setwindow pcb
-\i (00:06:27) zoom in 2.8037 23.9135
-\i (00:06:27) trapsize 1217
-\i (00:06:29) zoom out 1 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) zoom out 4.6053 26.2508
-\i (00:06:29) trapsize 2435
-\i (00:08:20) setwindow form.vf_vis
-\i (00:08:20) FORM vf_vis 3 all_colorvisible YES 
-\i (00:08:20) FORM vf_vis 2 all_colorvisible YES 
-\i (00:08:22) setwindow pcb
-\i (00:08:22) zoom out 1 
-\i (00:08:22) setwindow pcb
-\i (00:08:22) zoom out 29.9746 25.7152
-\i (00:08:22) trapsize 4869
-\i (00:08:25) setwindow form.vf_vis
-\i (00:08:25) FORM vf_vis 2 all_colorvisible NO 
-\i (00:08:28) setwindow pcb
-\i (00:08:28) zoom out 1 
-\i (00:08:28) setwindow pcb
-\i (00:08:28) zoom out 29.7798 34.5773
-\t (00:08:28) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:08:28) trapsize 9739
-\i (00:08:29) zoom in 1 
-\i (00:08:29) setwindow pcb
-\i (00:08:29) zoom in 16.0848 55.2232
-\t (00:08:29) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:08:29) trapsize 4869
-\i (00:08:29) zoom in 1 
-\i (00:08:29) setwindow pcb
-\i (00:08:29) zoom in 14.4292 55.0285
-\i (00:08:29) trapsize 2435
-\i (00:08:33) setwindow form.vf_vis
-\i (00:08:33) FORM vf_vis 2 all_colorvisible YES 
-\i (00:08:33) FORM vf_vis 3 all_colorvisible NO 
-\i (00:08:35) setwindow pcb
-\i (00:08:35) zoom in 1 
-\i (00:08:35) setwindow pcb
-\i (00:08:35) zoom in 9.9494 56.7328
-\i (00:08:35) trapsize 1217
-\i (00:09:12) zoom out 1 
-\i (00:09:12) setwindow pcb
-\i (00:09:12) zoom out 14.3562 54.2738
-\i (00:09:12) trapsize 2435
-\i (00:09:12) zoom out 1 
-\i (00:09:12) setwindow pcb
-\i (00:09:12) zoom out 15.0378 52.6182
-\i (00:09:12) trapsize 4869
-\i (00:09:12) zoom out 1 
-\i (00:09:12) setwindow pcb
-\i (00:09:12) zoom out 16.4013 48.4306
-\t (00:09:12) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:09:12) trapsize 9739
-\i (00:33:30) exit 
-\e (00:33:30) Do you want to save the changes you made to d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
-\i (00:33:38) fillin no 
-\t (00:33:40)     Journal end - Sun Jun 24 23:24:52 2018
+\t (00:37:37) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:37:37)     Journal start - Mon Jun 25 09:37:01 2018
+\t (00:37:37)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=6368 CPUs=4
+\t (00:37:37) 
+\d (00:37:37) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (00:37:38) generaledit 
+\i (00:37:40) zoom in 1 
+\i (00:37:40) setwindow pcb
+\i (00:37:40) zoom in 51.0223 58.0828
+\i (00:37:40) trapsize 609
+\i (00:37:46) cmgr 
+\i (00:37:46) setwindow cmgr
+\i (00:37:46) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:37:46) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:37:46) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:37:46) cm fetch MIN_LINE_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch MIN_LINE_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch MAX_LINE_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch MAX_LINE_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch MIN_NECK_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch MIN_NECK_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch MAXIMUM_NECK_LENGTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch MAXIMUM_NECK_LENGTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch DIFFP_PRIMARY_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch DIFFP_PRIMARY_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch DIFFP_COUPLED_PLUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch DIFFP_COUPLED_PLUS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch DIFFP_COUPLED_MINUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:46) cm fetch DIFFP_COUPLED_MINUS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:46) setwindow pcb
+\i (00:37:46) generaledit 
+\i (00:37:49) setwindow cmgr
+\i (00:37:49) cm fetch VIA_LIST ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:49) cm fetch VIA_LIST ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:49) cm fetch MIN_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:49) cm fetch MIN_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:49) cm fetch MAX_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:49) cm fetch MAX_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:49) cm fetch PAD_PAD_DIRECT_CONNECT ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:49) cm fetch PAD_PAD_DIRECT_CONNECT ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:49) cm fetch ALLOW_ON_ETCH_SUBCLASS ( Design "artificiall_eye_ver00" ) Design
+\i (00:37:49) cm fetch ALLOW_ON_ETCH_SUBCLASS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:37:51) cm fetch CDS_LAYER_TYPE ( Design "artificiall_eye_ver00" ) Layer
+\i (00:37:51) cm fetch CDS_LAYER_MATERIAL ( Design "artificiall_eye_ver00" ) Layer
+\i (00:37:51) cm fetch CDS_LAYER_THICKNESS ( Design "artificiall_eye_ver00" ) Layer
+\i (00:37:51) cm fetch CDS_LAYER_ELECTRICAL_CONDUCTIVITY ( Design "artificiall_eye_ver00" ) Layer
+\i (00:37:51) cm fetch CDS_LAYER_DIELECTRIC_CONSTANT ( Design "artificiall_eye_ver00" ) Layer
+\i (00:37:51) cm fetch CDS_LAYER_LOSS_TANGENT ( Design "artificiall_eye_ver00" ) Layer
+\w (00:37:53) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:37:53) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:38:06) cm scope Design "artificiall_eye_ver00"
+\i (00:38:06) cm putValue ( "Physical CSet" "DEFAULT" ) VIA_LIST ( VIA_PCBEX_SMALLEST VIA ) 0
+\i (00:38:06) cm endUndoBlock
+\i (00:38:08) cm exit
+\i (00:38:12) setwindow pcb
+\i (00:38:12) save 
+\i (00:38:14) fillin yes 
+\i (00:38:14) generaledit 
+\i (00:38:16) add connect 
+\w (00:38:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:38:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:38:16) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (00:38:16) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\t (00:38:16) Pick first element.
+\i (00:38:20) pick grid 52.7023 57.7541
+\t (00:38:20) last pick:  52.7000  57.8000
+\t (00:38:20) last pick:  52.8997  57.8754
+\t (00:38:20) Target Symbol Pin is defined on BOTTOM.
+\t (00:38:20) last pick:  52.8997  57.8754
+\i (00:38:32) pick grid 49.8415 53.5178
+\t (00:38:32) last pick:  49.8000  53.5000
+\t (00:38:32) No DRC errors detected.
+\i (00:38:33) prepopup 50.1337 53.4691
+\i (00:38:36) pop bbdrill 
+\t (00:38:36) VIA_PCBEX_SMALLEST used for drill.
+\t (00:38:36) No DRC errors detected.
+\i (00:38:38) pick grid 51.1441 57.9611
+\t (00:38:38) last pick:  51.1000  58.0000
+\t (00:38:38) No DRC errors detected.
+\i (00:38:41) pick grid 50.7302 58.3263
+\t (00:38:41) last pick:  50.7000  58.3000
+\t (00:38:41) No DRC errors detected.
+\i (00:38:42) pick grid 50.8397 58.2046
+\t (00:38:42) last pick:  50.8000  58.2000
+\t (00:38:42) No DRC errors detected.
+\t (00:38:42) last pick:  50.7000  58.2000
+\i (00:38:42) pick grid dbl 50.7667 58.2289
+\t (00:38:42) last pick:  50.8000  58.2000
+\t (00:38:42) VIA_PCBEX_SMALLEST used for drill.
+\t (00:38:42) No DRC errors detected.
+\t (00:38:42) Pick first element.
+\i (00:38:47) undo 
+\i (00:38:47) trapsize 609
+\i (00:38:47) generaledit 
+\i (00:38:48) pick grid 52.9336 57.8394
+\t (00:38:48) last pick:  52.9000  57.8000
+\i (00:38:51) add connect 
+\w (00:38:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:38:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:38:51) Pick first element.
+\i (00:38:52) pick grid 52.5805 57.9002
+\t (00:38:52) last pick:  52.6000  57.9000
+\t (00:38:52) last pick:  52.8997  57.8754
+\t (00:38:52) Target Symbol Pin is defined on BOTTOM.
+\t (00:38:52) last pick:  52.8997  57.8754
+\i (00:38:54) pick grid 49.7685 53.2379
+\t (00:38:54) last pick:  49.8000  53.2000
+\t (00:38:54) No DRC errors detected.
+\i (00:38:54) pick grid dbl 49.8050 53.1892
+\t (00:38:54) last pick:  49.8000  53.2000
+\t (00:38:54) VIA_PCBEX_SMALLEST used for drill.
+\t (00:38:54) No DRC errors detected.
+\i (00:39:01) pick grid 53.3596 58.2411
+\t (00:39:01) last pick:  53.4000  58.2000
+\t (00:39:01) No DRC errors detected.
+\i (00:39:05) pick grid 50.8397 58.2289
+\t (00:39:05) last pick:  50.8000  58.2000
+\t (00:39:05) No DRC errors detected.
+\i (00:39:07) undo 
+\i (00:39:07) trapsize 609
+\i (00:39:07) generaledit 
+\i (00:39:07) Esc 
+\i (00:39:09) add connect 
+\w (00:39:09) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:39:09) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:39:09) Pick first element.
+\i (00:39:10) pick grid 52.5805 57.8759
+\t (00:39:10) last pick:  52.6000  57.9000
+\t (00:39:10) last pick:  52.8997  57.8754
+\t (00:39:10) Target Symbol Pin is defined on BOTTOM.
+\t (00:39:10) last pick:  52.8997  57.8754
+\i (00:39:12) pick grid 49.9268 53.4570
+\t (00:39:12) last pick:  49.9000  53.5000
+\t (00:39:12) No DRC errors detected.
+\i (00:39:12) pick grid dbl 49.9268 53.4813
+\t (00:39:12) last pick:  49.9000  53.5000
+\t (00:39:12) VIA_PCBEX_SMALLEST used for drill.
+\t (00:39:12) No DRC errors detected.
+\i (00:39:13) prepopup 50.7058 53.4813
+\i (00:39:18) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:39:19) mouse_pos 51.0102 57.4620
+\i (00:39:20) pick grid 50.9493 58.2289
+\t (00:39:20) last pick:  50.9000  58.2000
+\t (00:39:20) No DRC errors detected.
+\t (00:39:20) Pick first element.
+\i (00:39:23) prepopup 50.7545 57.4498
+\i (00:39:24) cancel 
+\i (00:39:24) generaledit 
+\i (00:39:26) zoom out 1 
+\i (00:39:26) setwindow pcb
+\i (00:39:26) zoom out 52.3736 57.6689
+\i (00:39:26) trapsize 1217
+\i (00:39:26) zoom out 1 
+\i (00:39:26) setwindow pcb
+\i (00:39:26) zoom out 52.4465 57.3281
+\t (00:39:26) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:39:26) trapsize 2435
+\i (00:39:27) zoom out 1 
+\i (00:39:27) setwindow pcb
+\i (00:39:27) zoom out 38.7151 47.8330
+\i (00:39:27) trapsize 4869
+\i (00:39:30) zoom fit 
+\i (00:39:30) trapsize 4869
+\i (00:39:33) open 
+\e (00:39:33) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (00:39:35) fillin no 
+\i (00:39:36) fillin "artificiall_eye_ver00.brd"
+\t (00:39:36) Opening existing design...
+\i (00:39:36) trapsize 609
+\d (00:39:36) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (00:39:36) generaledit 
+\i (00:39:41) cmgr 
+\i (00:39:41) setwindow cmgr
+\i (00:39:41) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:39:41) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:39:41) setwindow pcb
+\i (00:39:41) generaledit 
+\i (00:39:43) setwindow cmgr
+\i (00:39:43) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:39:43) cm fetch MIN_LINE_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch MIN_LINE_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch MAX_LINE_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch MAX_LINE_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch MIN_NECK_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch MIN_NECK_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch MAXIMUM_NECK_LENGTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch MAXIMUM_NECK_LENGTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch DIFFP_PRIMARY_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch DIFFP_PRIMARY_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch DIFFP_COUPLED_PLUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch DIFFP_COUPLED_PLUS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch DIFFP_COUPLED_MINUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:43) cm fetch DIFFP_COUPLED_MINUS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:43) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:44) cm fetch VIA_LIST ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:44) cm fetch VIA_LIST ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:44) cm fetch MIN_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:44) cm fetch MIN_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:44) cm fetch MAX_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:44) cm fetch MAX_BVIA_STAGGER ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:44) cm fetch PAD_PAD_DIRECT_CONNECT ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:44) cm fetch PAD_PAD_DIRECT_CONNECT ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:44) cm fetch ALLOW_ON_ETCH_SUBCLASS ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:44) cm fetch ALLOW_ON_ETCH_SUBCLASS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:39:45) cm fetch TS_ALLOWED ( Design "artificiall_eye_ver00" ) Design
+\i (00:39:45) cm fetch TS_ALLOWED ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\w (00:39:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:39:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:39:46) cm fetch CDS_LAYER_TYPE ( Design "artificiall_eye_ver00" ) Layer
+\i (00:39:46) cm fetch CDS_LAYER_MATERIAL ( Design "artificiall_eye_ver00" ) Layer
+\i (00:39:46) cm fetch CDS_LAYER_THICKNESS ( Design "artificiall_eye_ver00" ) Layer
+\i (00:39:46) cm fetch CDS_LAYER_ELECTRICAL_CONDUCTIVITY ( Design "artificiall_eye_ver00" ) Layer
+\i (00:39:46) cm fetch CDS_LAYER_DIELECTRIC_CONSTANT ( Design "artificiall_eye_ver00" ) Layer
+\i (00:39:46) cm fetch CDS_LAYER_LOSS_TANGENT ( Design "artificiall_eye_ver00" ) Layer
+\i (00:39:49) cm exit
+\i (00:39:51) setwindow pcb
+\i (00:39:51) zoom fit 
+\t (00:39:51) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:39:51) trapsize 4869
+\i (00:39:53) roam x -96 
+\i (00:39:53) roam x -96
+\i (00:39:57) grid toggle 
+\i (00:39:57) generaledit 
+\i (00:40:06) auto_route 
+\w (00:40:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:40:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:40:06) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (00:40:06) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (00:40:11) setwindow form.vse_armain
+\i (00:40:11) FORM vse_armain setup_protectwires YES 
+\i (00:40:15) FORM vse_armain setup_routediagonal YES 
+\i (00:40:21) FORM vse_armain setup_stategysmart YES 
+\i (00:40:22) FORM vse_armain execute  
+\i (00:42:18) setwindow pcb
+\i (00:42:18) status 
+\i (00:42:20) setwindow form.status
+\i (00:42:20) FORM status fill_update  
+\w (00:42:20) Shape Update can not be run while command active.
+\i (00:42:22) FORM status drc_update  
+\w (00:42:22) DRC Update can not be run while command active.
+\i (00:42:26) FORM status done  
+\i (00:42:27) setwindow pcb
+\i (00:42:27) zoom in 1 
+\i (00:42:27) setwindow pcb
+\i (00:42:27) zoom in 10.7285 22.9882
+\i (00:42:27) trapsize 2435
+\i (00:42:27) zoom in 1 
+\i (00:42:27) setwindow pcb
+\i (00:42:27) zoom in 10.7285 22.9882
+\i (00:42:27) trapsize 1217
+\i (00:42:27) zoom in 1 
+\i (00:42:27) setwindow pcb
+\i (00:42:27) zoom in 10.7042 22.8908
+\i (00:42:27) trapsize 609
+\i (00:42:29) zoom out 1 
+\i (00:42:29) setwindow pcb
+\i (00:42:29) zoom out 12.0433 22.7082
+\i (00:42:29) trapsize 1217
+\i (00:42:29) zoom out 1 
+\i (00:42:29) setwindow pcb
+\i (00:42:29) zoom out 11.8727 22.8299
+\i (00:42:29) trapsize 2435
+\i (00:42:32) zoom out 1 
+\i (00:42:32) setwindow pcb
+\i (00:42:32) zoom out 17.0342 32.6660
+\i (00:42:32) trapsize 4869
+\i (00:42:34) setwindow form.vse_armain
+\i (00:42:34) FORM vse_armain close  
+\i (00:42:35) setwindow pcb
+\i (00:42:35) generaledit 
+\i (00:42:36) zoom in 1 
+\i (00:42:36) setwindow pcb
+\i (00:42:36) zoom in 56.0862 31.7896
+\i (00:42:36) trapsize 2435
+\i (00:42:36) zoom in 1 
+\i (00:42:36) setwindow pcb
+\i (00:42:36) zoom in 55.9401 31.8383
+\i (00:42:36) trapsize 1217
+\i (00:42:38) zoom out 1 
+\i (00:42:38) setwindow pcb
+\i (00:42:38) zoom out 57.9365 25.7273
+\i (00:42:38) trapsize 2435
+\i (00:42:40) setwindow form.vf_vis
+\i (00:42:40) FORM vf_vis 2 all_colorvisible YES 
+\i (00:42:41) FORM vf_vis 3 all_colorvisible YES 
+\i (00:42:42) setwindow pcb
+\i (00:42:42) prepopup 69.7204 36.9267
+\i (00:42:43) pick grid 65.1432 36.9754
+\t (00:42:43) last pick:  65.1000  37.0000
+\i (00:42:45) zoom in 1 
+\i (00:42:45) setwindow pcb
+\i (00:42:45) zoom in 55.0637 31.7165
+\i (00:42:45) trapsize 1217
+\i (00:42:45) zoom in 1 
+\i (00:42:45) setwindow pcb
+\i (00:42:45) zoom in 55.0637 31.7165
+\i (00:42:45) trapsize 609
+\i (00:42:49) zoom out 1 
+\i (00:42:49) setwindow pcb
+\i (00:42:49) zoom out 58.4235 31.8748
+\i (00:42:49) trapsize 1217
+\i (00:42:54) zoom out 1 
+\i (00:42:54) setwindow pcb
+\i (00:42:54) zoom out 45.1545 25.7881
+\i (00:42:54) trapsize 2435
+\i (00:43:00) zoom in 1 
+\i (00:43:00) setwindow pcb
+\i (00:43:00) zoom in 44.6676 48.9660
+\i (00:43:00) trapsize 1217
+\i (00:43:00) zoom in 1 
+\i (00:43:00) setwindow pcb
+\i (00:43:00) zoom in 44.7164 49.1608
+\i (00:43:00) trapsize 609
+\i (00:43:03) setwindow form.vf_vis
+\i (00:43:03) FORM vf_vis 2 all_colorvisible NO 
+\i (00:43:09) setwindow pcb
+\i (00:43:09) zoom out 1 
+\i (00:43:09) setwindow pcb
+\i (00:43:09) zoom out 48.0518 46.7383
+\i (00:43:09) trapsize 1217
+\i (00:43:09) zoom out 1 
+\i (00:43:09) setwindow pcb
+\i (00:43:09) zoom out 48.0518 46.6897
+\i (00:43:09) trapsize 2435
+\i (00:43:09) zoom out 1 
+\i (00:43:10) setwindow pcb
+\i (00:43:10) zoom out 48.0519 46.6896
+\i (00:43:10) trapsize 4869
+\i (00:43:11) zoom in 1 
+\i (00:43:11) setwindow pcb
+\i (00:43:11) zoom in 13.4796 45.6184
+\i (00:43:11) trapsize 2435
+\i (00:43:11) zoom in 1 
+\i (00:43:11) setwindow pcb
+\i (00:43:11) zoom in 13.4797 45.6184
+\i (00:43:11) trapsize 1217
+\i (00:44:53) setwindow form.vf_vis
+\i (00:44:53) FORM vf_vis 2 all_colorvisible YES 
+\i (00:44:55) FORM vf_vis 3 all_colorvisible NO 
+\i (00:45:07) FORM vf_vis 3 all_colorvisible YES 
+\i (00:45:09) FORM vf_vis 2 all_colorvisible NO 
+\i (00:45:12) setwindow pcb
+\i (00:45:12) status 
+\i (00:45:12) generaledit 
+\i (00:45:15) setwindow form.status
+\i (00:45:15) FORM status fill_update  
+\t (00:45:15) Updating dynamic shape (1 of 2) Vcc3_3V, Boundary/Power @ (31.0000 0.5001) ...
+\t (00:45:15) Updating dynamic shape (2 of 2) Gnd, Boundary/Ground @ (0.5001 0.5001) ...
+\i (00:45:19) FORM status done  
+\i (00:45:21) setwindow form.vf_vis
+\i (00:45:21) FORM vf_vis 2 all_colorvisible YES 
+\i (00:45:25) setwindow pcb
+\i (00:45:25) status 
+\i (00:45:25) generaledit 
+\i (00:45:31) setwindow form.status
+\i (00:45:31) FORM status done  
+\i (00:45:32) setwindow pcb
+\i (00:45:32) zoom out 1 
+\i (00:45:32) setwindow pcb
+\i (00:45:32) zoom out 18.8846 40.7248
+\i (00:45:32) trapsize 2435
+\i (00:45:34) zoom in 1 
+\i (00:45:34) setwindow pcb
+\i (00:45:34) zoom in 8.4156 48.2722
+\i (00:45:34) trapsize 1217
+\i (00:45:34) zoom in 1 
+\i (00:45:34) setwindow pcb
+\i (00:45:34) zoom in 8.4156 48.2722
+\i (00:45:34) trapsize 609
+\i (00:45:36) zoom out 1 
+\i (00:45:36) setwindow pcb
+\i (00:45:36) zoom out 9.1947 48.0896
+\i (00:45:36) trapsize 1217
+\i (00:45:36) zoom out 1 
+\i (00:45:36) setwindow pcb
+\i (00:45:36) zoom out 9.2677 48.2357
+\i (00:45:36) trapsize 2435
+\i (00:45:37) zoom out 1 
+\i (00:45:37) setwindow pcb
+\i (00:45:37) zoom out 9.9982 48.2357
+\i (00:45:37) trapsize 4869
+\i (00:45:40) zoom out 1 
+\i (00:45:40) setwindow pcb
+\i (00:45:40) zoom out 9.2191 27.9792
+\i (00:45:40) trapsize 9739
+\i (00:45:41) zoom in 1 
+\i (00:45:41) setwindow pcb
+\i (00:45:41) zoom in 21.3437 7.5493
+\i (00:45:41) trapsize 4869
+\i (00:45:42) zoom in 1 
+\i (00:45:42) setwindow pcb
+\i (00:45:42) zoom in 21.3438 9.2049
+\i (00:45:42) trapsize 2435
+\i (00:45:50) zoom out 1 
+\i (00:45:50) setwindow pcb
+\i (00:45:50) zoom out 33.0789 20.6479
+\i (00:45:50) trapsize 4869
+\i (00:45:51) zoom in 1 
+\i (00:45:51) setwindow pcb
+\i (00:45:51) zoom in 17.1075 17.7262
+\i (00:45:51) trapsize 2435
+\i (00:45:52) zoom in 1 
+\i (00:45:52) setwindow pcb
+\i (00:45:52) zoom in 17.0588 17.6289
+\i (00:45:52) trapsize 1217
+\i (00:45:55) zoom out 1 
+\i (00:45:55) setwindow pcb
+\i (00:45:55) zoom out 16.0363 18.4811
+\i (00:45:55) trapsize 2435
+\i (00:45:55) zoom out 1 
+\i (00:45:55) setwindow pcb
+\i (00:45:55) zoom out 16.0362 18.4810
+\i (00:45:55) trapsize 4869
+\i (00:45:56) zoom out 1 
+\i (00:45:56) setwindow pcb
+\i (00:45:56) zoom out 16.0362 18.4811
+\i (00:45:56) trapsize 9739
+\i (00:46:01) zoom in 1 
+\i (00:46:01) setwindow pcb
+\i (00:46:01) zoom in 41.0158 31.1413
+\i (00:46:01) trapsize 4869
+\i (00:46:02) zoom in 1 
+\i (00:46:02) setwindow pcb
+\i (00:46:02) zoom in 41.6001 31.8230
+\i (00:46:02) trapsize 2435
+\i (00:46:07) zoom out 1 
+\i (00:46:07) setwindow pcb
+\i (00:46:07) zoom out 41.1619 21.0618
+\i (00:46:07) trapsize 4869
+\i (00:46:07) zoom out 1 
+\i (00:46:07) setwindow pcb
+\i (00:46:07) zoom out 32.3970 17.7507
+\i (00:46:07) trapsize 9739
+\i (00:46:08) zoom in 1 
+\i (00:46:08) setwindow pcb
+\i (00:46:08) zoom in 7.6609 58.6531
+\i (00:46:08) trapsize 4869
+\i (00:46:09) zoom in 1 
+\i (00:46:09) setwindow pcb
+\i (00:46:09) zoom in 7.3688 58.6531
+\i (00:46:09) trapsize 2435
+\i (00:46:11) zoom in 1 
+\i (00:46:11) setwindow pcb
+\i (00:46:11) zoom in -0.6169 58.4097
+\i (00:46:11) trapsize 1217
+\i (00:46:11) zoom in 1 
+\i (00:46:11) setwindow pcb
+\i (00:46:11) zoom in -0.6169 58.4097
+\i (00:46:11) trapsize 609
+\i (00:46:11) zoom out 1 
+\i (00:46:11) setwindow pcb
+\i (00:46:11) zoom out -0.5560 58.3732
+\i (00:46:11) trapsize 1217
+\i (00:46:12) zoom out 1 
+\i (00:46:12) setwindow pcb
+\i (00:46:12) zoom out -0.5075 58.3488
+\i (00:46:12) trapsize 2435
+\i (00:46:12) zoom out 1 
+\i (00:46:12) setwindow pcb
+\i (00:46:12) zoom out -0.1179 58.1053
+\i (00:46:12) trapsize 4869
+\i (00:46:15) zoom out 1 
+\i (00:46:15) setwindow pcb
+\i (00:46:15) zoom out 44.6800 43.1079
+\i (00:46:15) trapsize 9739
+\i (00:46:15) zoom in 1 
+\i (00:46:15) setwindow pcb
+\i (00:46:15) zoom in 33.2249 11.2500
+\i (00:46:15) trapsize 4869
+\i (00:46:16) zoom in 1 
+\i (00:46:16) setwindow pcb
+\i (00:46:16) zoom in 33.0302 11.2500
+\i (00:46:16) trapsize 2435
+\i (00:46:22) zoom out 1 
+\i (00:46:22) setwindow pcb
+\i (00:46:22) zoom out 34.9293 9.3997
+\i (00:46:22) trapsize 4869
+\i (00:46:23) zoom out 1 
+\i (00:46:23) setwindow pcb
+\i (00:46:23) zoom out 29.5730 7.6467
+\i (00:46:23) trapsize 9739
+\i (00:46:23) zoom in 1 
+\i (00:46:23) setwindow pcb
+\i (00:46:23) zoom in 19.0064 2.4852
+\i (00:46:23) trapsize 4869
+\i (00:46:24) zoom in 1 
+\i (00:46:24) setwindow pcb
+\i (00:46:24) zoom in 19.0064 2.7774
+\i (00:46:24) trapsize 2435
+\i (00:46:27) zoom in 1 
+\i (00:46:27) setwindow pcb
+\i (00:46:27) zoom in 23.3888 7.6954
+\i (00:46:27) trapsize 1217
+\i (00:46:27) zoom in 1 
+\i (00:46:27) setwindow pcb
+\i (00:46:27) zoom in 23.3888 7.6954
+\i (00:46:27) trapsize 609
+\i (00:46:28) zoom out 1 
+\i (00:46:28) setwindow pcb
+\i (00:46:28) zoom out 23.3279 7.6224
+\i (00:46:28) trapsize 1217
+\i (00:46:32) zoom out 1 
+\i (00:46:32) setwindow pcb
+\i (00:46:32) zoom out 29.9015 8.4988
+\i (00:46:32) trapsize 2435
+\i (00:46:35) setwindow form.vf_vis
+\i (00:46:35) FORM vf_vis 2 all_colorvisible NO 
+\i (00:46:36) FORM vf_vis 3 all_colorvisible NO 
+\i (00:46:38) setwindow pcb
+\i (00:46:38) zoom out 1 
+\i (00:46:38) setwindow pcb
+\i (00:46:38) zoom out 41.2470 16.5819
+\i (00:46:38) trapsize 4869
+\i (00:46:39) zoom in 1 
+\i (00:46:39) setwindow pcb
+\i (00:46:39) zoom in 15.7317 32.3585
+\i (00:46:39) trapsize 2435
+\i (00:46:39) zoom in 1 
+\i (00:46:39) setwindow pcb
+\i (00:46:39) zoom in 14.7092 32.3098
+\i (00:46:39) trapsize 1217
+\i (00:46:40) zoom in 1 
+\i (00:46:40) setwindow pcb
+\i (00:46:40) zoom in 12.1528 32.6020
+\i (00:46:40) trapsize 609
+\i (00:46:44) zoom in 1 
+\i (00:46:44) setwindow pcb
+\i (00:46:44) zoom in 12.2867 31.7743
+\i (00:46:44) trapsize 304
+\i (00:46:47) zoom out 1 
+\i (00:46:47) setwindow pcb
+\i (00:46:47) zoom out 12.4145 31.6221
+\i (00:46:47) trapsize 609
+\i (00:46:51) zoom in 1 
+\i (00:46:51) setwindow pcb
+\i (00:46:51) zoom in 10.1138 30.7822
+\i (00:46:51) trapsize 304
+\i (00:46:51) zoom in 1 
+\i (00:46:51) setwindow pcb
+\i (00:46:51) zoom in 10.1138 30.7823
+\i (00:46:51) trapsize 152
+\i (00:46:52) zoom out 1 
+\i (00:46:52) setwindow pcb
+\i (00:46:52) zoom out 10.1138 30.7823
+\i (00:46:52) trapsize 304
+\i (00:46:52) zoom out 1 
+\i (00:46:52) setwindow pcb
+\i (00:46:52) zoom out 10.1138 30.7822
+\i (00:46:52) trapsize 609
+\i (00:46:52) zoom out 1 
+\i (00:46:52) setwindow pcb
+\i (00:46:52) zoom out 10.1138 30.7823
+\i (00:46:52) trapsize 1217
+\i (00:46:58) zoom in 1 
+\i (00:46:58) setwindow pcb
+\i (00:46:58) zoom in 10.6250 32.0483
+\i (00:46:58) trapsize 609
+\i (00:46:59) zoom in 1 
+\i (00:46:59) setwindow pcb
+\i (00:46:59) zoom in 10.6250 32.0483
+\i (00:46:59) trapsize 304
+\i (00:47:08) zoom in 1 
+\i (00:47:08) setwindow pcb
+\i (00:47:08) zoom in 10.4972 32.0788
+\i (00:47:08) trapsize 152
+\i (00:47:11) zoom out 1 
+\i (00:47:11) setwindow pcb
+\i (00:47:11) zoom out 10.4972 32.0788
+\i (00:47:11) trapsize 304
+\i (00:47:14) zoom out 1 
+\i (00:47:14) setwindow pcb
+\i (00:47:14) zoom out 9.2068 32.7667
+\i (00:47:14) trapsize 609
+\i (00:47:17) status 
+\i (00:47:17) generaledit 
+\i (00:47:22) setwindow form.status
+\i (00:47:22) FORM status drc_update  
+\t (00:47:22) Running DRC, please wait...
+\t (00:47:22) Performing DRC...
+\t (00:47:22) Multithreaded DRC update (4 threads).
+\t (00:47:22) DRC done; 70 errors detected.
+\t (00:47:22) DRC done.
+\i (00:47:55) FORM status done  
+\i (00:47:56) setwindow pcb
+\i (00:47:56) zoom out 1 
+\i (00:47:56) setwindow pcb
+\i (00:47:56) zoom out 15.0743 31.3058
+\i (00:47:56) trapsize 1217
+\i (00:47:56) zoom out 1 
+\i (00:47:56) setwindow pcb
+\i (00:47:56) zoom out 15.0500 31.2815
+\i (00:47:56) trapsize 2435
+\i (00:47:57) zoom out 1 
+\i (00:47:57) setwindow pcb
+\i (00:47:57) zoom out 14.9526 31.2816
+\i (00:47:57) trapsize 4869
+\i (00:47:58) zoom out 1 
+\i (00:47:58) setwindow pcb
+\i (00:47:58) zoom out 14.9527 31.2816
+\i (00:47:58) trapsize 9738
+\i (00:47:58) zoom in 1 
+\i (00:47:58) setwindow pcb
+\i (00:47:58) zoom in 57.9579 42.9677
+\i (00:47:58) trapsize 4869
+\i (00:48:05) reports 'Design Rules Check (DRC) Report' 
+\i (00:48:06) reports "Design Rules Check (DRC) Report"
+\i (00:48:06) generaledit 
+\i (00:48:20) zoom center 
+\t (00:48:20) Pick center for the new display.
+\i (00:48:20) pick 9.3702 31.9744 
+\t (00:48:20) last pick:  9.3702  31.9744
+\i (00:48:20) trapsize 4869
+\i (00:48:20) generaledit 
+\i (00:48:25) zoom in 1 
+\i (00:48:25) setwindow pcb
+\i (00:48:25) zoom in 15.3594 45.3161
+\i (00:48:25) trapsize 2435
+\i (00:48:25) zoom in 1 
+\i (00:48:25) setwindow pcb
+\i (00:48:25) zoom in 15.3594 45.2188
+\i (00:48:25) trapsize 1217
+\i (00:48:25) zoom in 1 
+\i (00:48:25) setwindow pcb
+\i (00:48:25) zoom in 15.2863 44.6832
+\i (00:48:25) trapsize 609
+\i (00:48:26) zoom in 1 
+\i (00:48:26) setwindow pcb
+\i (00:48:26) zoom in 15.2863 44.6833
+\i (00:48:26) trapsize 304
+\i (00:48:27) zoom center 
+\t (00:48:28) Pick center for the new display.
+\i (00:48:28) pick 9.3702 31.9744 
+\t (00:48:28) last pick:  9.3702  31.9744
+\i (00:48:28) trapsize 304
+\i (00:48:28) generaledit 
+\i (00:49:19) cmgr 
+\i (00:49:19) setwindow cmgr
+\i (00:49:19) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:49:20) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:49:20) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:49:20) cm fetch MIN_LINE_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch MIN_LINE_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch MAX_LINE_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch MAX_LINE_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch MIN_NECK_WIDTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch MIN_NECK_WIDTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch MAXIMUM_NECK_LENGTH ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch MAXIMUM_NECK_LENGTH ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch DIFFP_PRIMARY_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch DIFFP_PRIMARY_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch DIFFP_COUPLED_PLUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch DIFFP_COUPLED_PLUS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch DIFFP_COUPLED_MINUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:49:20) cm fetch DIFFP_COUPLED_MINUS ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:49:20) setwindow pcb
+\i (00:49:20) generaledit 
+\i (00:50:12) setwindow cmgr
+\i (00:50:12) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:50:12) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:50:12) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:50:12) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:50:14) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:50:15) cm fetch LINE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch LINE_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch LINE_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch LINE_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch LINE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch BBV_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch BBV_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch LINE_TO_TESTVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_TESTVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch LINE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch LINE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch BONDPAD_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch BONDPAD_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:15) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:15) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm setColumnFilter ( column 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 83:Vias 0:Type ) *
+\i (00:50:57) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (00:50:57) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (00:50:57) cm select tab 83:Vias
+\i (00:50:57) cm fetch THRUPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch THRUPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch SMDPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch SMDPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch TESTPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch TESTPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch THRUVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch THRUVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch BBV_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch BBV_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch TESTVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch TESTVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch SHAPE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch SHAPE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch BONDPAD_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch BONDPAD_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch BBV_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch BBV_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch BBV_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch BBV_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:50:57) cm fetch BBV_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (00:50:57) cm fetch BBV_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (00:51:15) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 83:Vias )
+\i (00:51:15) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 83:Vias )
+\i (00:51:15) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 83:Vias )
+\i (00:51:18) cm select ( frame ( workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:51:24) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (00:51:24) cm fetch ECSET_MAPPING_ERROR_MARGIN ( Design "artificiall_eye_ver00" ) Net
+\i (00:51:24) cm fetch ECSET_MAPPING_ERROR ( Design "artificiall_eye_ver00" ) Net
+\i (00:51:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Net
+\i (00:51:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) XNet
+\i (00:51:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Electrical CSet"
+\i (00:51:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:51:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:51:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (00:51:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:51:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (00:51:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:51:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:51:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (00:51:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (00:51:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:51:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (00:51:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:51:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:51:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (00:51:38) cm exit
+\i (00:52:49) setwindow text
+\i (00:52:49) close 
+\i (00:52:54) setwindow pcb
+\i (00:52:54) zoom out 1 
+\i (00:52:54) setwindow pcb
+\i (00:52:54) zoom out 8.7524 32.5770
+\i (00:52:54) trapsize 609
+\i (00:52:57) zoom in 1 
+\i (00:52:57) setwindow pcb
+\i (00:52:57) zoom in 10.0793 32.1265
+\i (00:52:57) trapsize 304
+\i (00:52:59) zoom out 1 
+\i (00:52:59) setwindow pcb
+\i (00:52:59) zoom out 10.0854 32.1266
+\i (00:52:59) trapsize 609
+\i (00:53:00) zoom out 1 
+\i (00:53:00) setwindow pcb
+\i (00:53:00) zoom out 10.0855 32.1265
+\i (00:53:00) trapsize 1217
+\i (00:53:04) open 
+\e (00:53:04) Do you want to save the changes you made to artificiall_eye_ver00.brd?
+\i (00:53:06) fillin no 
+\i (00:53:08) fillin "artificiall_eye_ver00.brd"
+\t (00:53:08) Opening existing design...
+\i (00:53:08) trapsize 609
+\d (00:53:08) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (00:53:08) generaledit 
+\i (00:53:09) zoom out 1 
+\i (00:53:09) setwindow pcb
+\i (00:53:09) zoom out 54.9543 56.8046
+\i (00:53:09) trapsize 1217
+\i (00:53:09) zoom out 1 
+\i (00:53:09) setwindow pcb
+\i (00:53:09) zoom out 54.9543 56.8047
+\t (00:53:09) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:53:09) trapsize 2435
+\i (00:53:18) cmgr 
+\i (00:53:18) setwindow cmgr
+\i (00:53:18) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:53:18) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:53:18) setwindow pcb
+\i (00:53:18) generaledit 
+\i (00:53:20) setwindow cmgr
+\i (00:53:20) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:53:20) cm fetch ECSET_MAPPING_ERROR_MARGIN ( Design "artificiall_eye_ver00" ) Net
+\i (00:53:20) cm fetch ECSET_MAPPING_ERROR ( Design "artificiall_eye_ver00" ) Net
+\i (00:53:20) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Net
+\i (00:53:20) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Bus
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Net
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) XNet
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Electrical CSet"
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:53:20) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:53:21) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (00:53:21) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:53:21) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (00:53:21) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:53:21) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:53:21) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (00:53:21) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (00:53:21) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:53:21) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (00:53:21) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:53:21) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:53:21) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (00:53:27) cm scope Design "artificiall_eye_ver00"
+\i (00:53:27) cm putValue ( Net "GND" ) MIN_LINE_WIDTH 0.4 7
+\i (00:53:27) cm endUndoBlock
+\i (00:53:36) cm exit
+\i (00:53:38) setwindow pcb
+\i (00:53:38) save 
+\i (00:53:39) fillin yes 
+\i (00:53:39) generaledit 
+\i (00:53:45) auto_route 
+\w (00:53:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:53:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:53:45) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (00:53:45) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (00:53:49) setwindow form.vse_armain
+\i (00:53:49) FORM vse_armain setup_routediagonal YES 
+\i (00:53:50) FORM vse_armain setup_protectwires YES 
+\i (00:53:54) FORM vse_armain close  
+\i (00:53:55) setwindow pcb
+\i (00:53:55) generaledit 
+\i (00:54:00) auto_route 
+\i (00:54:03) setwindow form.vse_armain
+\i (00:54:03) FORM vse_armain setup_stategysmart YES 
+\i (00:54:04) FORM vse_armain close  
+\i (00:54:05) setwindow pcb
+\i (00:54:05) generaledit 
+\i (00:54:06) save 
+\i (00:54:08) fillin yes 
+\i (00:54:08) generaledit 
+\i (00:54:12) auto_route 
+\i (00:54:15) setwindow form.vse_armain
+\i (00:54:15) FORM vse_armain execute  
+\i (00:56:41) FORM vse_armain close  
+\i (00:56:41) setwindow pcb
+\i (00:56:41) generaledit 
+\i (00:56:41) zoom out 1 
+\i (00:56:41) setwindow pcb
+\i (00:56:41) zoom out 26.5174 42.6349
+\i (00:56:41) trapsize 4869
+\i (00:56:42) zoom out 1 
+\i (00:56:42) setwindow pcb
+\i (00:56:42) zoom out 23.7906 43.0245
+\t (00:56:42) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:56:42) trapsize 9739
+\i (00:56:43) zoom fit 
+\t (00:56:43) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:56:43) trapsize 4869
+\i (00:56:45) roam x -96 
+\i (00:56:45) roam x -96
+\i (00:56:45) roam x -96 
+\i (00:56:45) roam x -96
+\i (00:56:47) zoom in 1 
+\i (00:56:47) setwindow pcb
+\i (00:56:47) zoom in 12.8710 41.2968
+\i (00:56:47) trapsize 2435
+\i (00:56:50) status 
+\i (00:56:50) generaledit 
+\i (00:56:54) setwindow form.vf_vis
+\i (00:56:54) FORM vf_vis 2 all_colorvisible YES 
+\i (00:56:55) FORM vf_vis 3 all_colorvisible YES 
+\i (00:57:15) setwindow form.status
+\i (00:57:15) FORM status drc_update  
+\t (00:57:15) Running DRC, please wait...
+\t (00:57:15) Performing DRC...
+\t (00:57:15) Multithreaded DRC update (4 threads).
+\t (00:57:15) DRC done; 112 errors detected.
+\t (00:57:15) DRC done.
+\i (00:57:19) FORM status done  
+\i (00:57:27) setwindow pcb
+\i (00:57:27) reports 'Design Rules Check (DRC) Report' 
+\i (00:57:27) reports "Design Rules Check (DRC) Report"
+\i (00:57:27) generaledit 
+\i (00:57:31) zoom center 
+\t (00:57:31) Pick center for the new display.
+\i (00:57:31) pick 51.1298 38.6749 
+\t (00:57:31) last pick:  51.1298  38.6749
+\i (00:57:31) trapsize 2435
+\i (00:57:31) generaledit 
+\i (00:57:38) setwindow text
+\i (00:57:38) close 
+\i (00:57:38) setwindow pcb
+\i (00:57:38) zoom in 1 
+\i (00:57:38) setwindow pcb
+\i (00:57:38) zoom in 52.7610 45.7354
+\i (00:57:38) trapsize 1217
+\i (00:57:39) zoom in 1 
+\i (00:57:39) setwindow pcb
+\i (00:57:39) zoom in 52.5176 45.6867
+\i (00:57:39) trapsize 609
+\i (00:57:39) zoom in 1 
+\i (00:57:39) setwindow pcb
+\i (00:57:39) zoom in 51.8968 45.6015
+\i (00:57:39) trapsize 304
+\i (00:57:39) zoom in 1 
+\i (00:57:39) setwindow pcb
+\i (00:57:39) zoom in 51.7750 45.5772
+\i (00:57:39) trapsize 152
+\i (00:57:40) zoom in 1 
+\i (00:57:40) setwindow pcb
+\i (00:57:40) zoom in 51.8176 45.6016
+\i (00:57:40) trapsize 76
+\i (00:58:14) open 
+\e (00:58:15) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (00:58:16) fillin no 
+\i (00:58:17) fillin "artificiall_eye_ver00.brd"
+\t (00:58:17) Opening existing design...
+\t (00:58:17) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:58:17) trapsize 2435
+\d (00:58:17) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (00:58:17) generaledit 
+\i (00:58:23) cmgr 
+\i (00:58:23) setwindow cmgr
+\i (00:58:23) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:58:23) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:58:23) setwindow pcb
+\i (00:58:23) generaledit 
+\i (00:58:24) setwindow cmgr
+\i (00:58:24) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (00:58:25) cm fetch ECSET_MAPPING_ERROR_MARGIN ( Design "artificiall_eye_ver00" ) Net
+\i (00:58:25) cm fetch ECSET_MAPPING_ERROR ( Design "artificiall_eye_ver00" ) Net
+\i (00:58:25) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Net
+\i (00:58:25) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Bus
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Net
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) XNet
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Electrical CSet"
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:58:25) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:58:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (00:58:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:58:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (00:58:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:58:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:58:26) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (00:58:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (00:58:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (00:58:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (00:58:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (00:58:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (00:58:26) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (00:58:32) cm scope Design "artificiall_eye_ver00"
+\i (00:58:32) cm putValue ( Net "GND" ) MIN_LINE_WIDTH 0.35 7
+\i (00:58:32) cm endUndoBlock
+\i (00:58:34) cm exit
+\i (00:58:37) setwindow pcb
+\i (00:58:37) save 
+\i (00:58:38) fillin yes 
+\i (00:58:38) generaledit 
+\i (00:58:46) status 
+\i (00:58:46) generaledit 
+\i (00:58:48) setwindow form.status
+\i (00:58:48) FORM status fill_update  
+\t (00:58:48) Updating dynamic shape (1 of 3) Vcc5v, Boundary/Power @ (0.5001 0.5001) ...
+\t (00:58:48) Updating dynamic shape (2 of 3) Vcc3_3V, Boundary/Power @ (31.0000 0.5001) ...
+\t (00:58:48) Updating dynamic shape (3 of 3) Gnd, Boundary/Ground @ (0.5001 0.5001) ...
+\i (00:58:50) FORM status done  
+\i (00:58:59) setwindow pcb
+\i (00:58:59) auto_route 
+\e (00:59:00) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (00:59:00) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (00:59:04) setwindow form.vse_armain
+\i (00:59:04) FORM vse_armain execute  
+\i (01:01:11) FORM vse_armain results  
+\i (01:01:16) setwindow form.vse_progress
+\i (01:01:16) FORM vse_progress close  
+\i (01:01:21) setwindow pcb
+\i (01:01:21) status 
+\i (01:01:24) setwindow form.status
+\i (01:01:24) FORM status drc_update  
+\w (01:01:24) DRC Update can not be run while command active.
+\i (01:01:26) FORM status done  
+\i (01:01:27) setwindow pcb
+\i (01:01:27) zoom out 1 
+\i (01:01:27) setwindow pcb
+\i (01:01:27) zoom out 51.9353 51.0102
+\i (01:01:27) trapsize 4869
+\i (01:01:27) zoom out 1 
+\i (01:01:27) setwindow pcb
+\i (01:01:27) zoom out 45.4104 49.7441
+\t (01:01:27) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (01:01:27) trapsize 9739
+\i (01:01:28) zoom in 1 
+\i (01:01:28) setwindow pcb
+\i (01:01:28) zoom in 14.6362 7.9388
+\t (01:01:28) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:01:28) trapsize 4869
+\i (01:01:28) zoom in 1 
+\i (01:01:28) setwindow pcb
+\i (01:01:28) zoom in 14.7336 8.0362
+\i (01:01:28) trapsize 2435
+\i (01:01:30) setwindow form.vf_vis
+\i (01:01:30) FORM vf_vis 2 all_colorvisible YES 
+\i (01:01:31) FORM vf_vis 3 all_colorvisible YES 
+\i (01:02:00) setwindow form.vse_armain
+\i (01:02:00) FORM vse_armain close  
+\i (01:02:01) setwindow pcb
+\i (01:02:01) generaledit 
+\i (01:02:02) open 
+\e (01:02:02) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (01:02:04) fillin no 
+\i (01:02:05) fillin "artificiall_eye_ver00.brd"
+\t (01:02:05) Opening existing design...
+\t (01:02:05) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:02:05) trapsize 2435
+\d (01:02:05) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (01:02:05) generaledit 
+\i (01:02:11) cmgr 
+\i (01:02:11) setwindow cmgr
+\i (01:02:11) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:02:11) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (01:02:11) cm fetch ONLINE_DRC ( System "System" ) System
+\i (01:02:11) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Net
+\i (01:02:11) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Bus
+\i (01:02:11) cm fetch ECSET_MAPPING_ERROR_MARGIN ( Design "artificiall_eye_ver00" ) Net
+\i (01:02:11) cm fetch ECSET_MAPPING_ERROR ( Design "artificiall_eye_ver00" ) Net
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Net
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) XNet
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Electrical CSet"
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:02:11) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:02:11) setwindow pcb
+\i (01:02:11) generaledit 
+\i (01:02:13) setwindow cmgr
+\i (01:02:13) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:02:13) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:13) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:02:19) cm scope Design "artificiall_eye_ver00"
+\i (01:02:19) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 0.16 7
+\i (01:02:20) cm endUndoBlock
+\i (01:02:23) cm select ( frame ( workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (01:02:25) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (01:02:25) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:25) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (01:02:25) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:02:25) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:02:25) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (01:02:25) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (01:02:25) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:25) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (01:02:25) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:02:25) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:02:25) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (01:02:30) cm select ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:02:30) cm select ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:02:30) cm select ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:02:30) cm select ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:02:33) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:02:34) cm fetch LINE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch LINE_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch LINE_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch LINE_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch LINE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch BBV_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch BBV_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch LINE_TO_TESTVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_TESTVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch LINE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch LINE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch BONDPAD_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch BONDPAD_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:58) cm setColumnFilter ( column 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 82:Pins 0:Type ) *
+\i (01:02:58) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:02:58) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:02:58) cm select tab 82:Pins
+\i (01:02:59) cm fetch THRUPIN_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch THRUPIN_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch THRUPIN_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch THRUPIN_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch TESTPIN_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch TESTPIN_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch THRUPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch THRUPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch BBV_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch BBV_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch TESTVIA_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch TESTVIA_TO_THRUPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch THRUPIN_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch THRUPIN_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch THRUPIN_TO_BONDPAD_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch THRUPIN_TO_BONDPAD_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch SMDPIN_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch SMDPIN_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch SMDPIN_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch SMDPIN_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:02:59) cm fetch SMDPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:02:59) cm fetch SMDPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm setColumnFilter ( column 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 83:Vias 0:Type ) *
+\i (01:03:00) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:00) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:00) cm select tab 83:Vias
+\i (01:03:00) cm fetch TESTPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch TESTPIN_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch THRUVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch THRUVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch BBV_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch BBV_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch TESTVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch TESTVIA_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch SHAPE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch SHAPE_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch BONDPAD_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch BONDPAD_TO_THRUVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch BBV_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch BBV_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:00) cm fetch BBV_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:00) cm fetch BBV_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm setColumnFilter ( column 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 84:Shape 0:Type ) *
+\i (01:03:01) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:01) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:01) cm select tab 84:Shape
+\i (01:03:01) cm fetch SHAPE_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch SHAPE_TO_SMDPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm fetch SHAPE_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch SHAPE_TO_TESTPIN_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm fetch BBV_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch BBV_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm fetch SHAPE_TO_TESTVIA_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch SHAPE_TO_TESTVIA_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm fetch SHAPE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch SHAPE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm fetch BONDPAD_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch BONDPAD_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:01) cm fetch HOLE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:03:01) cm fetch HOLE_TO_SHAPE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:03:14) cm setColumnFilter ( column 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line 0:Type ) *
+\i (01:03:14) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:14) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:14) cm expand ( row ( Design "artificiall_eye_ver00" ) )
+\i (01:03:14) cm select tab 81:Line
+\i (01:03:26) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:03:26) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:03:26) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:03:27) cm select ( frame ( workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (01:03:33) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 0.15 7
+\i (01:03:33) cm endUndoBlock
+\i (01:03:37) cm exit
+\i (01:03:39) setwindow pcb
+\i (01:03:39) save 
+\i (01:03:42) fillin yes 
+\i (01:03:42) generaledit 
+\i (01:03:45) setwindow form.vf_vis
+\i (01:03:45) FORM vf_vis 3 all_colorvisible YES 
+\i (01:03:46) FORM vf_vis 2 all_colorvisible YES 
+\i (01:03:52) setwindow pcb
+\i (01:03:52) auto_route 
+\e (01:03:52) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (01:03:52) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (01:03:59) setwindow form.vse_armain
+\i (01:03:59) FORM vse_armain routing_passes  
+\i (01:04:03) FORM vse_armain smart_router  
+\i (01:04:05) FORM vse_armain selections  
+\i (01:04:06) FORM vse_armain smart_router  
+\i (01:04:09) FORM vse_armain router_setup  
+\i (01:04:11) FORM vse_armain execute  
+\i (01:05:56) setwindow pcb
+\i (01:05:56) status 
+\i (01:05:58) setwindow form.status
+\i (01:05:58) FORM status drc_update  
+\w (01:05:58) DRC Update can not be run while command active.
+\i (01:06:02) FORM status done  
+\i (01:06:05) setwindow pcb
+\i (01:06:05) zoom in 1 
+\i (01:06:05) setwindow pcb
+\i (01:06:05) zoom in 38.1064 52.4710
+\i (01:06:05) trapsize 1217
+\i (01:06:06) zoom in 1 
+\i (01:06:06) setwindow pcb
+\i (01:06:06) zoom in 38.0334 52.4223
+\i (01:06:06) trapsize 609
+\i (01:06:07) zoom in 1 
+\i (01:06:07) setwindow pcb
+\i (01:06:07) zoom in 37.3883 51.6554
+\i (01:06:07) trapsize 304
+\i (01:06:07) zoom in 1 
+\i (01:06:07) setwindow pcb
+\i (01:06:07) zoom in 37.3883 51.6554
+\i (01:06:07) trapsize 152
+\i (01:06:11) zoom out 1 
+\i (01:06:11) setwindow pcb
+\i (01:06:11) zoom out 37.3914 51.6585
+\i (01:06:11) trapsize 304
+\i (01:06:12) zoom out 1 
+\i (01:06:12) setwindow pcb
+\i (01:06:12) zoom out 37.3913 51.6585
+\i (01:06:12) trapsize 609
+\i (01:06:14) zoom out 1 
+\i (01:06:14) setwindow pcb
+\i (01:06:14) zoom out 37.3305 51.9750
+\i (01:06:14) trapsize 1217
+\i (01:06:18) setwindow form.vse_armain
+\i (01:06:18) FORM vse_armain close  
+\i (01:06:18) setwindow pcb
+\i (01:06:18) generaledit 
+\i (01:06:26) reports 'Design Rules Check (DRC) Report' 
+\i (01:06:26) reports "Design Rules Check (DRC) Report"
+\i (01:06:26) generaledit 
+\i (01:06:54) setwindow text
+\i (01:06:54) close 
+\i (01:07:33) setwindow pcb
+\i (01:07:33) cmgr 
+\i (01:07:34) setwindow cmgr
+\i (01:07:34) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:07:34) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:07:35) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:07:35) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (01:07:35) cm fetch ONLINE_DRC ( System "System" ) System
+\i (01:07:35) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (01:07:35) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:07:35) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (01:07:35) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:07:35) setwindow pcb
+\i (01:07:35) generaledit 
+\i (01:07:40) setwindow cmgr
+\i (01:07:40) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:07:40) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:07:40) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:07:40) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:07:40) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:07:43) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:07:43) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Net
+\i (01:07:43) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Bus
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Net
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) XNet
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:07:43) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Bus
+\i (01:07:51) cm scope Design "artificiall_eye_ver00"
+\i (01:07:51) cm putValue ( Net "GND" ) LINE_TO_LINE_SPACING 0.15 7
+\i (01:07:52) cm endUndoBlock
+\i (01:07:55) cm exit
+\i (01:07:56) setwindow pcb
+\i (01:07:56) zoom out 1 
+\i (01:07:56) setwindow pcb
+\i (01:07:56) zoom out 37.4765 56.6981
+\i (01:07:56) trapsize 2435
+\i (01:07:56) zoom out 1 
+\i (01:07:57) setwindow pcb
+\i (01:07:57) zoom out 37.3792 57.2337
+\i (01:07:57) trapsize 4869
+\i (01:08:00) status 
+\i (01:08:00) generaledit 
+\i (01:08:02) setwindow form.status
+\i (01:08:02) FORM status drc_update  
+\t (01:08:02) Running DRC, please wait...
+\t (01:08:02) Performing DRC...
+\t (01:08:03) Multithreaded DRC update (4 threads).
+\t (01:08:03) DRC done; 77 errors detected.
+\t (01:08:03) DRC done.
+\i (01:08:05) setwindow pcb
+\i (01:08:05) zoom in 1 
+\i (01:08:05) setwindow pcb
+\i (01:08:05) zoom in 56.2719 54.2147
+\i (01:08:05) trapsize 2435
+\i (01:08:05) zoom in 1 
+\i (01:08:05) setwindow pcb
+\i (01:08:05) zoom in 55.5416 51.7314
+\i (01:08:05) trapsize 1217
+\i (01:08:06) zoom out 1 
+\i (01:08:06) setwindow pcb
+\i (01:08:06) zoom out 55.5660 51.1471
+\i (01:08:06) trapsize 2435
+\i (01:08:06) zoom out 1 
+\i (01:08:06) setwindow pcb
+\i (01:08:06) zoom out 55.5659 51.1471
+\i (01:08:06) trapsize 4869
+\i (01:08:07) zoom out 1 
+\i (01:08:07) setwindow pcb
+\i (01:08:07) zoom out 71.7318 36.4420
+\t (01:08:07) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (01:08:07) trapsize 9738
+\i (01:08:07) zoom in 1 
+\i (01:08:07) setwindow pcb
+\i (01:08:07) zoom in 9.4057 15.7317
+\t (01:08:07) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:08:07) trapsize 4869
+\i (01:08:08) zoom in 1 
+\i (01:08:08) setwindow pcb
+\i (01:08:08) zoom in 9.8927 16.8030
+\i (01:08:08) trapsize 2435
+\i (01:08:11) setwindow form.status
+\i (01:08:11) FORM status done  
+\i (01:08:16) setwindow pcb
+\i (01:08:16) reports 'Design Rules Check (DRC) Report' 
+\i (01:08:16) reports "Design Rules Check (DRC) Report"
+\i (01:08:16) generaledit 
+\i (01:08:22) setwindow text
+\i (01:08:22) close 
+\i (01:08:25) setwindow pcb
+\i (01:08:25) open 
+\e (01:08:25) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (01:08:26) fillin no 
+\i (01:08:27) fillin "artificiall_eye_ver00.brd"
+\t (01:08:27) Opening existing design...
+\t (01:08:27) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:08:27) trapsize 2435
+\d (01:08:27) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (01:08:28) generaledit 
+\i (01:08:32) cmgr 
+\i (01:08:32) setwindow cmgr
+\i (01:08:32) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:08:32) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:08:32) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:08:33) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:08:34) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (01:08:34) cm fetch ONLINE_DRC ( System "System" ) System
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Net
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) XNet
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:08:34) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Bus
+\i (01:08:34) setwindow pcb
+\i (01:08:34) generaledit 
+\i (01:08:43) setwindow cmgr
+\i (01:08:43) cm scope Design "artificiall_eye_ver00"
+\i (01:08:43) cm putValue ( Net "GND" ) LINE_TO_LINE_SPACING 0.15 7
+\i (01:08:43) cm endUndoBlock
+\i (01:08:45) cm exit
+\i (01:08:46) setwindow pcb
+\i (01:08:46) save 
+\i (01:08:47) fillin yes 
+\i (01:08:47) generaledit 
+\i (01:08:53) auto_route 
+\e (01:08:53) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (01:08:53) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (01:08:57) setwindow form.vse_armain
+\i (01:08:57) FORM vse_armain execute  
+\i (01:10:18) setwindow pcb
+\i (01:10:18) status 
+\i (01:10:19) setwindow form.status
+\i (01:10:19) FORM status drc_update  
+\w (01:10:19) DRC Update can not be run while command active.
+\i (01:10:23) FORM status done  
+\i (01:10:25) setwindow form.vse_armain
+\i (01:10:25) FORM vse_armain close  
+\i (01:10:25) setwindow pcb
+\i (01:10:25) generaledit 
+\i (01:10:34) reports 'Design Rules Check (DRC) Report' 
+\i (01:10:34) reports "Design Rules Check (DRC) Report"
+\i (01:10:34) generaledit 
+\i (01:10:47) setwindow text
+\i (01:10:47) close 
+\i (01:10:51) setwindow pcb
+\i (01:10:51) open 
+\e (01:10:51) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (01:10:52) fillin no 
+\i (01:10:54) fillin "artificiall_eye_ver00.brd"
+\t (01:10:54) Opening existing design...
+\t (01:10:54) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:10:54) trapsize 2435
+\d (01:10:54) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (01:10:55) generaledit 
+\i (01:11:01) cmgr 
+\i (01:11:01) setwindow cmgr
+\i (01:11:01) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (01:11:01) cm fetch ONLINE_DRC ( System "System" ) System
+\i (01:11:01) setwindow pcb
+\i (01:11:01) generaledit 
+\i (01:11:04) setwindow cmgr
+\i (01:11:04) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:11:05) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:05) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Bus
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) XNet
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:11:05) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Bus
+\i (01:11:13) cm scope Design "artificiall_eye_ver00"
+\i (01:11:13) cm putValue ( Net "VCC3_3V" ) LINE_TO_LINE_SPACING .15 7
+\i (01:11:13) cm endUndoBlock
+\i (01:11:16) cm putValue ( Net "VCC5V" ) LINE_TO_LINE_SPACING .15 7
+\i (01:11:17) cm endUndoBlock
+\i (01:11:18) cm select ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:11:18) cm select ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:11:18) cm select ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:11:19) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:11:19) cm fetch ECSET_MAPPING_ERROR_MARGIN ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:19) cm fetch ECSET_MAPPING_ERROR ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) XNet
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Electrical CSet"
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:11:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:11:20) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:20) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (01:11:20) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (01:11:20) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:11:20) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:11:20) cm fetch DIFFP_UNCOUPLED_LENGTH_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (01:11:20) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Net
+\i (01:11:20) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Design
+\i (01:11:20) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) XNet
+\i (01:11:20) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:11:20) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:11:20) cm fetch DIFFP_PHASE_TOL_VSTATUS ( Design "artificiall_eye_ver00" ) Bus
+\i (01:11:28) cm exit
+\i (01:11:30) setwindow pcb
+\i (01:11:30) save 
+\i (01:11:31) fillin yes 
+\i (01:11:31) generaledit 
+\i (01:11:39) auto_route 
+\e (01:11:39) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (01:11:39) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (01:11:44) setwindow form.vse_armain
+\i (01:11:44) FORM vse_armain execute  
+\i (01:18:18) setwindow pcb
+\i (01:18:18) zoom in 1 
+\i (01:18:18) setwindow pcb
+\i (01:18:18) zoom in 37.1812 52.7144
+\i (01:18:18) trapsize 1217
+\i (01:18:21) status 
+\i (01:18:22) setwindow form.status
+\i (01:18:22) FORM status drc_update  
+\w (01:18:22) DRC Update can not be run while command active.
+\i (01:18:24) FORM status done  
+\i (01:18:26) setwindow form.vse_armain
+\i (01:18:26) FORM vse_armain close  
+\i (01:18:26) setwindow pcb
+\i (01:18:26) generaledit 
+\i (01:18:34) reports 'Design Rules Check (DRC) Report' 
+\i (01:18:34) reports "Design Rules Check (DRC) Report"
+\i (01:18:34) generaledit 
+\i (01:19:23) cmgr 
+\i (01:19:23) setwindow cmgr
+\i (01:19:23) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:19:24) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:19:24) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (01:19:24) cm fetch ONLINE_DRC ( System "System" ) System
+\i (01:19:24) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Net
+\i (01:19:24) cm fetch VOLTAGE ( Design "artificiall_eye_ver00" ) Bus
+\i (01:19:24) cm fetch ECSET_MAPPING_ERROR_MARGIN ( Design "artificiall_eye_ver00" ) Net
+\i (01:19:24) cm fetch ECSET_MAPPING_ERROR ( Design "artificiall_eye_ver00" ) Net
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Net
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) XNet
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Electrical CSet"
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Diff Pair"
+\i (01:19:24) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Net Class"
+\i (01:19:24) setwindow pcb
+\i (01:19:24) generaledit 
+\i (01:19:31) setwindow cmgr
+\i (01:19:31) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:19:31) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (01:19:31) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:20:02) setwindow text
+\i (01:20:02) close 
+\i (01:20:06) setwindow cmgr
+\i (01:20:06) cm exit
+\i (01:20:08) setwindow pcb
+\i (01:20:08) open 
+\e (01:20:08) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (01:20:10) fillin no 
+\i (01:20:12) fillin "artificiall_eye_ver00.brd"
+\t (01:20:12) Opening existing design...
+\t (01:20:12) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:20:12) trapsize 2435
+\d (01:20:12) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (01:20:12) generaledit 
+\i (01:20:18) cmgr 
+\i (01:20:18) setwindow cmgr
+\i (01:20:18) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:20:18) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:20:19) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:20:19) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (01:20:19) cm fetch ONLINE_DRC ( System "System" ) System
+\i (01:20:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) Design
+\i (01:20:19) cm fetch DIFFP_MIN_SPACE ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:20:19) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) Design
+\i (01:20:19) cm fetch DIFFP_NECK_GAP ( Design "artificiall_eye_ver00" ) "Physical CSet"
+\i (01:20:19) setwindow pcb
+\i (01:20:19) generaledit 
+\i (01:20:27) setwindow cmgr
+\i (01:20:27) cm scope Design "artificiall_eye_ver00"
+\i (01:20:27) cm putValue ( "Physical CSet" "DEFAULT" ) MAXIMUM_NECK_LENGTH 600 7
+\i (01:20:27) cm endUndoBlock
+\i (01:20:36) cm exit
+\i (01:20:39) setwindow pcb
+\i (01:20:39) save 
+\i (01:20:40) fillin yes 
+\i (01:20:40) generaledit 
+\i (01:20:44) auto_route 
+\e (01:20:44) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (01:20:44) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\i (01:20:47) setwindow form.vse_armain
+\i (01:20:47) FORM vse_armain execute  
+\i (01:21:30) FORM vse_armain results  
+\i (01:21:34) setwindow form.vse_progress
+\i (01:21:34) FORM vse_progress close  
+\i (01:21:36) setwindow form.vse_armain
+\i (01:21:36) FORM vse_armain close  
+\i (01:21:36) setwindow pcb
+\i (01:21:36) generaledit 
+\i (01:21:38) status 
+\i (01:21:38) generaledit 
+\i (01:21:40) setwindow form.status
+\i (01:21:40) FORM status drc_update  
+\t (01:21:40) Running DRC, please wait...
+\t (01:21:40) Performing DRC...
+\t (01:21:40) Multithreaded DRC update (4 threads).
+\t (01:21:40) No DRC errors detected.
+\t (01:21:40) DRC done.
+\i (01:21:42) FORM status drc_update  
+\t (01:21:42) Running DRC, please wait...
+\t (01:21:42) Performing DRC...
+\t (01:21:42) Multithreaded DRC update (4 threads).
+\t (01:21:42) No DRC errors detected.
+\t (01:21:42) DRC done.
+\i (01:21:44) FORM status done  
+\i (01:21:46) setwindow form.vf_vis
+\i (01:21:46) FORM vf_vis 2 all_colorvisible YES 
+\i (01:21:46) FORM vf_vis 3 all_colorvisible YES 
+\i (01:21:49) FORM vf_vis 2 all_colorvisible NO 
+\i (01:21:50) FORM vf_vis 3 all_colorvisible NO 
+\i (01:22:00) setwindow pcb
+\i (01:22:00) reports 'Design Rules Check (DRC) Report' 
+\i (01:22:00) reports "Design Rules Check (DRC) Report"
+\i (01:22:00) generaledit 
+\i (01:22:02) setwindow text
+\i (01:22:02) close 
+\i (01:22:05) setwindow pcb
+\i (01:22:05) zoom out 1 
+\i (01:22:05) setwindow pcb
+\i (01:22:05) zoom out 21.1124 52.0814
+\i (01:22:05) trapsize 4869
+\i (01:22:06) zoom in 1 
+\i (01:22:06) setwindow pcb
+\i (01:22:06) zoom in 21.6968 51.9841
+\i (01:22:06) trapsize 2435
+\i (01:22:06) zoom in 1 
+\i (01:22:06) setwindow pcb
+\i (01:22:06) zoom in 21.6481 51.9841
+\i (01:22:06) trapsize 1217
+\i (01:22:10) zoom out 1 
+\i (01:22:10) setwindow pcb
+\i (01:22:10) zoom out 22.0133 52.1058
+\i (01:22:10) trapsize 2435
+\i (01:22:12) roam x -96 
+\i (01:22:12) roam x -96
+\i (01:22:13) roam y 96 
+\i (01:22:13) roam y 96
+\i (01:22:13) roam x -96 
+\i (01:22:13) roam x -96
+\i (01:22:27) zoom out 1 
+\i (01:22:27) setwindow pcb
+\i (01:22:27) zoom out 20.0290 45.7877
+\i (01:22:27) trapsize 4869
+\i (01:22:28) zoom out 1 
+\i (01:22:28) setwindow pcb
+\i (01:22:28) zoom out 15.1597 32.0562
+\t (01:22:28) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (01:22:28) trapsize 9739
+\i (01:22:29) zoom in 1 
+\i (01:22:29) setwindow pcb
+\i (01:22:29) zoom in 13.9132 30.9221
+\t (01:22:29) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:22:29) trapsize 4869
+\i (01:22:29) zoom in 1 
+\i (01:22:29) setwindow pcb
+\i (01:22:29) zoom in 13.9132 30.9221
+\i (01:22:29) trapsize 2435
+\i (01:22:30) zoom out 1 
+\i (01:22:30) setwindow pcb
+\i (01:22:30) zoom out 13.9132 30.9221
+\i (01:22:30) trapsize 4869
+\i (01:22:32) zoom in 1 
+\i (01:22:32) setwindow pcb
+\i (01:22:32) zoom in 57.9319 50.2047
+\i (01:22:32) trapsize 2435
+\i (01:22:32) zoom in 1 
+\i (01:22:32) setwindow pcb
+\i (01:22:32) zoom in 59.2467 47.0883
+\i (01:22:32) trapsize 1217
+\i (01:22:33) zoom out 1 
+\i (01:22:33) setwindow pcb
+\i (01:22:33) zoom out 59.2467 46.8692
+\i (01:22:33) trapsize 2435
+\i (01:22:34) zoom out 1 
+\i (01:22:34) setwindow pcb
+\i (01:22:34) zoom out 59.1493 47.2587
+\i (01:22:34) trapsize 4869
+\i (01:22:36) grid toggle 
+\i (01:22:36) generaledit 
+\i (01:22:39) zoom in 1 
+\i (01:22:39) setwindow pcb
+\i (01:22:39) zoom in 36.4582 13.6604
+\i (01:22:39) trapsize 2435
+\i (01:22:40) zoom in 1 
+\i (01:22:40) setwindow pcb
+\i (01:22:40) zoom in 37.3834 14.5369
+\i (01:22:40) trapsize 1217
+\i (01:22:42) zoom out 1 
+\i (01:22:42) setwindow pcb
+\i (01:22:42) zoom out 37.5295 14.6830
+\i (01:22:42) trapsize 2435
+\i (01:22:43) roam y 96 
+\i (01:22:43) roam y 96
+\i (01:22:44) roam y 96 
+\i (01:22:44) roam y 96
+\i (01:22:46) roam x -96 
+\i (01:22:46) roam x -96
+\i (01:22:47) roam y -96 
+\i (01:22:47) roam y -96
+\i (01:22:47) roam y -96 
+\i (01:22:47) roam y -96
+\i (01:22:48) roam y -96 
+\i (01:22:48) roam y -96
+\i (01:22:48) roam x -96 
+\i (01:22:48) roam x -96
+\i (01:22:49) roam y -96 
+\i (01:22:49) roam y -96
+\i (01:22:49) roam y -96 
+\i (01:22:49) roam y -96
+\i (01:22:49) roam y -96 
+\i (01:22:49) roam y -96
+\i (01:22:51) roam x 96 
+\i (01:22:51) roam x 96
+\i (01:22:51) roam x 96 
+\i (01:22:51) roam x 96
+\i (01:22:52) roam y 96 
+\i (01:22:52) roam y 96
+\i (01:22:52) zoom out 1 
+\i (01:22:52) setwindow pcb
+\i (01:22:52) zoom out 42.4279 33.2736
+\i (01:22:52) trapsize 4869
+\i (01:22:55) status 
+\i (01:22:56) generaledit 
+\i (01:22:59) setwindow form.status
+\i (01:22:59) FORM status done  
+\i (01:23:00) setwindow pcb
+\i (01:23:00) zoom out 1 
+\i (01:23:00) setwindow pcb
+\i (01:23:00) zoom out 54.6013 36.2925
+\i (01:23:00) trapsize 9739
+\i (01:23:02) zoom in 1 
+\i (01:23:02) setwindow pcb
+\i (01:23:02) zoom in 45.4956 1.3165
+\i (01:23:02) trapsize 4869
+\i (01:23:02) zoom in 1 
+\i (01:23:02) setwindow pcb
+\i (01:23:02) zoom in 45.4956 1.3165
+\i (01:23:02) trapsize 2435
+\i (01:23:07) zoom out 1 
+\i (01:23:07) setwindow pcb
+\i (01:23:07) zoom out 41.1619 10.1787
+\i (01:23:07) trapsize 4869
+\i (01:23:08) zoom in 1 
+\i (01:23:08) setwindow pcb
+\i (01:23:08) zoom in 10.1929 20.1122
+\i (01:23:08) trapsize 2435
+\i (01:23:11) roam y -96 
+\i (01:23:11) roam y -96
+\i (01:23:12) roam y -96 
+\i (01:23:12) roam y -96
+\i (01:23:12) roam y -96 
+\i (01:23:12) roam y -96
+\i (01:23:12) roam y -96 
+\i (01:23:12) roam y -96
+\i (01:23:15) roam y -96 
+\i (01:23:15) roam y -96
+\i (01:23:15) roam y -96 
+\i (01:23:15) roam y -96
+\i (01:23:23) zoom in 1 
+\i (01:23:23) setwindow pcb
+\i (01:23:23) zoom in 26.1643 57.7663
+\i (01:23:23) trapsize 1217
+\i (01:23:23) zoom in 1 
+\i (01:23:23) setwindow pcb
+\i (01:23:23) zoom in 26.2374 57.6933
+\i (01:23:23) trapsize 609
+\i (01:23:25) zoom out 1 
+\i (01:23:25) setwindow pcb
+\i (01:23:25) zoom out 26.1643 57.6690
+\i (01:23:25) trapsize 1217
+\i (01:23:35) setwindow form.vf_vis
+\i (01:23:35) FORM vf_vis 2 all_colorvisible YES 
+\i (01:23:36) FORM vf_vis 3 all_colorvisible YES 
+\i (01:23:48) setwindow form.find
+\i (01:23:48) FORM find nets YES 
+\i (01:24:05) setwindow pcb
+\i (01:24:05) zoom out 1 
+\i (01:24:05) setwindow pcb
+\i (01:24:05) zoom out 29.0372 56.1108
+\i (01:24:05) trapsize 2435
+\i (01:24:05) zoom out 1 
+\i (01:24:05) setwindow pcb
+\i (01:24:05) zoom out 28.7938 55.2831
+\i (01:24:05) trapsize 4869
+\i (01:24:07) zoom in 1 
+\i (01:24:07) setwindow pcb
+\i (01:24:07) zoom in 60.7366 37.2666
+\i (01:24:07) trapsize 2435
+\i (01:24:07) zoom in 1 
+\i (01:24:07) setwindow pcb
+\i (01:24:07) zoom in 60.7366 37.2666
+\i (01:24:07) trapsize 1217
+\i (01:24:11) zoom in 1 
+\i (01:24:11) setwindow pcb
+\i (01:24:11) zoom in 58.7158 39.1900
+\i (01:24:11) trapsize 609
+\i (01:24:14) zoom out 1 
+\i (01:24:14) setwindow pcb
+\i (01:24:14) zoom out 59.3488 39.0439
+\i (01:24:14) trapsize 1217
+\i (01:24:15) zoom out 1 
+\i (01:24:15) setwindow pcb
+\i (01:24:15) zoom out 59.4461 39.0683
+\i (01:24:15) trapsize 2435
+\i (01:24:15) zoom out 1 
+\i (01:24:15) setwindow pcb
+\i (01:24:15) zoom out 59.6409 39.0196
+\i (01:24:15) trapsize 4869
+\i (01:24:37) reports 'Unconnected Pins Report' 
+\i (01:24:37) reports "Unconnected Pins Report"
+\i (01:24:37) generaledit 
+\i (01:24:47) zoom center 
+\t (01:24:47) Pick center for the new display.
+\i (01:24:47) pick 56.8702 25.3251 
+\t (01:24:47) last pick:  56.8702  25.3251
+\i (01:24:47) trapsize 4869
+\i (01:24:47) generaledit 
+\i (01:24:50) zoom in 1 
+\i (01:24:50) setwindow pcb
+\i (01:24:50) zoom in 40.7527 18.5081
+\i (01:24:50) trapsize 2435
+\i (01:24:50) zoom in 1 
+\i (01:24:50) setwindow pcb
+\i (01:24:50) zoom in 40.7528 18.4594
+\i (01:24:50) trapsize 1217
+\i (01:24:50) zoom in 1 
+\i (01:24:50) setwindow pcb
+\i (01:24:50) zoom in 40.7771 18.4594
+\i (01:24:50) trapsize 609
+\i (01:24:51) zoom center 
+\t (01:24:51) Pick center for the new display.
+\i (01:24:51) pick 56.8702 25.3251 
+\t (01:24:51) last pick:  56.8702  25.3251
+\i (01:24:51) trapsize 609
+\i (01:24:51) generaledit 
+\i (01:25:00) zoom center 
+\t (01:25:00) Pick center for the new display.
+\i (01:25:00) pick 18.8702 25.3251 
+\t (01:25:00) last pick:  18.8702  25.3251
+\i (01:25:00) trapsize 609
+\i (01:25:00) generaledit 
+\i (01:25:03) zoom center 
+\t (01:25:03) Pick center for the new display.
+\i (01:25:03) pick 56.8702 25.3251 
+\t (01:25:03) last pick:  56.8702  25.3251
+\i (01:25:03) trapsize 609
+\i (01:25:03) generaledit 
+\i (01:25:05) zoom out 1 
+\i (01:25:05) setwindow pcb
+\i (01:25:05) zoom out 54.0887 25.2278
+\i (01:25:05) trapsize 1217
+\i (01:25:05) zoom out 1 
+\i (01:25:05) setwindow pcb
+\i (01:25:05) zoom out 54.0885 25.2278
+\i (01:25:05) trapsize 2435
+\i (01:25:05) zoom out 1 
+\i (01:25:05) setwindow pcb
+\i (01:25:05) zoom out 54.0886 25.2278
+\i (01:25:06) trapsize 4869
+\i (01:25:08) zoom in 1 
+\i (01:25:08) setwindow pcb
+\i (01:25:08) zoom in 54.0886 17.7290
+\i (01:25:08) trapsize 2435
+\i (01:25:08) zoom in 1 
+\i (01:25:08) setwindow pcb
+\i (01:25:08) zoom in 54.0886 17.7290
+\i (01:25:08) trapsize 1217
+\i (01:25:11) zoom center 
+\t (01:25:11) Pick center for the new display.
+\i (01:25:11) pick 56.8702 32.9754 
+\t (01:25:11) last pick:  56.8702  32.9754
+\i (01:25:11) trapsize 1217
+\i (01:25:11) generaledit 
+\i (01:25:12) zoom center 
+\t (01:25:12) Pick center for the new display.
+\i (01:25:12) pick 56.8702 39.3251 
+\t (01:25:12) last pick:  56.8702  39.3251
+\i (01:25:13) trapsize 1217
+\i (01:25:13) generaledit 
+\i (01:25:19) setwindow text
+\i (01:25:19) close 
+\i (01:25:20) setwindow pcb
+\i (01:25:20) zoom out 1 
+\i (01:25:20) setwindow pcb
+\i (01:25:20) zoom out 56.7120 39.3738
+\i (01:25:20) trapsize 2435
+\i (01:25:20) zoom out 1 
+\i (01:25:20) setwindow pcb
+\i (01:25:20) zoom out 56.7120 39.3739
+\i (01:25:20) trapsize 4869
+\i (01:25:21) zoom in 1 
+\i (01:25:21) setwindow pcb
+\i (01:25:21) zoom in 21.9450 51.4498
+\i (01:25:21) trapsize 2435
+\i (01:25:25) zoom out 1 
+\i (01:25:25) setwindow pcb
+\i (01:25:25) zoom out 21.6528 50.9142
+\i (01:25:25) trapsize 4869
+\i (01:25:26) zoom out 1 
+\i (01:25:26) setwindow pcb
+\i (01:25:26) zoom out 21.6528 50.9143
+\i (01:25:26) trapsize 9739
+\i (01:25:28) zoom fit 
+\i (01:25:28) trapsize 4869
+\i (01:25:30) roam x -96 
+\i (01:25:30) roam x -96
+\i (01:25:30) roam x -96 
+\i (01:25:30) roam x -96
+\i (01:26:20) zoom in 1 
+\i (01:26:20) setwindow pcb
+\i (01:26:20) zoom in 38.4836 15.0025
+\i (01:26:20) trapsize 2435
+\i (01:26:20) zoom in 1 
+\i (01:26:20) setwindow pcb
+\i (01:26:20) zoom in 38.4836 15.0025
+\i (01:26:20) trapsize 1217
+\i (01:26:26) zoom out 1 
+\i (01:26:26) setwindow pcb
+\i (01:26:26) zoom out 32.8839 17.3398
+\i (01:26:26) trapsize 2435
+\i (01:26:30) zoom out 1 
+\i (01:26:30) setwindow pcb
+\i (01:26:30) zoom out 34.1012 11.1558
+\i (01:26:30) trapsize 4869
+\i (01:26:31) zoom in 1 
+\i (01:26:31) setwindow pcb
+\i (01:26:31) zoom in 19.8828 46.4099
+\i (01:26:31) trapsize 2435
+\i (01:26:33) zoom out 1 
+\i (01:26:34) setwindow pcb
+\i (01:26:34) zoom out 20.7593 47.2377
+\i (01:26:34) trapsize 4869
+\i (01:26:36) setwindow form.vf_vis
+\i (01:26:36) FORM vf_vis 1 all_colorvisible NO 
+\i (01:26:40) FORM vf_vis 4 all_colorvisible NO 
+\i (01:27:02) setwindow pcb
+\i (01:27:02) zoom out 1 
+\i (01:27:02) setwindow pcb
+\i (01:27:02) zoom out 19.0063 53.0809
+\i (01:27:02) trapsize 9739
+\i (01:27:03) zoom in 1 
+\i (01:27:03) setwindow pcb
+\i (01:27:03) zoom in 19.9511 52.8862
+\i (01:27:03) trapsize 4869
+\i (01:27:03) zoom in 1 
+\i (01:27:03) setwindow pcb
+\i (01:27:03) zoom in 20.0486 52.8862
+\i (01:27:03) trapsize 2435
+\i (01:27:04) zoom in 1 
+\i (01:27:04) setwindow pcb
+\i (01:27:04) zoom in 21.2172 51.7176
+\i (01:27:04) trapsize 1217
+\i (01:27:06) setwindow form.vf_vis
+\i (01:27:06) FORM vf_vis 3 all_colorvisible NO 
+\i (01:27:09) FORM vf_vis 3 all_colorvisible YES 
+\i (01:27:10) FORM vf_vis 2 all_colorvisible NO 
+\i (01:27:12) setwindow pcb
+\i (01:27:12) zoom out 1 
+\i (01:27:12) setwindow pcb
+\i (01:27:12) zoom out 29.3977 49.7456
+\i (01:27:12) trapsize 2435
+\i (01:27:13) roam y -96 
+\i (01:27:13) roam y -96
+\i (01:27:15) zoom in 1 
+\i (01:27:15) setwindow pcb
+\i (01:27:15) zoom in 26.0379 55.2829
+\i (01:27:15) trapsize 1217
+\i (01:27:17) setwindow form.vf_vis
+\i (01:27:17) FORM vf_vis 2 all_colorvisible YES 
+\i (01:27:18) FORM vf_vis 3 all_colorvisible NO 
+\i (01:27:20) setwindow pcb
+\i (01:27:20) status 
+\i (01:27:20) generaledit 
+\i (01:27:29) setwindow form.status
+\i (01:27:29) FORM status refresh  
+\i (01:27:31) FORM status done  
+\i (01:27:31) setwindow pcb
+\i (01:27:31) zoom out 1 
+\i (01:27:31) setwindow pcb
+\i (01:27:31) zoom out 26.2570 48.2711
+\i (01:27:31) trapsize 2435
+\i (01:27:32) zoom out 1 
+\i (01:27:32) setwindow pcb
+\i (01:27:32) zoom out 26.8901 49.1475
+\i (01:27:32) trapsize 4869
+\i (01:27:35) open 
+\e (01:27:35) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (01:27:36) fillin no 
+\i (01:27:38) fillin "artificiall_eye_ver00.brd"
+\t (01:27:38) Opening existing design...
+\t (01:27:38) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:27:38) trapsize 2435
+\d (01:27:38) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\i (01:27:38) generaledit 
+\i (01:27:40) roam x -96 
+\i (01:27:40) roam x -96
+\i (01:27:40) roam y 96 
+\i (01:27:40) roam y 96
+\i (01:27:40) roam y 96 
+\i (01:27:40) roam y 96
+\i (01:27:41) roam x -96 
+\i (01:27:41) roam x -96
+\i (01:27:41) roam x -96 
+\i (01:27:41) roam x -96
+\i (01:27:42) roam x -96 
+\i (01:27:42) roam x -96
+\i (01:27:46) roam y -96 
+\i (01:27:46) roam y -96
+\i (01:27:47) roam y 96 
+\i (01:27:47) roam y 96
+\i (01:27:47) roam y 96 
+\i (01:27:47) roam y 96
+\i (01:27:47) roam y 96 
+\i (01:27:47) roam y 96
+\i (01:27:47) roam y 96 
+\i (01:27:47) roam y 96
+\i (01:27:47) roam y 96 
+\i (01:27:47) roam y 96
+\i (01:27:48) roam y 96 
+\i (01:27:48) roam y 96
+\i (01:27:48) roam y 96 
+\i (01:27:48) roam y 96
+\i (03:24:20) exit 
+\t (03:24:50)     Journal end - Mon Jun 25 12:24:14 2018

@@ -291,8 +291,8 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library_ae.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
-         "Main"))
+      (Select "Design Resources" "Library"
+         "D:\Cadence\SPB_16.5\tools\capture\LIBRARY\PROM.OLB"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
