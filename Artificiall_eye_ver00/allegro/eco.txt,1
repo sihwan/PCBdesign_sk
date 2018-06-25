@@ -3,8 +3,186 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
-|                                                    Thu Jun 21 23:32:32 2018  |
+|                                                    Sat Jun 23 22:54:55 2018  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  ARRAY_MRG    pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ARRAY_RST    pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ARRAY_VDD    pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_0        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.47                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_1        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.46                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_2        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.45                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_3        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.44                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_4        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.41                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_5        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.40                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_6        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.39                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_7        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.38                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_8        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_9        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_10       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_11       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  0                                              |
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Sat Jun 23 22:54:55 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  COL_12       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_13       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_14       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COL_15       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_0        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_1        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_2        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_3        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_4        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_5        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_6        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_7        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_8        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.35                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_9        pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_10       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.33                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Sat Jun 23 22:54:55 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  ROW_11       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.32                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_12       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.29                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_13       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_14       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROW_15       pins ADDED TO this existing net (pins not previously on any net)
+                                 U31.26                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Sat Jun 23 22:54:55 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ OPTIC_NERVE_OPTICNERVE_OPTIC_NE
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Sat Jun 23 22:54:55 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U20                 OPTIC_NERVE_0_OPTICNERVE_OPTIC_ 30.0000 31.0000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Sat Jun 23 22:54:55 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U31                 OPTIC_NERVE_OPTICNERVE_OPTIC_NE 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  d:.../pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Sat Jun 23 22:54:55 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U31.48                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  39                                             |
 |------------------------------------------------------------------------------|

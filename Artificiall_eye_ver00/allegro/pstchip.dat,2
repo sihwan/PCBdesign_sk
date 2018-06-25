@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-21-2018 at 23:06:18}
+{ Using PSTWRITER 16.5.0 p001Jun-23-2018 at 19:06:31}
 primitive 'CAP NP_RC0805_SMK_220NF';
   pin
     '1':
@@ -13,6 +13,36 @@ primitive 'CAP NP_RC0805_SMK_220NF';
     PART_NAME='CAP NP';
     JEDEC_TYPE='rc0805_smk';
     VALUE='220nF';
+  end_body;
+end_primitive;
+primitive 'CAP_RC0805_SMK_10UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP';
+    JEDEC_TYPE='rc0805_smk';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_RC0805_SMK_100NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='rc0805_smk';
+    VALUE='100nF';
   end_body;
 end_primitive;
 primitive 'CAP_RC0805_SMK_4.7UF';
@@ -58,21 +88,6 @@ primitive 'CAP NP_RC0805_SMK_470NF';
     PART_NAME='CAP NP';
     JEDEC_TYPE='rc0805_smk';
     VALUE='470nF';
-  end_body;
-end_primitive;
-primitive 'CAP_RC0805_SMK_10UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP';
-    JEDEC_TYPE='rc0805_smk';
-    VALUE='10uF';
   end_body;
 end_primitive;
 primitive 'CAP NP_RC0805_SMK_2.2NF';

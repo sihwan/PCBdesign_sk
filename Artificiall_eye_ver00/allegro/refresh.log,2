@@ -1,9 +1,9 @@
-Fri Jun 22 10:38:32 2018				Page     1
+Sat Jun 23 22:38:03 2018				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Fri Jun 22 10:38:32 2018
+	Sat Jun 23 22:38:03 2018
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : artificiall_eye_ver00.brd                     )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Fri Jun 22 10:38:32 2018                      )
+(    Date/Time        : Sat Jun 23 22:38:03 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Jun 22 10:38:32 2018				Page     1
+Sat Jun 23 22:38:03 2018				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -34,7 +34,7 @@ Output design = ''
 Update mechanical symbols = 'NO'
 Update format symbols = 'NO'
 Update package symbols = 'YES'
-Update shape/flash symbols = 'YES'
+Update shape/flash symbols = 'NO'
 Update symbol padstacks = 'NO'
 Reset symbol text and size locations = 'NO'
 Reset Pin Escapes (fanouts) = 'NO'
@@ -56,9 +56,6 @@ PADPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VE
 'TSSOP14'  symbol refreshed successfully.
 'TSSOP16'  symbol refreshed successfully.
 'HEADER2X6'  symbol refreshed successfully.
-
-'FERRITE_BEAD'  symbol starting to refresh:
-     WARNING(SPMHNI-252): 'FERRITE_BEAD' symbol unable to find in directory search path.
 'MURATA_OSC'  symbol refreshed successfully.
 'MSOP8'  symbol refreshed successfully.
 'SOT23_LONGERPADS'  symbol refreshed successfully.
@@ -66,16 +63,18 @@ PADPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VE
 '0603_SHN'  symbol refreshed successfully.
 'RC0805_SMK'  symbol refreshed successfully.
 'MICRO_USB'  symbol refreshed successfully.
-'OPTICNERVE'  symbol refreshed successfully.
 
-'FERRITE_SHAPE_SYMBOL'  symbol starting to refresh:
-     WARNING(SPMHNI-252): 'FERRITE_SHAPE_SYMBOL' symbol unable to find in directory search path.
-'ST100_PAD2'  symbol refreshed successfully.
-'ST100_PAD2_SDMSK'  symbol refreshed successfully.
+'OPTICNERVE'  symbol starting to refresh:
+     ERROR(SPMHNI-271): 38 pins found in library symbol, but missing from the symbol in the layout. They are:
+            48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27....
+
+
+'FERRITE_BEAD'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'FERRITE_BEAD' symbol unable to find in directory search path.
 
 
 ----- Symbol Update Summary ----
 
-Completed refreshing all symbols successfully. Warnings detected.
-       0  errors detected.
-       2  warnings detected.
+Errors detected, due these errors this design was NOT updated.
+       1  errors detected.
+       1  warnings detected.

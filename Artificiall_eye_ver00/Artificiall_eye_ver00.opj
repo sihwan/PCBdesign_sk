@@ -175,6 +175,11 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (Optic_nerve
+      (FullPartName "Optic_nerve.Normal")
+      (LibraryName
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
+      (DeviceIndex "0"))
     (header_2x2
       (FullPartName "header_2x2.Normal")
       (LibraryName
@@ -254,11 +259,6 @@
       (LibraryName
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
       (DeviceIndex "0"))
-    (Optic_nerve
-      (FullPartName "Optic_nerve.Normal")
-      (LibraryName
-         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\LIBRARY_AE.OLB")
-      (DeviceIndex "0"))
     (header2x6
       (FullPartName "header2x6.Normal")
       (LibraryName
@@ -288,24 +288,23 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library_ae.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "Design Cache"
-         "MSP430F5529"))
+      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
+         "Main"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 346"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "263 361")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "2605 887")
+        (Zoom "176")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")

@@ -1,421 +1,232 @@
-\t (01:39:17) allegro 16.5 P003 (v16-5-13C) i86
-\t (01:39:17)     Journal start - Fri Jun 22 10:23:23 2018
-\t (01:39:17)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=8960 CPUs=4
-\t (01:39:17) 
-\d (01:39:17) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/rc0805_smk.dra
-\i (01:39:17) generaledit 
-\i (01:44:42) pick grid -0.3719 1.4217
-\t (01:44:42) last pick:  -0.3810  1.4224
-\i (01:44:42) prepopup -0.3858 1.4217
-\i (01:44:44) pop dyn_option_select @:@Copy 
-\i (01:44:44) copy 
-\i (01:44:47) Esc 
-\i (01:44:47) Esc 
-\i (01:44:47) Esc 
-\i (01:44:47) Esc 
-\i (01:44:48) prepopup -0.8153 1.5603
-\i (01:44:49) cancel 
-\i (01:44:49) generaledit 
-\i (01:45:16) drag_start grid -2.1039 0.5073
-\i (01:45:16) slide 
-\t (01:45:16) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Silkscreen_Top"
-\t (01:45:16) No valid items selected for the current operation, exiting.
-\i (01:45:16) generaledit 
-\i (01:45:17) drag_stop grid -4.5286 -0.2132
-\i (01:45:18) drag_start grid -2.0900 0.3549
-\i (01:45:18) slide 
-\t (01:45:18) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Silkscreen_Top"
-\t (01:45:18) No valid items selected for the current operation, exiting.
-\i (01:45:18) generaledit 
-\i (01:45:18) drag_stop grid -3.5864 -0.0054
-\i (01:45:19) prepopup -2.2286 0.3410
-\i (01:45:20) pick grid -3.5448 0.7151
-\t (01:45:20) last pick:  -3.5560  0.7112
-\i (01:45:21) pick grid -2.0484 0.7151
-\t (01:45:21) last pick:  -2.0574  0.7112
-\i (01:45:21) prepopup -2.0484 0.7151
-\i (01:45:27) pop dyn_option_select '@:@Show element' 
-\i (01:45:27) show element 
-\i (01:45:27) generaledit 
-\i (01:45:44) setwindow text
-\i (01:45:44) close 
-\i (01:45:47) setwindow pcb
-\i (01:45:47) prepopup -0.2195 1.2832
-\i (01:45:49) pop dyn_option_select '@:@Show element' 
-\i (01:45:49) show element 
-\i (01:45:49) generaledit 
-\i (01:45:55) setwindow text
-\i (01:45:55) close 
-\i (01:45:56) setwindow pcb
-\i (01:45:56) pick grid -0.7322 1.3802
-\t (01:45:56) last pick:  -0.7366  1.3716
-\i (01:45:57) pick grid -0.6768 1.3802
-\t (01:45:57) last pick:  -0.6858  1.3716
-\i (01:46:00) prepopup -0.9677 1.0615
-\i (01:46:04) pop dyn_option_select '@:@Show element' 
-\i (01:46:04) show element 
-\i (01:46:04) generaledit 
-\i (01:46:09) Esc 
-\i (01:46:12) setwindow text
-\i (01:46:12) close 
-\i (01:46:15) setwindow pcb
-\i (01:46:15) prepopup 0.6534 1.3663
-\i (01:46:16) pick grid 1.1383 1.7820
-\t (01:46:16) last pick:  1.1430  1.7780
-\i (01:46:17) pick grid 0.6811 1.3386
-\t (01:46:17) last pick:  0.6858  1.3462
-\i (01:46:17) prepopup 0.6811 1.3525
-\i (01:46:19) pop dyn_option_select '@:@Show element' 
-\i (01:46:19) show element 
-\i (01:46:19) generaledit 
-\i (01:46:22) setwindow text
-\i (01:46:22) close 
-\i (01:47:07) setwindow pcb
-\i (01:47:07) prepopup 2.0528 -0.0746
-\i (01:47:09) pop dyn_option_select '@:@Change Width...' 
-\i (01:47:09) change width 
-\i (01:47:14) setwindow form.chgwidth
-\i (01:47:14) FORM chgwidth cancel  
-\i (01:47:14) setwindow pcb
-\i (01:47:14) generaledit 
-\i (02:02:45) prepopup -0.2888 1.2693
-\i (02:02:48) pick grid -1.8129 2.2115
-\t (02:02:48) last pick:  -1.8034  2.2098
-\e (02:05:50) Command not found: xhilite
-\i (02:05:50) xname_flush 
-\i (02:05:50) done 
-\i (02:05:50) generaledit 
-\i (02:08:49) prmed 
-\i (02:08:50) setwindow form.prmedit
-\i (02:08:50) FORM prmedit text  
-\i (02:08:52) FORM prmedit design  
-\i (02:08:59) FORM prmedit text  
-\i (02:08:59) FORM prmedit shapes  
-\i (02:09:00) FORM prmedit route  
-\i (02:09:01) FORM prmedit shapes  
-\i (02:09:01) FORM prmedit text  
-\i (02:09:07) FORM prmedit cancel  
-\i (02:09:08) setwindow pcb
-\i (02:09:08) generaledit 
-\e (02:12:39) Command not found: xhilite
-\i (02:12:39) xname_flush 
-\i (02:12:39) done 
-\i (02:12:39) generaledit 
-\i (02:18:07) zoom out 1 
-\i (02:18:07) setwindow pcb
-\i (02:18:07) zoom out -1.6051 0.5766
-\i (02:18:07) trapsize 1386
-\i (02:18:07) zoom in 1 
-\i (02:18:07) setwindow pcb
-\i (02:18:07) zoom in -2.6388 0.0777
-\i (02:18:07) trapsize 693
-\i (02:18:2indow pcb
-\i (00:17:24) zoom out 53.2724 9.6910
-\i (00:17:24) trapsize 2103
-\i (00:17:27) setwindow text
-\i (00:17:27) close 
-\i (00:17:29) setwindow pcb
-\i (00:17:29) zoom in 1 
-\i (00:17:29) setwindow pcb
-\i (00:17:29) zoom in 47.9718 7.9242
-\i (00:17:29) trapsize 1052
-\i (00:17:30) zoom out 1 
-\i (00:17:30) setwindow pcb
-\i (00:17:30) zoom out 47.9718 7.9242
-\i (00:17:30) trapsize 2103
-\i (00:17:33) setwindow form.upd_element
-\i (00:17:33) FORM upd_element close  
-\i (00:17:33) setwindow pcb
-\i (00:17:33) generaledit 
-\i (00:25:58) xhilite 
-\i (00:25:58) xname_flush 
-\i (00:25:58) done 
-\i (00:25:58) generaledit 
-\i (00:32:46) xhilite 
-\i (00:32:47) xname_flush 
-\i (00:32:47) done 
-\i (00:32:47) generaledit 
-\i (00:38:04) zoom out 1 
-\i (00:38:04) setwindow pcb
-\i (00:38:04) zoom out 31.3972 9.2283
-\i (00:38:04) trapsize 4207
-\i (00:38:05) zoom in 1 
-\i (00:38:05) setwindow pcb
-\i (00:38:05) zoom in 47.0463 7.6297
-\i (00:38:05) trapsize 2103
-\i (00:38:06) zoom in 1 
-\i (00:38:06) setwindow pcb
-\i (00:38:06) zoom in 47.1725 7.6718
-\i (00:38:06) trapsize 1052
-\i (00:38:08) zoom out 1 
-\i (00:38:08) setwindow pcb
-\i (00:38:08) zoom out 47.1304 8.3028
-\i (00:38:08) trapsize 2103
-\i (00:38:33) xhilite 
-\i (00:38:33) xname_flush 
-\i (00:38:33) done 
-\i (00:38:33) generaledit 
-\i (00:38:36) xhilite 
-\i (00:38:36) xname_flush 
-\i (00:38:36) done 
-\i (00:38:36) generaledit 
-\i (00:38:39) zoom out 1 
-\i (00:38:39) setwindow pcb
-\i (00:38:39) zoom out 46.0787 7.7560
-\i (00:38:39) trapsize 4207
-\i (00:38:41) zoom out 1 
-\i (00:38:41) setwindow pcb
-\i (00:38:41) zoom out 24.2037 10.5325
-\i (00:38:41) trapsize 8414
-\i (00:38:41) zoom in 1 
-\i (00:38:41) setwindow pcb
-\i (00:38:41) zoom in 13.0977 22.3115
-\i (00:38:41) trapsize 4207
-\i (00:38:42) zoom in 1 
-\i (00:38:42) setwindow pcb
-\i (00:38:42) zoom in 13.0977 22.3115
-\i (00:38:42) trapsize 2103
-\i (00:38:44) zoom out 1 
-\i (00:38:44) setwindow pcb
-\i (00:38:44) zoom out 13.0977 22.3115
-\i (00:38:44) trapsize 4207
-\i (00:39:52) cmgr 
-\i (00:39:55) setwindow cmgr
-\i (00:39:55) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing "10:Min/Max Propagation Delays" )
-\i (00:39:56) cm newView ( worksheet 53:Electrical 66:Net 25:Routing 26:Wiring )
-\i (00:39:56) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
-\i (00:39:56) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
-\i (00:39:56) cm newView ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
-\i (00:39:56) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
-\i (00:39:57) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
-\i (00:39:57) cm fetch DRC_IS_UPTODATE ( System "System" ) System
-\i (00:39:57) cm fetch ONLINE_DRC ( System "System" ) System
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Design
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Spacing CSet"
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Net
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) XNet
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Diff Pair"
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) "Net Class"
-\i (00:39:57) cm fetch HOLE_TO_LINE_SPACING ( Design "artificiall_eye_ver00" ) Bus
-\i (00:39:58) setwindow pcb
-\i (00:39:58) generaledit 
-\i (00:40:01) status 
-\i (00:40:01) generaledit 
-\i (00:40:03) setwindow form.status
-\i (00:40:03) FORM status drc_update  
-\t (00:40:03) Running DRC, please wait...
-\t (00:40:03) Performing DRC...
-\t (00:40:03) Multithreaded DRC update (4 threads).
-\t (00:40:03) DRC done; 92 errors detected.
-\t (00:40:03) DRC done.
-\i (00:40:05) FORM status done  
-\i (00:40:17) setwindow cmgr
-\i (00:40:17) cm select ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
-\i (00:40:17) cm select ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
-\i (00:40:17) cm select ( worksheet 78indow pcb
-\i (00:09:27) zoom out 25.2596 -14.3268
-\i (00:09:27) trapsize 2305
-\i (00:09:29) setwindow text
-\i (00:09:29) close 
-\i (00:09:30) setwindow pcb
-\i (00:09:30) zoom in 1 
-\i (00:09:30) setwindow pcb
-\i (00:09:30) zoom in -0.5073 1.6680
-\i (00:09:30) trapsize 1152
-\i (00:09:30) zoom in 1 
-\i (00:09:30) setwindow pcb
-\i (00:09:30) zoom in -0.4381 1.5758
-\i (00:09:30) trapsize 576
-\i (00:10:18) property edit 
-\t (00:10:18) Selected item not valid for current operation, ignored: Text "J*"
-\t (00:10:18) No valid items selected for the current operation, exiting.
-\i (00:10:18) generaledit 
-\i (00:10:19) prepopup -0.1500 1.6911
-\i (00:14:08) prepopup -0.0002 1.3339
-\i (00:15:27) change 
-\i (00:15:31) pick grid 0.0920 1.5067
-\t (00:15:31) last pick:  0.1000  1.5000
-\e (00:15:31) ERROR(SPMHGE-554): Text already matches option panel settings.
-\i (00:15:35) pick grid -0.0117 1.3915
-\t (00:15:35) last pick:  0.0000  1.4000
-\e (00:15:35) ERROR(SPMHGE-554): Text already matches option panel settings.
-\i (00:15:48) setwindow form.mini
-\i (00:15:48) FORM mini text_block 2 
-\i (00:15:49) setwindow pcb
-\i (00:15:49) pick grid 0.0689 1.4721
-\t (00:15:49) last pick:  0.1000  1.5000
-\t (00:15:49) No DRC errors detected.
-\t (00:15:49) Changed 1 items out of 1 items found.
-\i (00:15:53) setwindow form.mini
-\i (00:15:53) FORM mini text_block 1 
-\i (00:15:54) setwindow pcb
-\i (00:15:54) pick grid 0.2994 1.3799
-\t (00:15:54) last pick:  0.3000  1.4000
-\t (00:15:54) No DRC errors detected.
-\t (00:15:54) Changed 1 items out of 1 items found.
-\i (00:16:07) setwindow form.mini
-\i (00:16:07) FORM mini change_class REF DES 
-\i (00:16:12) FORM mini change_subclass ASSEMBLY_TOP 
-\i (00:16:25) FORM mini line_width 0.2000 
-\i (00:16:26) setwindow pcb
-\i (00:16:26) pick grid 0.0574 1.4376
-\t (00:16:26) last pick:  0.1000  1.4000
-\t (00:16:26) No DRC errors detected.
-\t (00:16:26) Changed 1 items out of 1 items found.
-\i (00:16:35) setwindow form.mini
-\i (00:16:35) FORM mini text_block 2 
-\i (00:16:36) setwindow pcb
-\i (00:16:36) pick grid 0.1266 1.2993
-\t (00:16:36) last pick:  0.1000  1.3000
-\t (00:16:36) No DRC errors detected.
-\t (00:16:36) Changed 1 items out of 1 items found.
-\i (00:16:54) Esc 
-\i (00:16:56) prepopup 4.0100 0.1584
-\i (00:16:57) cancel 
-\i (00:16:57) generaledit 
-\i (00:17:09) prepopup -0.0693 1.4491
-\i (00:17:12) Esc 
-\i (00:17:12) undo 
-\i (00:17:13) trapsize 576
-\i (00:17:13) generaledit 
-\i (00:17:13) undo 
-\i (00:17:13) trapsize 576
-\i (00:17:13) generaledit 
-\i (00:17:14) open 
-\e (00:17:14) Do you want to save the changes you made to D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/0603_shn.dra?
-\i (00:17:18) fillin no 
-\i (00:17:21) fillin "0603_shn.dra"
-\t (00:17:21) Opening existing design...
-\i (00:17:21) trapsize 796
-\d (00:17:21) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/0603_shn.dra
-\i (00:17:21) generaledit 
-\i (00:17:22) prepopup 0.2689 1.4969
-\i (00:17:27) pop dyn_option_select '@:@Show element' 
-\i (00:17:27) show element 
-\i (00:17:27) generaledit 
-\i (00:17:30) setwindow text
-\i (00:17:30) close 
-\i (00:20:04) setwindow pcb
-\i (00:20:04) prmed 
-\i (00:20:06) setwindow form.prmedit
-\i (00:20:06) FORM prmedit design  
-\i (00:20:07) FORM prmedit text  
-\i (00:20:16) FORM prmedit cancel  
-\i (00:20:16) setwindow pcb
-\i (00:20:16) generaledit 
-\i (00:22:21) prepopup 0.0299 1.4969
-\i (00:22:35) change 
-\i (00:23:01) prmed 
-\i (00:23:04) setwindow form.prmedit
-\i (00:23:04) FORM prmedit shapes  
-\i (00:23:04) FORM prmedit route  
-\i (00:23:09) FORM prmedit shapes  
-\i (00:23:10) FORM prmedit text  
-\i (00:23:10) FORM prmedit design  
-\i (00:23:11) FORM prmedit display  
-\i (00:23:12) FORM prmedit design  
-\i (00:23:12) FORM prmedit text  
-\i (00:23:19) FORM prmedit text_marker_size 2.5000 
-\i (00:23:19) FORM prmedit done  
-\i (00:23:19) setwindow pcb
-\i (00:23:19) generaledit 
-\i (00:23:22) pick grid -0.2409 1.5128
-\t (00:23:22) last pick:  -0.2000  1.5000
-\i (00:23:25) add text 
-\t (00:23:25) Pick text location.
-\i (00:23:26) pick grid 1.7026 2.7235
-\t (00:23:26) last pick:  1.7000  2.7000
-\t (00:23:26) Refdes of this subclass is already defined, change subclass.
-\i (00:23:27) pick grid 2.4513 2.7713
-\t (00:23:27) last pick:  2.5000  2.8000
-\t (00:23:27) Refdes of this subclass is already defined, change subclass.
-\i (00:23:35) prepopup 2.6265 2.8828
-\i (00:23:37) cancel 
-\i (00:23:37) generaledit 
-\i (00:23:38) Esc 
-\i (00:23:39) add text 
-\t (00:23:39) Pick text location.
-\i (00:23:40) pick grid 0.9857 3.7430
-\t (00:23:40) last pick:  1.0000  3.7000
-\t (00:23:40) Refdes of this subclass is already defined, change subclass.
-\i (00:23:42) Esc 
-\i (00:24:00) prepopup -0.3205 2.8350
-\i (00:24:02) cancel 
-\i (00:24:02) generaledit 
-\i (00:24:02) Esc 
-\i (00:24:02) Esc 
-\i (00:24:03) Esc 
-\i (00:24:06) open 
-\e (00:24:06) Do you want to save the changes you made to 0603_shn.dra?
-\i (00:24:08) fillin no 
-\i (00:24:10) fillin "0603_shn.dra"
-\t (00:24:10) Opening existing design...
-\i (00:24:10) trapsize 796
-\d (00:24:10) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/0603_shn.dra
-\i (00:24:10) generaledit 
-\i (00:26:04) prmed 
-\i (00:26:35) setwindow form.prmedit
-\i (00:26:35) FORM prmedit text_setup_button  
-\i (00:26:50) setwindow form.textblock
-\i (00:26:50) FORM textblock cancel  
-\i (00:27:14) setwindow form.prmedit
-\i (00:27:14) FORM prmedit cancel  
-\i (00:27:15) setwindow pcb
-\i (00:27:15) generaledit 
-\i (00:27:18) add text 
-\t (00:27:18) Pick text location.
-\i (00:27:26) setwindow form.mini
-\i (00:27:26) FORM mini text_block 3 
-\i (00:27:27) setwindow pcb
-\i (00:27:27) pick grid -1.7383 2.8669
-\t (00:27:27) last pick:  -1.7000  2.9000
-\t (00:27:27) Refdes of this subclass is already defined, change subclass.
-\i (00:27:29) pick grid -0.1931 2.5961
-\t (00:27:29) last pick:  -0.2000  2.6000
-\t (00:27:29) Refdes of this subclass is already defined, change subclass.
-\i (00:27:29) prepopup -0.1294 2.6598
-\i (00:27:50) prepopup -8.5404 3.5678
-\i (00:27:51) cancel 
-\i (00:27:51) generaledit 
-\i (00:27:54) change 
-\i (00:28:03) setwindow form.mini
-\i (00:28:03) FORM mini text_block 4 
-\i (00:28:03) setwindow pcb
-\i (00:28:03) pick grid 0.2530 1.5128
-\t (00:28:03) last pick:  0.3000  1.5000
-\t (00:28:03) No DRC errors detected.
-\t (00:28:03) Changed 1 items out of 1 items found.
-\i (00:28:06) setwindow form.mini
-\i (00:28:06) FORM mini text_block 7 
-\i (00:28:07) setwindow pcb
-\i (00:28:07) pick grid 1.1928 1.8314
-\t (00:28:07) last pick:  1.2000  1.8000
-\t (00:28:07) No DRC errors detected.
-\t (00:28:07) Changed 1 items out of 1 items found.
-\i (00:28:11) setwindow form.mini
-\i (00:28:11) FORM mini text_block 1 
-\i (00:28:11) setwindow pcb
-\i (00:28:11) pick grid 2.8018 2.3253
-\t (00:28:11) last pick:  2.8000  2.3000
-\t (00:28:11) No DRC errors detected.
-\t (00:28:12) Changed 1 items out of 1 items found.
-\i (00:28:16) setwindow form.mini
-\i (00:28:16) FORM mini line_width 0.5000 
-\i (00:28:18) setwindow pcb
-\i (00:28:18) pick grid -0.0497 1.2898
-\t (00:28:18) last pick:  0.0000  1.3000
-\e (00:28:18) ERROR(SPMHGE-554): Text already matches option panel settings.
-\i (00:28:19) pick grid 0.0777 1.3695
-\t (00:28:19) last pick:  0.1000  1.4000
-\e (00:28:19) ERROR(SPMHGE-554): Text already matches option panel settings.
-\i (00:28:25) prepopup 0.1415 3.0740
-\i (00:28:28) pick grid -0.1931 1.4650
-\t (00:28:28) last pick:  -0.2000  1.5000
-\e (00:28:28) ERROR(SPMHGE-554): Text already matches option panel settings.
-\i (00:28:29) pick grid 0.0299 1.4650
-\t (00:28:29) last pick:  0.0000  1.5000
-\e (00:28:29) ERROR(SPMHGE-554): Text already matches option panel settings.
-\i (00:29:59) exit 
-\e (00:29:59) Do you want to save the changes you made to 0603_shn.dra?
-\i (00:30:01) fillin no 
-\t (00:30:01)     Journal end - Fri Jun 22 11:02:36 2018
+\t (00:00:58) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:58)     Journal start - Sun Jun 24 22:52:11 2018
+\t (00:00:58)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=7996 CPUs=4
+\t (00:00:58) 
+\t (00:01:09) Opening existing design...
+\d (00:01:09) Database opened: d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd
+\t (00:01:09) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:01:09) trapsize 2426
+\i (00:01:09) trapsize 2372
+\i (00:01:09) trapsize 2435
+\i (00:01:09) trapsize 2435
+\i (00:01:10) generaledit 
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 41.0158 14.4428
+\i (00:01:21) trapsize 4869
+\i (00:01:22) roam y -96 
+\i (00:01:22) roam y -96
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in 59.2271 57.5716
+\i (00:01:26) trapsize 2435
+\i (00:01:27) roam y -96 
+\i (00:01:27) roam y -96
+\i (00:01:28) roam x -96 
+\i (00:01:28) roam x -96
+\i (00:01:32) setwindow form.vf_vis
+\i (00:01:32) FORM vf_vis 3 all_colorvisible NO 
+\i (00:01:32) FORM vf_vis 2 all_colorvisible NO 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) pick grid 60.5905 57.4254
+\t (00:01:34) last pick:  60.6000  57.4000
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 58.4480 58.2532
+\i (00:01:37) trapsize 1217
+\i (00:01:42) setwindow form.find
+\i (00:01:42) FORM find symbols NO 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) pick grid 62.1487 51.2657
+\t (00:01:42) last pick:  62.1000  51.3000
+\i (00:01:43) drag_start grid 59.8115 52.7996
+\i (00:01:43) move 
+\t (00:01:43) last pick:  59.1874  54.0206
+\t (00:01:43) Pick new location for the element(s).
+\i (00:01:46) drag_stop grid 58.1802 52.4587
+\i (00:01:46) generaledit 
+\i (00:01:48) drag_start grid 60.7123 57.3767
+\i (00:01:48) move 
+\t (00:01:48) last pick:  58.6604  56.9000
+\t (00:01:48) Pick new location for the element(s).
+\i (00:01:52) drag_stop grid 54.1874 58.1315
+\i (00:01:52) generaledit 
+\i (00:01:53) save 
+\i (00:01:54) fillin yes 
+\i (00:01:55) generaledit 
+\i (00:02:16) status 
+\i (00:02:16) generaledit 
+\i (00:02:19) setwindow form.status
+\i (00:02:19) FORM status done  
+\i (00:02:20) setwindow form.vf_vis
+\i (00:02:20) FORM vf_vis 2 all_colorvisible YES 
+\i (00:02:21) FORM vf_vis 3 all_colorvisible YES 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom out 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom out 45.6661 51.4605
+\i (00:02:23) trapsize 2435
+\i (00:02:23) zoom out 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom out 42.3062 50.8762
+\i (00:02:23) trapsize 4869
+\i (00:02:26) zoom fit 
+\i (00:02:26) trapsize 4869
+\i (00:02:30) zoom out 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out 82.2966 36.7197
+\t (00:02:30) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:02:30) trapsize 9739
+\i (00:02:30) zoom out 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out 82.2965 36.7196
+\i (00:02:30) trapsize 16827
+\i (00:02:30) zoom out 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out 185.7211 28.2211
+\i (00:02:30) trapsize 16827
+\i (00:02:31) zoom fit 
+\t (00:02:31) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:02:31) trapsize 4869
+\i (00:02:33) roam x -96 
+\i (00:02:33) roam x -96
+\i (00:03:32) auto_route 
+\e (00:03:32) ERROR(SPMHA1-161): Cannot open the design database file ... run standalone dbdoctor on the file.
+\w (00:03:32) WARNING(SPMHDB-95): Padstack VIA not found. Purging it from DEFAULT constraint set will eliminate warning.
+\w (00:03:32) Xtalk table in drawing d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd does not exist. For xtalk estimation or xtalk DRC update, xtalk tables must be generated.
+   (00:03:32) Loading vse.cxt 
+   (00:03:32) Loading axlcore.cxt 
+\i (00:03:48) setwindow form.vse_armain
+\i (00:03:48) FORM vse_armain setup_routinglayers cell dir_top 
+\i (00:03:56) FORM vse_armain routing_passes  
+\i (00:03:58) FORM vse_armain router_setup  
+\i (00:04:01) FORM vse_armain execute  
+\i (00:04:38) setwindow form.vf_vis
+\i (00:04:38) FORM vf_vis 2 all_colorvisible NO 
+\i (00:04:39) FORM vf_vis 3 all_colorvisible NO 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom in 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom in 43.0608 48.8930
+\i (00:04:41) trapsize 2435
+\i (00:04:41) zoom in 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom in 43.0122 48.6009
+\i (00:04:41) trapsize 1217
+\i (00:04:43) zoom in 1 
+\i (00:04:43) setwindow pcb
+\i (00:04:43) zoom in 46.3477 48.2844
+\i (00:04:43) trapsize 609
+\i (00:04:45) zoom out 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom out 45.7147 48.3696
+\i (00:04:45) trapsize 1217
+\i (00:04:46) zoom in 1 
+\i (00:04:46) setwindow pcb
+\i (00:04:46) zoom in 45.7146 48.3696
+\i (00:04:46) trapsize 609
+\i (00:04:48) setwindow form.find
+\i (00:04:48) FORM find nets YES 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out 45.7024 48.3331
+\i (00:04:51) trapsize 1217
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 45.7023 48.3331
+\i (00:04:52) trapsize 2435
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 45.7023 48.3331
+\i (00:04:52) trapsize 4869
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 6.7477 25.6420
+\i (00:04:53) trapsize 2435
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 6.6503 25.4960
+\i (00:04:53) trapsize 1217
+\i (00:04:56) zoom out 1 
+\i (00:04:56) setwindow pcb
+\i (00:04:56) zoom out 6.6503 25.3743
+\i (00:04:56) trapsize 2435
+\i (00:04:56) zoom out 1 
+\i (00:04:56) setwindow pcb
+\i (00:04:56) zoom out 6.6504 25.2768
+\i (00:04:56) trapsize 4869
+\i (00:05:02) setwindow form.vse_armain
+\i (00:05:02) FORM vse_armain undo  
+\i (00:05:05) FORM vse_armain setup_stategysmart YES 
+\i (00:05:11) FORM vse_armain execute  
+\i (00:05:51) FORM vse_armain results  
+\i (00:05:58) setwindow form.vse_progress
+\i (00:05:58) FORM vse_progress close  
+\i (00:06:23) setwindow form.vse_armain
+\i (00:06:23) FORM vse_armain undo  
+\i (00:06:25) FORM vse_armain close  
+\i (00:06:25) setwindow pcb
+\i (00:06:25) generaledit 
+\i (00:06:27) zoom in 1 
+\i (00:06:27) setwindow pcb
+\i (00:06:27) zoom in 3.2419 23.7187
+\i (00:06:27) trapsize 2435
+\i (00:06:27) zoom in 1 
+\i (00:06:27) setwindow pcb
+\i (00:06:27) zoom in 2.8037 23.9135
+\i (00:06:27) trapsize 1217
+\i (00:06:29) zoom out 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom out 4.6053 26.2508
+\i (00:06:29) trapsize 2435
+\i (00:08:20) setwindow form.vf_vis
+\i (00:08:20) FORM vf_vis 3 all_colorvisible YES 
+\i (00:08:20) FORM vf_vis 2 all_colorvisible YES 
+\i (00:08:22) setwindow pcb
+\i (00:08:22) zoom out 1 
+\i (00:08:22) setwindow pcb
+\i (00:08:22) zoom out 29.9746 25.7152
+\i (00:08:22) trapsize 4869
+\i (00:08:25) setwindow form.vf_vis
+\i (00:08:25) FORM vf_vis 2 all_colorvisible NO 
+\i (00:08:28) setwindow pcb
+\i (00:08:28) zoom out 1 
+\i (00:08:28) setwindow pcb
+\i (00:08:28) zoom out 29.7798 34.5773
+\t (00:08:28) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:08:28) trapsize 9739
+\i (00:08:29) zoom in 1 
+\i (00:08:29) setwindow pcb
+\i (00:08:29) zoom in 16.0848 55.2232
+\t (00:08:29) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:29) trapsize 4869
+\i (00:08:29) zoom in 1 
+\i (00:08:29) setwindow pcb
+\i (00:08:29) zoom in 14.4292 55.0285
+\i (00:08:29) trapsize 2435
+\i (00:08:33) setwindow form.vf_vis
+\i (00:08:33) FORM vf_vis 2 all_colorvisible YES 
+\i (00:08:33) FORM vf_vis 3 all_colorvisible NO 
+\i (00:08:35) setwindow pcb
+\i (00:08:35) zoom in 1 
+\i (00:08:35) setwindow pcb
+\i (00:08:35) zoom in 9.9494 56.7328
+\i (00:08:35) trapsize 1217
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 14.3562 54.2738
+\i (00:09:12) trapsize 2435
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 15.0378 52.6182
+\i (00:09:12) trapsize 4869
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 16.4013 48.4306
+\t (00:09:12) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:09:12) trapsize 9739
+\i (00:33:30) exit 
+\e (00:33:30) Do you want to save the changes you made to d:/users/sihwan_lab/desktop/workspace/pcbdesign_sk/artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd?
+\i (00:33:38) fillin no 
+\t (00:33:40)     Journal end - Sun Jun 24 23:24:52 2018
