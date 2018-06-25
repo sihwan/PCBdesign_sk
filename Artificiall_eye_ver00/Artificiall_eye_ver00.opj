@@ -291,20 +291,19 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library_ae.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "D:\Cadence\SPB_16.5\tools\capture\LIBRARY\PROM.OLB"))
+      (Select "Design Resources" "Library" ".\library_ae.olb" "Optic_nerve"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 346"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "2605 887")
-        (Zoom "176")
+        (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "4248 1310")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
