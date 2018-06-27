@@ -1,77 +1,14 @@
-\t (00:00:56) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:56)     Journal start - Mon Jun 25 14:21:05 2018
-\t (00:00:56)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=2072 CPUs=4
-\t (00:00:56) 
-\t (00:01:06) Opening existing design...
-\d (00:01:06) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
-\t (00:01:06) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:01:06) trapsize 2426
-\i (00:01:07) trapsize 2372
-\i (00:01:07) trapsize 2435
-\i (00:01:07) trapsize 2435
-\i (00:01:07) generaledit 
-\i (00:03:01) zoom out 1 
-\i (00:03:01) setwindow pcb
-\i (00:03:01) zoom out 56.0630 29.5494
-\i (00:03:01) trapsize 4869
-\i (00:08:04) grid toggle 
-\i (00:08:05) generaledit 
-\i (00:08:08) zoom in 1 
-\i (00:08:08) setwindow pcb
-\i (00:08:08) zoom in 30.0607 39.5802
-\i (00:08:08) trapsize 2435
-\i (00:08:09) zoom in 1 
-\i (00:08:09) setwindow pcb
-\i (00:08:09) zoom in 29.9633 39.5315
-\i (00:08:09) trapsize 1217
-\i (00:08:12) zoom out 1 
-\i (00:08:12) setwindow pcb
-\i (00:08:12) zoom out 29.9877 39.6046
-\i (00:08:12) trapsize 2435
-\i (00:08:12) zoom out 1 
-\i (00:08:12) setwindow pcb
-\i (00:08:12) zoom out 29.9876 39.6046
-\i (00:08:12) trapsize 4869
-\i (00:08:37) setwindow form.vf_vis
-\i (00:08:37) FORM vf_vis 2 all_colorvisible YES 
-\i (00:08:50) FORM vf_vis 3 all_colorvisible NO 
-\i (00:08:50) FORM vf_vis 2 all_colorvisible NO 
-\i (00:08:51) FORM vf_vis 2 all_colorvisible YES 
-\i (00:08:52) FORM vf_vis 3 all_colorvisible YES 
-\i (00:28:26) setwindow pcb
-\i (00:28:26) xhilite 
-\i (00:28:26) xname_flush 
-\i (00:28:26) done 
-\i (00:28:26) generaledit 
-\i (00:29:49) xhilite 
-\i (00:29:49) xname_flush 
-\i (00:29:49) done 
-\i (00:29:49) generaledit 
-\i (01:08:54) xhilite 
-\i (01:08:54) xname_flush 
-\i (01:08:54) done 
-\i (01:08:54) generaledit 
-\i (02:21:47) exit 
-\e (02:21:47) Do you want to save the changes you made to artificiall_eye_ver00_routed.brd?
-\i (02:21:54) fillin no 
-\t (02:22:25)     Journal end - Mon Jun 25 16:42:34 2018
-all_eye_ver00/allegro/Opticnerve.dra
-\i (00:02:51) generaledit 
-\i (00:02:53) zoom in 1 
-\i (00:02:53) setwindow pcb
-\i (00:02:53) zoom in -23.217 -1.169
-\i (00:02:53) trapsize 232
-\i (00:02:54) zoom out 1 
-\i (00:02:54) setwindow pcb
-\i (00:02:54) zoom out -22.798 -1.168
-\i (00:02:54) trapsize 465
-\i (00:02:55) zoom fit 
-\i (00:02:55) trapsize 264
-\i (00:02:58) roam x -96 
-\i (00:02:58) roam x -96
-\i (00:02:58) roam x -96 
-\i (00:02:58) roam x -96
-\i (00:02:58) roam x -96 
-\i (00:02:58) roam x -96
-\i (00:41:56) exit 
-\t (00:41:56)     Journal end - Mon Jun 25 15:29:03 2018
+\t (00:01:08) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:01:08)     Journal start - Mon Jun 25 16:45:36 2018
+\t (00:01:08)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9648 CPUs=4
+\t (00:01:08) 
+\t (00:01:19) Opening existing design...
+\d (00:01:19) Database opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
+\t (00:01:19) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:01:19) trapsize 2426
+\i (00:01:19) trapsize 2372
+\i (00:01:19) trapsize 2435
+\i (00:01:19) trapsize 2435
+\i (00:01:20) generaledit 
+\i (00:17:35) exit 
+\t (00:17:35)     Journal end - Mon Jun 25 17:02:02 2018
