@@ -301,12 +301,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "4248 1310")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "34 872")
         (Zoom "200")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Main")))
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "Sihwan_lab"))
