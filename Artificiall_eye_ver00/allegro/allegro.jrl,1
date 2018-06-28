@@ -1,17 +1,20 @@
-\t (00:01:05) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:01:05)     Journal start - Thu Jun 28 09:02:21 2018
-\t (00:01:05)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=6704 CPUs=4
-\t (00:01:05) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:01:05) 
-\d (00:01:05) Design opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
-\i (00:01:05) generaledit 
-\i (00:01:08) zoom fit 
-\t (00:01:08) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
-\i (00:01:08) trapsize 5281
-\i (00:01:13) status 
-\i (00:01:13) generaledit 
-\i (00:01:21) setwindow form.status
-\i (00:01:21) FORM status done  
-\i (00:01:27) setwindow pcb
-\i (00:01:27) exit 
-\t (00:01:27)     Journal end - Thu Jun 28 09:02:44 2018
+\t (00:00:33) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:33)     Journal start - Thu Jun 28 09:03:19 2018
+\t (00:00:33)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=4788 CPUs=4
+\t (00:00:33) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:33) 
+   (00:00:33) Loading axlcore.cxt 
+\t (00:00:38) Opening existing design...
+\i (00:00:41) fillin yes 
+\d (00:00:41) Design opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
+\t (00:00:41) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:41) trapsize 2589
+\i (00:00:41) trapsize 2663
+\t (00:00:41) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:41) trapsize 2663
+\i (00:00:41) generaledit 
+\i (00:00:43) zoom fit 
+\t (00:00:43) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:43) trapsize 5281
+\i (00:00:48) exit 
+\t (00:00:48)     Journal end - Thu Jun 28 09:03:34 2018

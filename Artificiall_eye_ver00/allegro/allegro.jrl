@@ -1,20 +1,43 @@
-\t (00:00:33) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:33)     Journal start - Thu Jun 28 09:03:19 2018
-\t (00:00:33)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=4788 CPUs=4
-\t (00:00:33) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:00:33) 
-   (00:00:33) Loading axlcore.cxt 
-\t (00:00:38) Opening existing design...
-\i (00:00:41) fillin yes 
-\d (00:00:41) Design opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
-\t (00:00:41) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:00:41) trapsize 2589
-\i (00:00:41) trapsize 2663
-\t (00:00:41) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:00:41) trapsize 2663
-\i (00:00:41) generaledit 
-\i (00:00:43) zoom fit 
-\t (00:00:43) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
-\i (00:00:43) trapsize 5281
-\i (00:00:48) exit 
-\t (00:00:48)     Journal end - Thu Jun 28 09:03:34 2018
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Jun 28 09:22:02 2018
+\t (00:00:02)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=5800 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\Users\Sihwan_lab\Desktop\Workspace\PCBdesign_sk\Artificiall_eye_ver00\allegro\artificiall_eye_ver00_routed.brd
+\t (00:00:02) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:09) fillin yes 
+\d (00:00:09) Design opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
+\t (00:00:09) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:09) trapsize 2589
+\i (00:00:09) trapsize 2663
+\t (00:00:09) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:09) trapsize 2663
+\i (00:00:10) generaledit 
+\i (00:00:12) zoom fit 
+\t (00:00:12) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:12) trapsize 5281
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 25.5115 56.2978
+\t (00:00:14) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:14) trapsize 2640
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 25.5115 56.2978
+\t (00:00:14) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:14) trapsize 1320
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 25.5379 56.2978
+\i (00:00:14) trapsize 660
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 25.6699 56.2318
+\i (00:00:16) trapsize 1320
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 25.6700 56.2318
+\t (00:00:16) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:16) trapsize 2640
+\i (00:00:22) exit 
+\t (00:00:23)     Journal end - Thu Jun 28 09:22:22 2018
