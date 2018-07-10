@@ -306,7 +306,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1512 52 511")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1512 52 511")
         (Scroll "1764 921")
         (Zoom "108")
         (Occurrence "/"))
