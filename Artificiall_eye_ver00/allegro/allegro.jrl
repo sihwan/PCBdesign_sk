@@ -1,3 +1,96 @@
+<<<<<<< HEAD
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Jul 09 21:01:40 2018
+\t (00:00:01)         Host=SIHWAN_LAB-PC User=Sihwan_lab Pid=9068 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00_routed.brd
+\t (00:00:06) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:06) trapsize 5133
+\i (00:00:06) trapsize 5281
+\t (00:00:06) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:06) trapsize 5281
+\i (00:00:07) generaledit 
+\i (00:00:07) zoom fit 
+\i (00:00:07) trapsize 5281
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 57.4068 30.6337
+\t (00:00:08) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:08) trapsize 2640
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 54.6608 31.0561
+\t (00:00:08) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:08) trapsize 1320
+\i (00:00:10) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 54.8193 29.6567
+\t (00:00:11) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:11) trapsize 2640
+\i (00:00:11) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 22.7127 22.6335
+\t (00:00:12) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:12) trapsize 5281
+\i (00:00:12) zoom fit 
+\i (00:00:12) trapsize 5281
+\i (00:00:17) QtSignal CVPLayerGrid CVPBoxAllAll clicked true
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 58.4629 20.2836
+\t (00:00:18) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:18) trapsize 2640
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 58.0405 19.9668
+\t (00:00:18) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:18) trapsize 1320
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 57.8293 19.7292
+\i (00:00:18) trapsize 660
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 55.6907 19.1483
+\i (00:00:19) trapsize 1320
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 55.6906 19.1484
+\t (00:00:19) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:19) trapsize 2640
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 55.6906 19.1483
+\t (00:00:19) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:19) trapsize 5281
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 5.6300 22.1055
+\t (00:00:20) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:20) trapsize 2640
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 4.4154 21.3134
+\t (00:00:20) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:20) trapsize 1320
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 4.3627 21.2606
+\t (00:00:22) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:22) trapsize 2640
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 4.3626 21.2606
+\t (00:00:22) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:22) trapsize 5281
+\i (00:00:23) zoom fit 
+\i (00:00:23) trapsize 5281
+\i (00:00:25) exit 
+\t (00:00:25)     Journal end - Mon Jul 09 21:02:04 2018
+=======
 \t (00:00:08) allegro 17.2 P028 Windows SPB 64-bit Edition
 \t (00:00:08)     Journal start - Sun Jul 08 00:10:31 2018
 \t (00:00:08)         Host=DESKTOP-6UA2P5I User=Yongmin Pid=10744 CPUs=8
@@ -772,3 +865,4 @@
 \e (19:05:08) Do you want to save the changes you made to artificiall_eye_ver00_routed.brd?
 \i (19:05:10) fillin no 
 \t (19:05:27)     Journal end - Sun Jul 08 19:15:50 2018
+>>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52

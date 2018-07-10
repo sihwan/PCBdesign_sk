@@ -134,7 +134,7 @@
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
     ("Allegro Setup Configuration File"
-       "C:\Cadence\SPB_17.2\tools\capture\allegro.cfg")
+       "D:\Cadence\SPB_16.5\tools\capture\allegro.cfg")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Output Warnings" "TRUE")
     ("Allegro Setup Ignore Constraints" "FALSE")
@@ -149,21 +149,16 @@
        "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Digikey Part #}\t{Part Number}\t{PCB footprint}")
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Digikey Part #}\t{PCB footprint}")
     (BOM_Header
-       "Item\tQuantity\tReference\tPart\tDigikey Part Number\tPart Number\tFoot Print")
+       "Item\tQuantity\tReference\tPart\tDigikey Part Number\tFoot Print")
     (BOM_Include_File
        "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "FALSE")
     (BOM_View_Output "FALSE")
-    ("Allegro Netlist Input Board File" "allegro\artificiall_eye_ver00.brd")
-    (DRC_Preserved_Waived "FALSE")
-    (DRC_Run_Electrical_Custom_DRC "FALSE")
-    (DRC_Run_Physical_Custom_DRC "FALSE")
-    (Board_sim_option "VHDL_flow")
-    ("Allegro Netlist Create DCF File" "FALSE"))
+    ("Allegro Netlist Input Board File" "allegro\artificiall_eye_ver00.brd"))
   (Folder "Outputs"
     (File ".\artificiall_eye_ver00.drc"
       (Type "Report"))
@@ -291,55 +286,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-<<<<<<< HEAD
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
       (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
-         "Main"))
-=======
-      (Path "Design Resources"
-         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\artificiall_eye_ver00.dsn")
-      (Path "Design Resources"
-         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\artificiall_eye_ver00.dsn"
-         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\library_ae.olb")
+      (Path "Design Resources" "Library" ".\library_ae.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\library_ae.olb"))
->>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+      (Select "Design Resources" "Library" ".\library_ae.olb" "Optic_nerve"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-<<<<<<< HEAD
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346"))
-=======
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 346"))
->>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 346"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-<<<<<<< HEAD
-        (Placement "44 0 1 -1 -1 -8 -31 52 1512 52 511")
-=======
-<<<<<<< HEAD
-        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "2225 742")
-        (Zoom "152")
-=======
-        (Placement "44 2 3 -1 -1 -8 -31 52 1512 52 511")
->>>>>>> 57b81430ebc7c12c4f3d6a34330882e83c8f28d8
-        (Scroll "1764 921")
-        (Zoom "108")
->>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+        (Placement "44 2 3 -1 -1 -8 -30 125 1435 125 509")
+        (Scroll "1014 868")
+        (Zoom "76")
         (Occurrence "/"))
       (Path
-         "C:\GITHUB\ARTIFICIAL EYE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
+         "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Main")))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "Yongmin"))
+  (MPSSessionName "Sihwan_lab"))

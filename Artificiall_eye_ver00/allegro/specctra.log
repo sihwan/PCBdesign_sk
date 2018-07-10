@@ -5,20 +5,20 @@
 # ===============================================================================
 # 
 # Software licensed for sale by Cadence Design Systems, Inc.
-# Current time = Mon Jun 25 13:23:52 2018
+# Current time = Mon Jul 09 20:23:51 2018
 # 
-# Allegro PCB Router v16-5-13 made 2011/04/23 at 12:17:35
+# Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
 # Running on: sihwan_lab-pc, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
 # Licensing: The program will not obey any unlicensed rules
 # No graphics will be displayed.
 # Design Name D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
 # Batch File Name: pasde.do
 # Did File Name: D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/specctra.did
-# Current time = Mon Jun 25 13:24:09 2018
+# Current time = Mon Jul 09 20:23:52 2018
 # PCB D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro
 # Master Unit set up as: MM 100000
-# PCB Limits xlo= -2.4500 ylo= -5.4000 xhi= 62.4500 yhi= 62.4500
-# Total 46 Images Consolidated.
+# PCB Limits xlo= -2.4500 ylo= -2.4500 xhi= 62.4500 yhi= 62.4500
+# Total 47 Images Consolidated.
 # Via VIA_PCBEX_SMALLEST z=1, 2 xlo= -0.3175 ylo= -0.3175 xhi=  0.3175 yhi=  0.3175
 # 
 #    VIA           TOP              BOTTOM      
@@ -30,14 +30,14 @@
 # Using colormap in design file.
 # Layers Processed: Signal Layers 2
 # Layers Processed: Power Layers 2
-# Components Placed 61, Images Processed 76, Padstacks Processed 19
-# Nets Processed 138, Net Terminals 554
+# Components Placed 62, Images Processed 77, Padstacks Processed 19
+# Nets Processed 139, Net Terminals 554
 # PCB Area= 3481.000  EIC=44  Area/EIC= 79.114  SMDs=54
-# Total Pin Count: 620
+# Total Pin Count: 622
 # Net VCC3_3V uses split power plane.
 # Net VCC5V uses split power plane.
 # Net GND uses split power plane.
-# Signal Connections Created 217
+# Signal Connections Created 233
 # 
 # Design Rules --------------------------------------------
 # Via Grid 0.0001 with offset 0.0000
@@ -46,20 +46,366 @@
 # Cpu Time = 0:00:00  Elapsed Time = 0:00:00
 # 
 # Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 350
+# Nets 139 Connections 345 Unroutes 345
 # Signal Layers 2 Power Layers 2
 # Wire Junctions 0, at vias 0 Total Vias 0
 # Percent Connected    0.00
-# Manhattan Length 3853.4186 Horizontal 2135.5746 Vertical 1717.8440
+# Manhattan Length 4003.0964 Horizontal 2213.7108 Vertical 1789.3856
 # Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
 # Ratio Actual / Manhattan   0.0000
-# Unconnected Length 3853.4186 Horizontal 2082.6696 Vertical 1770.7490
+# Unconnected Length 4003.0964 Horizontal 2195.2276 Vertical 1807.8688
 # Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
 # Cpu Time = 0:00:00  Elapsed Time = 0:00:00
 # Loading Do File pasde.do ...
 # Loading Do File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00_rules.do ...
 # Colormap Written to File _notify.std
-# Enter command <# Loading Do File D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaar06444.tmp ...
+# Enter command <# Loading Do File D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaah09492.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 4
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+route 25 1
+# Current time = Mon Jul 09 20:23:57 2018
+# 
+#    VIA           TOP              BOTTOM      
+# 
+#    TOP  ------------------  VIA_PCBEX_SMALLEST
+# BOTTOM  VIA_PCBEX_SMALLEST  ------------------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# 
+# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
+# Nets 139 Connections 345 Unroutes 345
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 4003.0964 Horizontal 2213.7108 Vertical 1789.3856
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 4003.0964 Horizontal 2195.2276 Vertical 1807.8688
+# Start Route Pass 1 of 25
+# Routing 345 wires.
+# 13 bend points have been removed.
+# 0 bend points have been removed.
+# 15 bend points have been removed.
+# Total Conflicts: 648 (Cross: 503, Clear: 145, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 345 Successes 345 Failures 0 Vias 199
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 488 wires.
+# 20 bend points have been removed.
+# 0 bend points have been removed.
+# 27 bend points have been removed.
+# Total Conflicts: 334 (Cross: 310, Clear: 24, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 388 Successes 387 Failures 1 Vias 210
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:03
+# Conflict Reduction  0.4846
+# End Pass 2 of 25
+# Start Route Pass 3 of 25
+# Routing 520 wires.
+# 9 bend points have been removed.
+# 0 bend points have been removed.
+# 20 bend points have been removed.
+# Total Conflicts: 196 (Cross: 183, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 405 Successes 405 Failures 0 Vias 231
+# Cpu Time = 0:00:05  Elapsed Time = 0:00:02
+# Conflict Reduction  0.4132
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 544 wires.
+# Total Conflicts: 128 (Cross: 116, Clear: 12, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 408 Successes 407 Failures 1 Vias 245
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# Conflict Reduction  0.3469
+# End Pass 4 of 25
+# Start Route Pass 5 of 25
+# Routing 571 wires.
+# 8 bend points have been removed.
+# 0 bend points have been removed.
+# 10 bend points have been removed.
+# Total Conflicts: 74 (Cross: 64, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 408 Successes 407 Failures 1 Vias 267
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# Conflict Reduction  0.4219
+# End Pass 5 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Start Route Pass 6 of 25
+# Routing 202 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 36 (Cross: 31, Clear: 5, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 169 Successes 167 Failures 2 Vias 297
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
+# End Pass 6 of 25
+# Start Route Pass 7 of 25
+# Routing 85 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 22 (Cross: 20, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 73 Successes 70 Failures 3 Vias 298
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 7 of 25
+# Start Route Pass 8 of 25
+# Routing 87 wires.
+# Total Conflicts: 21 (Cross: 16, Clear: 5, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 77 Successes 77 Failures 0 Vias 298
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 8 of 25
+# Start Route Pass 9 of 25
+# Routing 50 wires.
+# Total Conflicts: 13 (Cross: 10, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 46 Successes 46 Failures 0 Vias 320
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 9 of 25
+# Start Route Pass 10 of 25
+# Routing 36 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 5 (Cross: 5, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 31 Successes 31 Failures 0 Vias 324
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 10 of 25
+# Start Route Pass 11 of 25
+# Routing 17 wires.
+# Total Conflicts: 3 (Cross: 3, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 16 Successes 16 Failures 0 Vias 322
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 11 of 25
+# Start Route Pass 12 of 25
+# Routing 12 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 3 (Cross: 3, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 13 Successes 13 Failures 0 Vias 322
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 12 of 25
+# Start Route Pass 13 of 25
+# Routing 12 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 10 Successes 10 Failures 0 Vias 322
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 13 of 25
+# Start Route Pass 14 of 25
+# Routing 5 wires.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 8 Successes 8 Failures 0 Vias 324
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 14 of 25
+# Start Route Pass 15 of 25
+# Routing 3 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 1, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 324
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 15 of 25
+# Start Route Pass 16 of 25
+# Routing 6 wires.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 324
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 16 of 25
+# Start Route Pass 17 of 25
+# Routing 2 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 328
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 17 of 25
+# Cpu Time = 0:00:31  Elapsed Time = 0:00:16
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|   503|   145|   0|    0|  199|    0|   0|  0|  0:00:03|  0:00:03|
+# Route    |  2|   310|    24|   1|    0|  210|    0|   0| 48|  0:00:04|  0:00:07|
+# Route    |  3|   183|    13|   0|    0|  231|    0|   0| 41|  0:00:05|  0:00:12|
+# Route    |  4|   116|    12|   1|    0|  245|    0|   0| 34|  0:00:03|  0:00:15|
+# Route    |  5|    64|    10|   1|    0|  267|    0|   0| 42|  0:00:04|  0:00:19|
+# Route    |  6|    31|     5|   2|    1|  297|    0|   0| 51|  0:00:03|  0:00:22|
+# Route    |  7|    20|     2|   3|    0|  298|    0|   0| 38|  0:00:01|  0:00:23|
+# Route    |  8|    16|     5|   0|    0|  298|    0|   0|  4|  0:00:02|  0:00:25|
+# Route    |  9|    10|     3|   0|    0|  320|    0|   0| 38|  0:00:02|  0:00:27|
+# Route    | 10|     5|     0|   0|    0|  324|    0|   0| 61|  0:00:01|  0:00:28|
+# Route    | 11|     3|     0|   0|    0|  322|    0|   0| 40|  0:00:00|  0:00:28|
+# Route    | 12|     3|     0|   0|    0|  322|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 13|     1|     0|   0|    0|  322|    0|   0| 66|  0:00:01|  0:00:29|
+# Route    | 14|     1|     0|   0|    0|  324|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 15|     1|     1|   0|    0|  324|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 16|     1|     0|   0|    0|  324|    0|   0| 50|  0:00:00|  0:00:30|
+# Route    | 17|     0|     0|   0|    0|  328|    0|   0|100|  0:00:00|  0:00:30|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:30
+# 
+# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
+# Nets 139 Connections 345 Unroutes 0
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 71, at vias 25 Total Vias 328
+# Percent Connected  100.00
+# Manhattan Length 4204.4225 Horizontal 2325.8070 Vertical 1878.6156
+# Routed Length 5427.6241 Horizontal 3111.1758 Vertical 2516.8913
+# Ratio Actual / Manhattan   1.2909
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Mon Jul 09 20:24:13 2018
+# 
+#    VIA           TOP              BOTTOM      
+# 
+#    TOP  ------------------  VIA_PCBEX_SMALLEST
+# BOTTOM  VIA_PCBEX_SMALLEST  ------------------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# 
+# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
+# Nets 139 Connections 345 Unroutes 0
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 71, at vias 25 Total Vias 328
+# Percent Connected  100.00
+# Manhattan Length 4204.4225 Horizontal 2325.8070 Vertical 1878.6156
+# Routed Length 5427.6241 Horizontal 3111.1758 Vertical 2516.8913
+# Ratio Actual / Manhattan   1.2909
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 626 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 414 Successes 396 Failures 18 Vias 319
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 648 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 422 Successes 403 Failures 19 Vias 315
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|   503|   145|   0|    0|  199|    0|   0|  0|  0:00:03|  0:00:03|
+# Route    |  2|   310|    24|   1|    0|  210|    0|   0| 48|  0:00:04|  0:00:07|
+# Route    |  3|   183|    13|   0|    0|  231|    0|   0| 41|  0:00:05|  0:00:12|
+# Route    |  4|   116|    12|   1|    0|  245|    0|   0| 34|  0:00:03|  0:00:15|
+# Route    |  5|    64|    10|   1|    0|  267|    0|   0| 42|  0:00:04|  0:00:19|
+# Route    |  6|    31|     5|   2|    1|  297|    0|   0| 51|  0:00:03|  0:00:22|
+# Route    |  7|    20|     2|   3|    0|  298|    0|   0| 38|  0:00:01|  0:00:23|
+# Route    |  8|    16|     5|   0|    0|  298|    0|   0|  4|  0:00:02|  0:00:25|
+# Route    |  9|    10|     3|   0|    0|  320|    0|   0| 38|  0:00:02|  0:00:27|
+# Route    | 10|     5|     0|   0|    0|  324|    0|   0| 61|  0:00:01|  0:00:28|
+# Route    | 11|     3|     0|   0|    0|  322|    0|   0| 40|  0:00:00|  0:00:28|
+# Route    | 12|     3|     0|   0|    0|  322|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 13|     1|     0|   0|    0|  322|    0|   0| 66|  0:00:01|  0:00:29|
+# Route    | 14|     1|     0|   0|    0|  324|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 15|     1|     1|   0|    0|  324|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 16|     1|     0|   0|    0|  324|    0|   0| 50|  0:00:00|  0:00:30|
+# Route    | 17|     0|     0|   0|    0|  328|    0|   0|100|  0:00:00|  0:00:30|
+# Clean    | 18|     0|     0|  18|    0|  319|    0|   0|   |  0:00:02|  0:00:32|
+# Clean    | 19|     0|     0|  19|    1|  315|    0|   0|   |  0:00:01|  0:00:33|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:33
+# 
+# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
+# Nets 139 Connections 345 Unroutes 1
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 79, at vias 27 Total Vias 315
+# Percent Connected   99.71
+# Manhattan Length 4189.5160 Horizontal 2311.3721 Vertical 1878.1439
+# Routed Length 5299.2313 Horizontal 3044.8380 Vertical 2450.1213
+# Ratio Actual / Manhattan   1.2649
+# Unconnected Length  35.8326 Horizontal  32.4971 Vertical   3.3355
+write routes (changed_only) (reset_changed) D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaai09492.tmp
+# Routing Written to File D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaai09492.tmp
+# Loading Do File D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaaj09492.tmp ...
 # All Components Unselected.
 # All Nets Unselected.
 set route_diagonal 4
@@ -90,12 +436,10 @@ rule pcb (accordion_gap -1)
 rule pcb (trombone_run_length -1)
 rule pcb (trombone_gap -1)
 smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
-# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
-# Smart Route: Executing bus diagonal.
-# Diagonal wire corners are preferred.
-# Current time = Mon Jun 25 13:24:27 2018
+# Smart Route: This board is already 99.71% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 50 route passes.
+# Current time = Mon Jul 09 20:24:40 2018
 # 
 #    VIA           TOP              BOTTOM      
 # 
@@ -109,503 +453,144 @@ smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
 # Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
 # 
 # Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 350
+# Nets 139 Connections 345 Unroutes 1
 # Signal Layers 2 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 0
-# Percent Connected    0.00
-# Manhattan Length 3853.4186 Horizontal 2135.5746 Vertical 1717.8440
-# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
-# Ratio Actual / Manhattan   0.0000
-# Unconnected Length 3853.4186 Horizontal 2082.6696 Vertical 1770.7490
-# Attempts 2 Successes 0 Failures 2 Vias 0
-# 90 degree wire corners are preferred.
+# Wire Junctions 79, at vias 27 Total Vias 315
+# Percent Connected   99.71
+# Manhattan Length 4189.5160 Horizontal 2311.3721 Vertical 1878.1439
+# Routed Length 5299.2313 Horizontal 3044.8380 Vertical 2450.1213
+# Ratio Actual / Manhattan   1.2649
+# Unconnected Length  35.8326 Horizontal  32.4971 Vertical   3.3355
+# Start Route Pass 1 of 50
+# Routing 1 wires.
 # Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
-# 
-# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 350
-# Signal Layers 2 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 0
-# Percent Connected    0.00
-# Manhattan Length 3853.4186 Horizontal 2135.5746 Vertical 1717.8440
-# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
-# Ratio Actual / Manhattan   0.0000
-# Unconnected Length 3853.4186 Horizontal 2082.6696 Vertical 1770.7490
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# <<WARNING:>> Smart Route: 100.00 percent of bus attempts failed.
-# 90 degree wire corners are preferred.
-# Smart Route: Executing 25 route passes.
-# Current time = Mon Jun 25 13:24:27 2018
-# 
-#    VIA           TOP              BOTTOM      
-# 
-#    TOP  ------------------  VIA_PCBEX_SMALLEST
-# BOTTOM  VIA_PCBEX_SMALLEST  ------------------
-# 
-# 
-# Design Rules --------------------------------------------
-# Via Grid 0.0001 with offset 0.0000
-# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# 
-# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 350
-# Signal Layers 2 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 0
-# Percent Connected    0.00
-# Manhattan Length 3853.4186 Horizontal 2135.5746 Vertical 1717.8440
-# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
-# Ratio Actual / Manhattan   0.0000
-# Unconnected Length 3853.4186 Horizontal 2082.6696 Vertical 1770.7490
-# Start Route Pass 1 of 25
-# Routing 350 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 2 bend points have been removed.
-# 0 bend points have been removed.
-# 5 bend points have been removed.
-# Total Conflicts: 508 (Cross: 421, Clear: 87, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 1
-# Attempts 350 Successes 350 Failures 0 Vias 228
-# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 1 of 25
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 315
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 1 of 50
 # Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
 # Smart Route: Smart_route progressing normally after 1 passes.
-# Start Route Pass 2 of 25
-# Routing 502 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Total Conflicts: 226 (Cross: 217, Clear: 9, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|   503|   145|   0|    0|  199|    0|   0|  0|  0:00:03|  0:00:03|
+# Route    |  2|   310|    24|   1|    0|  210|    0|   0| 48|  0:00:04|  0:00:07|
+# Route    |  3|   183|    13|   0|    0|  231|    0|   0| 41|  0:00:05|  0:00:12|
+# Route    |  4|   116|    12|   1|    0|  245|    0|   0| 34|  0:00:03|  0:00:15|
+# Route    |  5|    64|    10|   1|    0|  267|    0|   0| 42|  0:00:04|  0:00:19|
+# Route    |  6|    31|     5|   2|    1|  297|    0|   0| 51|  0:00:03|  0:00:22|
+# Route    |  7|    20|     2|   3|    0|  298|    0|   0| 38|  0:00:01|  0:00:23|
+# Route    |  8|    16|     5|   0|    0|  298|    0|   0|  4|  0:00:02|  0:00:25|
+# Route    |  9|    10|     3|   0|    0|  320|    0|   0| 38|  0:00:02|  0:00:27|
+# Route    | 10|     5|     0|   0|    0|  324|    0|   0| 61|  0:00:01|  0:00:28|
+# Route    | 11|     3|     0|   0|    0|  322|    0|   0| 40|  0:00:00|  0:00:28|
+# Route    | 12|     3|     0|   0|    0|  322|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 13|     1|     0|   0|    0|  322|    0|   0| 66|  0:00:01|  0:00:29|
+# Route    | 14|     1|     0|   0|    0|  324|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 15|     1|     1|   0|    0|  324|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 16|     1|     0|   0|    0|  324|    0|   0| 50|  0:00:00|  0:00:30|
+# Route    | 17|     0|     0|   0|    0|  328|    0|   0|100|  0:00:00|  0:00:30|
+# Clean    | 18|     0|     0|  18|    0|  319|    0|   0|   |  0:00:02|  0:00:32|
+# Clean    | 19|     0|     0|  19|    1|  315|    0|   0|   |  0:00:01|  0:00:33|
+# Route    | 20|     0|     0|   0|    0|  315|    0|   0|  0|  0:00:00|  0:00:33|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:33
+# 
+# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
+# Nets 139 Connections 345 Unroutes 0
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 79, at vias 27 Total Vias 315
+# Percent Connected  100.00
+# Manhattan Length 4189.5160 Horizontal 2311.3721 Vertical 1878.1439
+# Routed Length 5344.9136 Horizontal 3077.3351 Vertical 2466.7908
+# Ratio Actual / Manhattan   1.2758
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Mon Jul 09 20:24:41 2018
+# 
+#    VIA           TOP              BOTTOM      
+# 
+#    TOP  ------------------  VIA_PCBEX_SMALLEST
+# BOTTOM  VIA_PCBEX_SMALLEST  ------------------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
+# 
+# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
+# Nets 139 Connections 345 Unroutes 0
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 79, at vias 27 Total Vias 315
+# Percent Connected  100.00
+# Manhattan Length 4189.5160 Horizontal 2311.3721 Vertical 1878.1439
+# Routed Length 5344.9136 Horizontal 3077.3351 Vertical 2466.7908
+# Ratio Actual / Manhattan   1.2758
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 616 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
 # Total Unroutes: 0
-# Attempts 391 Successes 388 Failures 3 Vias 237
-# Cpu Time = 0:00:05  Elapsed Time = 0:00:02
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Conflict Reduction  0.5551
-# End Pass 2 of 25
+# Attempts 425 Successes 408 Failures 17 Vias 315
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:00
+# End Pass 1 of 2
 # Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 2 passes.
-# Start Route Pass 3 of 25
-# Routing 549 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 10 bend points have been removed.
-# 0 bend points have been removed.
-# 12 bend points have been removed.
-# Total Conflicts: 119 (Cross: 113, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 408 Successes 405 Failures 3 Vias 264
-# Cpu Time = 0:00:04  Elapsed Time = 0:00:03
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Conflict Reduction  0.4735
-# End Pass 3 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 3 passes.
-# Start Route Pass 4 of 25
-# Routing 560 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Total Conflicts: 70 (Cross: 63, Clear: 7, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 407 Successes 403 Failures 4 Vias 277
-# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Conflict Reduction  0.4118
-# End Pass 4 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 4 passes.
-# Start Route Pass 5 of 25
-# Routing 591 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 6 bend points have been removed.
-# 0 bend points have been removed.
-# 10 bend points have been removed.
-# Total Conflicts: 41 (Cross: 40, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 414 Successes 411 Failures 3 Vias 294
-# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Conflict Reduction  0.4143
-# End Pass 5 of 25
+# Start Clean Pass 2 of 2
+# Routing 629 wires.
 # 0 bend points have been removed.
 # 0 bend points have been removed.
-# 0 bend points have been removed.
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 5 passes.
-# Start Route Pass 6 of 25
-# Routing 118 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 2 bend points have been removed.
-# 0 bend points have been removed.
-# 4 bend points have been removed.
-# Total Conflicts: 32 (Cross: 16, Clear: 16, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 109 Successes 108 Failures 1 Vias 330
-# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 6 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 6 passes.
-# Start Route Pass 7 of 25
-# Routing 56 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Total Conflicts: 15 (Cross: 12, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 47 Successes 47 Failures 0 Vias 342
-# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 7 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 7 passes.
-# Start Route Pass 8 of 25
-# Routing 45 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 1 bend points have been removed.
-# 0 bend points have been removed.
-# 1 bend points have been removed.
-# Total Conflicts: 13 (Cross: 7, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 1
-# Attempts 42 Successes 42 Failures 0 Vias 341
-# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 8 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 8 passes.
-# Start Route Pass 9 of 25
-# Routing 19 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
 # 3 bend points have been removed.
-# 0 bend points have been removed.
-# 2 bend points have been removed.
-# Total Conflicts: 9 (Cross: 7, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 19 Successes 19 Failures 0 Vias 348
-# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 9 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 9 passes.
-# Start Route Pass 10 of 25
-# Routing 25 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 0 bend points have been removed.
-# 0 bend points have been removed.
-# 2 bend points have been removed.
-# Total Conflicts: 3 (Cross: 3, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 22 Successes 22 Failures 0 Vias 352
-# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 10 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 10 passes.
-# Start Route Pass 11 of 25
-# Routing 9 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 3 bend points have been removed.
-# 0 bend points have been removed.
-# 0 bend points have been removed.
-# Total Conflicts: 3 (Cross: 2, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
 # Total Unroutes: 1
-# Attempts 9 Successes 9 Failures 0 Vias 353
+# Attempts 422 Successes 406 Failures 16 Vias 300
 # Cpu Time = 0:00:01  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 11 of 25
-# Smart Route: Smart_route progressing normally after 11 passes.
-# Start Route Pass 12 of 25
-# Routing 11 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 10 Successes 10 Failures 0 Vias 351
-# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 12 of 25
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Smart Route: Smart_route progressing normally after 12 passes.
-# Cpu Time = 0:00:29  Elapsed Time = 0:00:15
-# 
-# Design Rules --------------------------------------------
-# Via Grid 0.0001 with offset 0.0000
-# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# ROUTING HISTORY ================================================================
-#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
-#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
-#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
-# Bus      |  0|     0|     0|   2|  350|    0|    0|   0|   |  0:00:00|  0:00:00|
-# Route    |  1|   421|    87|   0|    1|  228|    0|   0|  0|  0:00:04|  0:00:04|
-# Route    |  2|   217|     9|   3|    0|  237|    0|   0| 55|  0:00:05|  0:00:09|
-# Route    |  3|   113|     6|   3|    0|  264|    0|   0| 47|  0:00:04|  0:00:13|
-# Route    |  4|    63|     7|   4|    0|  277|    0|   0| 41|  0:00:04|  0:00:17|
-# Route    |  5|    40|     1|   3|    0|  294|    0|   0| 41|  0:00:04|  0:00:21|
-# Route    |  6|    16|    16|   1|    0|  330|    0|   0| 21|  0:00:02|  0:00:23|
-# Route    |  7|    12|     3|   0|    0|  342|    0|   0| 53|  0:00:02|  0:00:25|
-# Route    |  8|     7|     6|   0|    1|  341|    0|   0| 13|  0:00:02|  0:00:27|
-# Route    |  9|     7|     2|   0|    0|  348|    0|   0| 30|  0:00:01|  0:00:28|
-# Route    | 10|     3|     0|   0|    0|  352|    0|   0| 66|  0:00:00|  0:00:28|
-# Route    | 11|     2|     1|   0|    1|  353|    0|   0|  0|  0:00:01|  0:00:29|
-# Route    | 12|     0|     0|   0|    0|  351|    0|   0|100|  0:00:00|  0:00:29|
-# Conflicts between polygon wires and fixed objects:   0
-# Stub Violations:   0
-# Net Order Violations:   0
-# Diffpair Uncoupled Length Violations:   0
-# Diffpair Phase Tolerance  Violations:   0
-# Total layerset violations:   0
-# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
-# Overall Routing Time: 0:00:29
-# 
-# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 0
-# Signal Layers 2 Power Layers 2
-# Wire Junctions 64, at vias 21 Total Vias 351
-# Percent Connected  100.00
-# Manhattan Length 3974.4165 Horizontal 2203.7960 Vertical 1770.6205
-# Routed Length 5097.4703 Horizontal 2961.6241 Vertical 2328.0497
-# Ratio Actual / Manhattan   1.2826
-# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
-# Smart Route: Executing 2 clean passes.
-# Current time = Mon Jun 25 13:24:42 2018
-# 
-#    VIA           TOP              BOTTOM      
-# 
-#    TOP  ------------------  VIA_PCBEX_SMALLEST
-# BOTTOM  VIA_PCBEX_SMALLEST  ------------------
-# 
-# 
-# Design Rules --------------------------------------------
-# Via Grid 0.0001 with offset 0.0000
-# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# 
-# Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 0
-# Signal Layers 2 Power Layers 2
-# Wire Junctions 64, at vias 21 Total Vias 351
-# Percent Connected  100.00
-# Manhattan Length 3974.4165 Horizontal 2203.7960 Vertical 1770.6205
-# Routed Length 5097.4703 Horizontal 2961.6241 Vertical 2328.0497
-# Ratio Actual / Manhattan   1.2826
-# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
-# Start Clean Pass 1 of 2
-# Routing 633 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 417 Successes 405 Failures 12 Vias 330
+# End Pass 2 of 2
 # Cpu Time = 0:00:03  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 1 of 2
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Start Clean Pass 2 of 2
-# Routing 631 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 0 bend points have been removed.
-# 0 bend points have been removed.
-# 0 bend points have been removed.
-# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
-# Total Unroutes: 0
-# Attempts 413 Successes 393 Failures 20 Vias 328
-# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# End Pass 2 of 2
-# Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Cpu Time = 0:00:05  Elapsed Time = 0:00:02
 # 
 # Design Rules --------------------------------------------
 # Via Grid 0.0001 with offset 0.0000
 # Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
 # Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
 # ROUTING HISTORY ================================================================
 #     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
 #   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
 #----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
-# Bus      |  0|     0|     0|   2|  350|    0|    0|   0|   |  0:00:00|  0:00:00|
-# Route    |  1|   421|    87|   0|    1|  228|    0|   0|  0|  0:00:04|  0:00:04|
-# Route    |  2|   217|     9|   3|    0|  237|    0|   0| 55|  0:00:05|  0:00:09|
-# Route    |  3|   113|     6|   3|    0|  264|    0|   0| 47|  0:00:04|  0:00:13|
-# Route    |  4|    63|     7|   4|    0|  277|    0|   0| 41|  0:00:04|  0:00:17|
-# Route    |  5|    40|     1|   3|    0|  294|    0|   0| 41|  0:00:04|  0:00:21|
-# Route    |  6|    16|    16|   1|    0|  330|    0|   0| 21|  0:00:02|  0:00:23|
-# Route    |  7|    12|     3|   0|    0|  342|    0|   0| 53|  0:00:02|  0:00:25|
-# Route    |  8|     7|     6|   0|    1|  341|    0|   0| 13|  0:00:02|  0:00:27|
-# Route    |  9|     7|     2|   0|    0|  348|    0|   0| 30|  0:00:01|  0:00:28|
-# Route    | 10|     3|     0|   0|    0|  352|    0|   0| 66|  0:00:00|  0:00:28|
-# Route    | 11|     2|     1|   0|    1|  353|    0|   0|  0|  0:00:01|  0:00:29|
-# Route    | 12|     0|     0|   0|    0|  351|    0|   0|100|  0:00:00|  0:00:29|
-# Clean    | 13|     0|     0|  12|    0|  330|    0|   0|   |  0:00:03|  0:00:32|
-# Clean    | 14|     0|     0|  20|    0|  328|    0|   0|   |  0:00:02|  0:00:34|
+# Route    |  1|   503|   145|   0|    0|  199|    0|   0|  0|  0:00:03|  0:00:03|
+# Route    |  2|   310|    24|   1|    0|  210|    0|   0| 48|  0:00:04|  0:00:07|
+# Route    |  3|   183|    13|   0|    0|  231|    0|   0| 41|  0:00:05|  0:00:12|
+# Route    |  4|   116|    12|   1|    0|  245|    0|   0| 34|  0:00:03|  0:00:15|
+# Route    |  5|    64|    10|   1|    0|  267|    0|   0| 42|  0:00:04|  0:00:19|
+# Route    |  6|    31|     5|   2|    1|  297|    0|   0| 51|  0:00:03|  0:00:22|
+# Route    |  7|    20|     2|   3|    0|  298|    0|   0| 38|  0:00:01|  0:00:23|
+# Route    |  8|    16|     5|   0|    0|  298|    0|   0|  4|  0:00:02|  0:00:25|
+# Route    |  9|    10|     3|   0|    0|  320|    0|   0| 38|  0:00:02|  0:00:27|
+# Route    | 10|     5|     0|   0|    0|  324|    0|   0| 61|  0:00:01|  0:00:28|
+# Route    | 11|     3|     0|   0|    0|  322|    0|   0| 40|  0:00:00|  0:00:28|
+# Route    | 12|     3|     0|   0|    0|  322|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 13|     1|     0|   0|    0|  322|    0|   0| 66|  0:00:01|  0:00:29|
+# Route    | 14|     1|     0|   0|    0|  324|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 15|     1|     1|   0|    0|  324|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 16|     1|     0|   0|    0|  324|    0|   0| 50|  0:00:00|  0:00:30|
+# Route    | 17|     0|     0|   0|    0|  328|    0|   0|100|  0:00:00|  0:00:30|
+# Clean    | 18|     0|     0|  18|    0|  319|    0|   0|   |  0:00:02|  0:00:32|
+# Clean    | 19|     0|     0|  19|    1|  315|    0|   0|   |  0:00:01|  0:00:33|
+# Route    | 20|     0|     0|   0|    0|  315|    0|   0|  0|  0:00:00|  0:00:33|
+# Clean    | 21|     0|     0|  17|    0|  315|    0|   0|   |  0:00:02|  0:00:35|
+# Clean    | 22|     0|     0|  16|    1|  300|    0|   0|   |  0:00:01|  0:00:36|
 # Conflicts between polygon wires and fixed objects:   0
 # Stub Violations:   0
 # Net Order Violations:   0
@@ -613,19 +598,19 @@ smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
 # Diffpair Phase Tolerance  Violations:   0
 # Total layerset violations:   0
 # Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
-# Overall Routing Time: 0:00:34
+# Overall Routing Time: 0:00:36
 # 
 # Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 0
+# Nets 139 Connections 345 Unroutes 1
 # Signal Layers 2 Power Layers 2
-# Wire Junctions 63, at vias 18 Total Vias 328
-# Percent Connected  100.00
-# Manhattan Length 3960.2626 Horizontal 2201.6990 Vertical 1758.5636
-# Routed Length 5007.7491 Horizontal 2881.4681 Vertical 2299.7508
-# Ratio Actual / Manhattan   1.2645
-# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Wire Junctions 76, at vias 27 Total Vias 300
+# Percent Connected   99.71
+# Manhattan Length 4196.5594 Horizontal 2297.1932 Vertical 1899.3662
+# Routed Length 5279.5831 Horizontal 3038.7472 Vertical 2406.1965
+# Ratio Actual / Manhattan   1.2581
+# Unconnected Length  14.3156 Horizontal   7.3873 Vertical   6.9283
 # Smart Route: Executing 2 clean passes.
-# Current time = Mon Jun 25 13:24:44 2018
+# Current time = Mon Jul 09 20:24:42 2018
 # 
 #    VIA           TOP              BOTTOM      
 # 
@@ -639,111 +624,67 @@ smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
 # Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
 # 
 # Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 0
+# Nets 139 Connections 345 Unroutes 1
 # Signal Layers 2 Power Layers 2
-# Wire Junctions 63, at vias 18 Total Vias 328
-# Percent Connected  100.00
-# Manhattan Length 3960.2626 Horizontal 2201.6990 Vertical 1758.5636
-# Routed Length 5007.7491 Horizontal 2881.4681 Vertical 2299.7508
-# Ratio Actual / Manhattan   1.2645
-# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Wire Junctions 76, at vias 27 Total Vias 300
+# Percent Connected   99.71
+# Manhattan Length 4196.5594 Horizontal 2297.1932 Vertical 1899.3662
+# Routed Length 5279.5831 Horizontal 3038.7472 Vertical 2406.1965
+# Ratio Actual / Manhattan   1.2581
+# Unconnected Length  14.3156 Horizontal   7.3873 Vertical   6.9283
 # Start Clean Pass 1 of 2
-# Routing 609 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Routing 598 wires.
 # Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
 # Total Unroutes: 0
-# Attempts 415 Successes 394 Failures 21 Vias 325
+# Attempts 421 Successes 406 Failures 15 Vias 297
 # Cpu Time = 0:00:02  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
 # End Pass 1 of 2
 # Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
 # Start Clean Pass 2 of 2
-# Routing 615 wires.
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
-# 1 bend points have been removed.
+# Routing 607 wires.
 # 0 bend points have been removed.
 # 0 bend points have been removed.
+# 3 bend points have been removed.
 # Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
 # Total Unroutes: 0
-# Attempts 420 Successes 404 Failures 16 Vias 321
-# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Attempts 423 Successes 407 Failures 16 Vias 295
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
 # End Pass 2 of 2
 # Wiring Written to File D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\bestsave.w
-# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
 # 
 # Design Rules --------------------------------------------
 # Via Grid 0.0001 with offset 0.0000
 # Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
 # Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1500, Clearance= 0.1500
-# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command check will ignore pcb layer rule(s), mcm via rule(s)
 # ROUTING HISTORY ================================================================
 #     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
 #   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
 #----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
-# Bus      |  0|     0|     0|   2|  350|    0|    0|   0|   |  0:00:00|  0:00:00|
-# Route    |  1|   421|    87|   0|    1|  228|    0|   0|  0|  0:00:04|  0:00:04|
-# Route    |  2|   217|     9|   3|    0|  237|    0|   0| 55|  0:00:05|  0:00:09|
-# Route    |  3|   113|     6|   3|    0|  264|    0|   0| 47|  0:00:04|  0:00:13|
-# Route    |  4|    63|     7|   4|    0|  277|    0|   0| 41|  0:00:04|  0:00:17|
-# Route    |  5|    40|     1|   3|    0|  294|    0|   0| 41|  0:00:04|  0:00:21|
-# Route    |  6|    16|    16|   1|    0|  330|    0|   0| 21|  0:00:02|  0:00:23|
-# Route    |  7|    12|     3|   0|    0|  342|    0|   0| 53|  0:00:02|  0:00:25|
-# Route    |  8|     7|     6|   0|    1|  341|    0|   0| 13|  0:00:02|  0:00:27|
-# Route    |  9|     7|     2|   0|    0|  348|    0|   0| 30|  0:00:01|  0:00:28|
-# Route    | 10|     3|     0|   0|    0|  352|    0|   0| 66|  0:00:00|  0:00:28|
-# Route    | 11|     2|     1|   0|    1|  353|    0|   0|  0|  0:00:01|  0:00:29|
-# Route    | 12|     0|     0|   0|    0|  351|    0|   0|100|  0:00:00|  0:00:29|
-# Clean    | 13|     0|     0|  12|    0|  330|    0|   0|   |  0:00:03|  0:00:32|
-# Clean    | 14|     0|     0|  20|    0|  328|    0|   0|   |  0:00:02|  0:00:34|
-# Clean    | 15|     0|     0|  21|    0|  325|    0|   0|   |  0:00:02|  0:00:36|
-# Clean    | 16|     0|     0|  16|    0|  321|    0|   0|   |  0:00:02|  0:00:38|
+# Route    |  1|   503|   145|   0|    0|  199|    0|   0|  0|  0:00:03|  0:00:03|
+# Route    |  2|   310|    24|   1|    0|  210|    0|   0| 48|  0:00:04|  0:00:07|
+# Route    |  3|   183|    13|   0|    0|  231|    0|   0| 41|  0:00:05|  0:00:12|
+# Route    |  4|   116|    12|   1|    0|  245|    0|   0| 34|  0:00:03|  0:00:15|
+# Route    |  5|    64|    10|   1|    0|  267|    0|   0| 42|  0:00:04|  0:00:19|
+# Route    |  6|    31|     5|   2|    1|  297|    0|   0| 51|  0:00:03|  0:00:22|
+# Route    |  7|    20|     2|   3|    0|  298|    0|   0| 38|  0:00:01|  0:00:23|
+# Route    |  8|    16|     5|   0|    0|  298|    0|   0|  4|  0:00:02|  0:00:25|
+# Route    |  9|    10|     3|   0|    0|  320|    0|   0| 38|  0:00:02|  0:00:27|
+# Route    | 10|     5|     0|   0|    0|  324|    0|   0| 61|  0:00:01|  0:00:28|
+# Route    | 11|     3|     0|   0|    0|  322|    0|   0| 40|  0:00:00|  0:00:28|
+# Route    | 12|     3|     0|   0|    0|  322|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 13|     1|     0|   0|    0|  322|    0|   0| 66|  0:00:01|  0:00:29|
+# Route    | 14|     1|     0|   0|    0|  324|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 15|     1|     1|   0|    0|  324|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 16|     1|     0|   0|    0|  324|    0|   0| 50|  0:00:00|  0:00:30|
+# Route    | 17|     0|     0|   0|    0|  328|    0|   0|100|  0:00:00|  0:00:30|
+# Clean    | 18|     0|     0|  18|    0|  319|    0|   0|   |  0:00:02|  0:00:32|
+# Clean    | 19|     0|     0|  19|    1|  315|    0|   0|   |  0:00:01|  0:00:33|
+# Route    | 20|     0|     0|   0|    0|  315|    0|   0|  0|  0:00:00|  0:00:33|
+# Clean    | 21|     0|     0|  17|    0|  315|    0|   0|   |  0:00:02|  0:00:35|
+# Clean    | 22|     0|     0|  16|    1|  300|    0|   0|   |  0:00:01|  0:00:36|
+# Clean    | 23|     0|     0|  15|    0|  297|    0|   0|   |  0:00:02|  0:00:38|
+# Clean    | 24|     0|     0|  16|    0|  295|    0|   0|   |  0:00:01|  0:00:39|
 # Conflicts between polygon wires and fixed objects:   0
 # Stub Violations:   0
 # Net Order Violations:   0
@@ -751,18 +692,18 @@ smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
 # Diffpair Phase Tolerance  Violations:   0
 # Total layerset violations:   0
 # Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
-# Overall Routing Time: 0:00:38
+# Overall Routing Time: 0:00:39
 # 
 # Wiring Statistics ----------------- D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro\artificiall_eye_ver00.dsn
-# Nets 138 Connections 350 Unroutes 0
+# Nets 139 Connections 345 Unroutes 0
 # Signal Layers 2 Power Layers 2
-# Wire Junctions 62, at vias 18 Total Vias 321
+# Wire Junctions 76, at vias 29 Total Vias 295
 # Percent Connected  100.00
-# Manhattan Length 3959.3737 Horizontal 2203.7329 Vertical 1755.6408
-# Routed Length 4988.9861 Horizontal 2867.9088 Vertical 2273.2864
-# Ratio Actual / Manhattan   1.2600
+# Manhattan Length 4190.4284 Horizontal 2307.6878 Vertical 1882.7406
+# Routed Length 5267.4607 Horizontal 3025.9498 Vertical 2400.0463
+# Ratio Actual / Manhattan   1.2570
 # Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
 # Smart Route: Smart_route finished, completion rate: 100.00.
-write routes (changed_only) (reset_changed) D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaas06444.tmp
-# Routing Written to File D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaas06444.tmp
+write routes (changed_only) (reset_changed) D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaak09492.tmp
+# Routing Written to File D:/Users/SIHWAN~1/AppData/Local/Temp/#Taaaaak09492.tmp
 quit
