@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-23-2018 at 19:06:31 }
+{ Using PSTWRITER 16.5.0 p001Jun-24-2018 at 22:51:11 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='ARTIFICIALL_EYE_VER00';
@@ -428,16 +428,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U20 'OPTIC_NERVE_0_OPTICNERVE_OPTIC_':;
-
-SECTION_NUMBER 1
- '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS12915391@ARTIFICIALL_EYE_VER00.OPTIC_NERVE_0.NORMAL(CHIPS)':
- C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins12915391@artificiall_eye_ver00.\optic_nerve_0.normal\(chips)',
- P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins12915391@artificiall_eye_ver00.\optic_nerve_0.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  U21 'ADG1636_TSSOP16_ADG1636':;
 
 SECTION_NUMBER 1
@@ -544,6 +534,16 @@ SECTION_NUMBER 1
  '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13314783@LIBRARY_AE.HEADER2X6.NORMAL(CHIPS)':
  C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13314783@library_ae.\header2x6.normal\(chips)',
  P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13314783@library_ae.\header2x6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U31 'OPTIC_NERVE_OPTICNERVE_OPTIC_NE':;
+
+SECTION_NUMBER 1
+ '@ARTIFICIALL_EYE_VER00.SCHEMATIC1(SCH_1):INS13335409@LIBRARY_AE.OPTIC_NERVE.NORMAL(CHIPS)':
+ C_PATH='@artificiall_eye_ver00.schematic1(sch_1):ins13335409@library_ae.\optic_nerve.normal\(chips)',
+ P_PATH='@artificiall_eye_ver00.schematic1(sch_1):page1_ins13335409@library_ae.\optic_nerve.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
