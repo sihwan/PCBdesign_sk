@@ -146,7 +146,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.BOM")
+       "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\ARTIFICIALL_EYE_VER00._ybBOM.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Digikey Part #}\t{Part Number}\t{PCB footprint}")
@@ -177,6 +177,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\artificiall_eye_ver00.bom"
+      (Type "Report"))
+    (File ".\artificiall_eye_ver00._ybbom.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
@@ -291,55 +293,38 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-<<<<<<< HEAD
-      (Path "Design Resources" ".\artificiall_eye_ver00.dsn")
-      (Path "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" ".\artificiall_eye_ver00.dsn" "SCHEMATIC1"
-         "Main"))
-=======
       (Path "Design Resources"
          "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\artificiall_eye_ver00.dsn")
       (Path "Design Resources"
          "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\artificiall_eye_ver00.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\library_ae.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\library_ae.olb"))
->>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+      (Select "Design Resources"
+         "C:\Github\Artificial Eye\PCBdesign_sk\Artificiall_eye_ver00\artificiall_eye_ver00.dsn"
+         "SCHEMATIC1" "Main"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-<<<<<<< HEAD
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346"))
-=======
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 346"))
->>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 416"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-<<<<<<< HEAD
-        (Placement "44 0 1 -1 -1 -8 -31 52 1512 52 511")
-=======
-<<<<<<< HEAD
-        (Placement "44 0 1 -1 -1 -8 -30 125 1435 125 509")
-        (Scroll "2225 742")
-        (Zoom "152")
-=======
-        (Placement "44 2 3 -1 -1 -8 -31 52 1512 52 511")
->>>>>>> 57b81430ebc7c12c4f3d6a34330882e83c8f28d8
-        (Scroll "1764 921")
-        (Zoom "108")
->>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "1243 450")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\GITHUB\ARTIFICIAL EYE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Main")))
-  (ISPCBBASICLICENSE "false")
+      (Page "Main"))) >>>>>>> d2e831dad3bfe4c7ebc05c259c80205e53174b52
+  (HierarchyView)
+  (Doc
+    (Type "COrCapturePMDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 2 3 -1 -1 -8 -30 0 200 0 346")) =======
+    (Placement "44 0 1 -1 -1 -8 -31 0 200 0 346")) >>>>>>>
+   d2e831dad3bfe4c7ebc05c259c80205e53174b52
+  (Tab 0)
   (MPSSessionName "Yongmin"))
