@@ -308,8 +308,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 1424 50 388")
-        (Scroll "-498 0")
-        (Zoom "15")
+        (Scroll "-432 -6")
+        (Zoom "19")
         (Occurrence "/"))
       (Path
          "D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ARTIFICIALL_EYE_VER00.DSN")
