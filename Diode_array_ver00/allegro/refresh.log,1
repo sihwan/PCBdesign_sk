@@ -1,0 +1,76 @@
+Fri Jun 22 10:41:19 2018				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Fri Jun 22 10:41:19 2018
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : artificiall_eye_ver00.brd                     )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Fri Jun 22 10:41:19 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Jun 22 10:41:19 2018				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design = 'D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd'
+Output design = ''
+Update mechanical symbols = 'NO'
+Update format symbols = 'NO'
+Update package symbols = 'YES'
+Update shape/flash symbols = 'NO'
+Update symbol padstacks = 'NO'
+Reset symbol text and size locations = 'NO'
+Reset Pin Escapes (fanouts) = 'NO'
+Ripup Etch = 'NO'
+Reset custom drill data = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ALLEGRO\ 
+
+PADPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ALLEGRO\ 
+
+
+------ Symbol Refresh Messages ------
+
+'OPTICNERVE'  symbol refreshed successfully.
+'MICRO_USB'  symbol refreshed successfully.
+'RC0805_SMK'  symbol refreshed successfully.
+'0603_SHN'  symbol refreshed successfully.
+'HEADER1X2'  symbol refreshed successfully.
+'SOT23_LONGERPADS'  symbol refreshed successfully.
+'MSOP8'  symbol refreshed successfully.
+'MURATA_OSC'  symbol refreshed successfully.
+'HEADER2X6'  symbol refreshed successfully.
+'TSSOP16'  symbol refreshed successfully.
+'TSSOP14'  symbol refreshed successfully.
+'TSSOP24'  symbol refreshed successfully.
+'HEADER_2X2'  symbol refreshed successfully.
+'MSP430F5529_LQFP80'  symbol refreshed successfully.
+
+'FERRITE_BEAD'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'FERRITE_BEAD' symbol unable to find in directory search path.
+
+
+----- Symbol Update Summary ----
+
+Completed refreshing all symbols successfully. Warnings detected.
+       0  errors detected.
+       1  warnings detected.

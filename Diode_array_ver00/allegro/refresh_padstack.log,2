@@ -1,0 +1,102 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : artificiall_eye_ver00.brd                     )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Sat Jun 23 21:07:36 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Jun 23 21:07:36 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'D:/Users/Sihwan_lab/Desktop/Workspace/PCBdesign_sk/Artificiall_eye_ver00/allegro/artificiall_eye_ver00.brd'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ALLEGRO\ 
+
+PADPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ALLEGRO\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'MSP430F5529_PQFP80_PAD'  pad stack refresh starting.
+
+     'MSP430F5529_PQFP80_PAD'  pad stack refreshed successfully.
+     
+'MSP430F247_PQFP64_PAD'  pad stack refresh starting.
+
+     'MSP430F247_PQFP64_PAD'  pad stack refreshed successfully.
+     
+'FERRITE_BEAD'  pad stack refresh starting.
+
+     'FERRITE_BEAD'  pad stack refreshed successfully.
+     
+'SMD65REC13'  pad stack refresh starting.
+
+     'SMD65REC13'  pad stack refreshed successfully.
+     
+'ST100_PAD2'  pad stack refresh starting.
+
+     'ST100_PAD2'  pad stack refreshed successfully.
+     
+'SMD100_148'  pad stack refresh starting.
+
+     'SMD100_148'  pad stack refreshed successfully.
+     
+'SMD40_16'  pad stack refresh starting.
+
+     'SMD40_16'  pad stack refreshed successfully.
+     
+'ST100_PAD2_ROTATED'  pad stack refresh starting.
+
+     'ST100_PAD2_ROTATED'  pad stack refreshed successfully.
+     
+'ST100_PAD1_WIDER'  pad stack refresh starting.
+
+     'ST100_PAD1_WIDER'  pad stack refreshed successfully.
+     
+'0603_SHN'  pad stack refresh starting.
+
+     '0603_SHN'  pad stack refreshed successfully.
+     
+'SMD_R1_0X1_25MM'  pad stack refresh starting.
+
+     'SMD_R1_0X1_25MM'  pad stack refreshed successfully.
+     
+'MICRO_USB_ATTACH_3'  pad stack refresh starting.
+
+     'MICRO_USB_ATTACH_3'  pad stack refreshed successfully.
+     
+'MICRO_USB_ATTACH_2'  pad stack refresh starting.
+
+     'MICRO_USB_ATTACH_2'  pad stack refreshed successfully.
+     
+'MICRO_USB_ATTACH_1'  pad stack refresh starting.
+
+     'MICRO_USB_ATTACH_1'  pad stack refreshed successfully.
+     
+'MICRO_USB_PINS'  pad stack refresh starting.
+
+     'MICRO_USB_PINS'  pad stack refreshed successfully.
+     
+'C1020UM'  pad stack refresh starting.
+
+     'C1020UM'  pad stack refreshed successfully.
+     
+'C15MM'  pad stack refresh starting.
+
+     'C15MM'  pad stack refreshed successfully.
+     
+'C040'  pad stack refresh starting.
+
+     'C040'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

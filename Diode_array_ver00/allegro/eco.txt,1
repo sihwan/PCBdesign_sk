@@ -1,0 +1,85 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:.../PCBDESIGN_SK/ARTIFICIALL_EYE_VER00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Mon Jul 09 20:18:04 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 U12.2           23.3744 51.1298
+                                                                   COL_IN_UNSEL
+                                 U12.10          26.6256 56.8702
+                                                                   COL_IN_UNSEL
+                                 U13.2           30.3744 51.1298
+                                                                   COL_IN_UNSEL
+                                 U13.10          33.6256 56.8702
+                                                                   COL_IN_UNSEL
+                                 U14.2           37.3744 51.1298
+                                                                   COL_IN_UNSEL
+                                 U14.10          40.6256 56.8702
+                                                                   COL_IN_UNSEL
+                                 U15.2           44.3744 51.1298
+                                                                   COL_IN_UNSEL
+                                 U15.10          47.6256 56.8702
+                                                                   COL_IN_UNSEL
+                                 U26.2           23.3744 13.1298
+                                                                   COL_IN_UNSEL
+                                 U26.10          26.6256 18.8702
+                                                                   COL_IN_UNSEL
+                                 U27.2           30.3744 13.1298
+                                                                   COL_IN_UNSEL
+                                 U27.10          33.6256 18.8702
+                                                                   COL_IN_UNSEL
+                                 U28.2           37.3744 13.1298
+                                                                   COL_IN_UNSEL
+                                 U28.10          40.6256 18.8702
+                                                                   COL_IN_UNSEL
+                                 U29.2           44.3744 13.1298
+                                                                   COL_IN_UNSEL
+                                 U29.10          47.6256 18.8702
+                                                                   COL_IN_UNSEL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U6.4             2.1300 49.8300
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MEAS_EXT     pins MOVED FROM this net (to net name listed on right)
+                                 U6.10            4.6700 49.8300
+                                                                   COL_IN_UNSEL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J3.1                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:.../PCBDESIGN_SK/ARTIFICIALL_EYE_VER00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Mon Jul 09 20:18:04 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J3                  HEADER 1X2_HEADER1X2_HEADER 1X2 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../PCBDESIGN_SK/ARTIFICIALL_EYE_VER00/allegro/artificiall_eye_ver00.brd  |
+|                                                    Mon Jul 09 20:18:04 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J3.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      19                                        |
+|       Components added      :       1                                        |
+|       Slot property added   :       1                                        |
+|                                                                              |
+|   Total ECO changes reported:      21                                        |
+|------------------------------------------------------------------------------|
