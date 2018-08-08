@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : diode_array.dra                               )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Wed Aug 08 16:05:38 2018                      )
+(    Date/Time        : Wed Aug 08 16:07:20 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,8 +18,6 @@ Create Symbol of type: PACKAGE
 
 Create symbol started.
  
- Duplicate pin number 21. 
- WARNING(SPMHA1-298): Create symbol duplicate pin numbers. 
 
-ERROR(SPMHA1-291): Create symbol has been aborted.
+Create symbol completed.
 

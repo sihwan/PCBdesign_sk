@@ -1,0 +1,42 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : diode_array_ver00.brd                         )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Aug 08 17:10:59 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Aug 08 17:10:59 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'D:/USERS/SIHWAN_LAB/DESKTOP/WORKSPACE/PCBDESIGN_SK/DIODE_ARRAY_VER00/allegro/diode_array_ver00.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ALLEGRO\ 
+
+PADPATH =  D:\USERS\SIHWAN_LAB\DESKTOP\WORKSPACE\PCBDESIGN_SK\ARTIFICIALL_EYE_VER00\ALLEGRO\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'C8MM'  pad stack refresh starting.
+
+     'C8MM'  pad stack refreshed successfully.
+     
+'SMD_1X1MM'  pad stack refresh starting.
+
+     'SMD_1X1MM'  pad stack refreshed successfully.
+     
+'C1020UM'  pad stack refresh starting.
+
+     'C1020UM'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.
