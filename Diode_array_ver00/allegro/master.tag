@@ -1,1 +1,0 @@
-diode_array.dra
