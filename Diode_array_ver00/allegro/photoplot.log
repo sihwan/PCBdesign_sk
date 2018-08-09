@@ -1,0 +1,223 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : diode_array_ver00.brd                         )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Aug 08 21:18:52 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (21).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     1.50000                                  DARK 
+  CIRCLE     8.50000                                  DARK 
+  SQUARE     1.00000                     0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.50000                                  DARK 
+  CIRCLE     8.50000                                  DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-10.0 14.2)
+           ... using undefined line width of 0.2
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+
+     SILK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < Soldermask_Top >
+     TO FILE < C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/Soldermask_Top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     8.50000                                  DARK 
+  SQUARE     1.10000                     0.000 NO     DARK 
+
+     Soldermask_Top created.
+
+
+================================================================
+     PROCESSING FILM < Soldermask_Bottom >
+     TO FILE < C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/Soldermask_Bottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     8.50000                                  DARK 
+
+     Soldermask_Bottom created.
+
+
+================================================================
+     PROCESSING FILM < Drill_Draw >
+     TO FILE < C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/Drill_Draw.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (16.2 -11.0)
+           ... using undefined line width of 0.2
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+
+     Drill_Draw created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created.
+        SILK_TOP created with warnings
+        Soldermask_Top created.
+        Soldermask_Bottom created.
+        Drill_Draw created with warnings
+
+ ARTWORK had warnings

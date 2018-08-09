@@ -1,0 +1,104 @@
+\t (00:01:15) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:01:15)     Journal start - Wed Aug 08 21:08:01 2018
+\t (00:01:15)         Host=DESKTOP-6UA2P5I User=Yongmin Pid=10896 CPUs=8
+\t (00:01:15) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Github\Artificial Eye\PCBdesign_sk\Diode_array_ver00\allegro\diode_array_ver00.brd
+\t (00:01:15) 
+   (00:01:15) Loading axlcore.cxt 
+\t (00:01:16) Opening existing design...
+\d (00:01:16) Design opened: C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro/diode_array_ver00.brd
+\t (00:01:16) Grids are drawn 1.6, 1.6 apart for enhanced viewability.
+\i (00:01:16) trapsize 10
+\i (00:01:17) trapsize 11
+\t (00:01:17) Grids are drawn 1.6, 1.6 apart for enhanced viewability.
+\i (00:01:17) trapsize 11
+\i (00:01:17) generaledit 
+\i (00:02:16) artwork 
+\i (00:02:18) setwindow form.film_control
+\i (00:02:18) FORM film_control filmtree  Soldermask_Bottom 
+\i (00:02:25) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' Soldermask_Bottom 
+\i (00:02:27) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' Soldermask_Bottom 
+\i (00:02:29) FORM film_control filmtree popup Cut Soldermask_Bottom 
+\i (00:02:42) FORM film_control ok  
+\i (00:02:42) setwindow pcb
+\i (00:02:42) generaledit 
+\i (00:02:48) color192 
+\i (00:02:48) generaledit 
+\i (00:03:12) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:03:32) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:03:38) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 3 0
+\i (00:03:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Soldermask_Bottom Pin
+\i (00:03:38) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:42) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:03:47) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 9 0
+\i (00:03:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Outline BrdGeo
+\i (00:03:47) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:54) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:04:00) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:04:03) artwork 
+\i (00:04:28) setwindow form.film_control
+\i (00:04:28) FORM film_control filmtree popup Add BOTTOM 
+\i (00:04:41) fillin "Soldermask_Bottom"
+\i (00:07:17) FORM film_control ok  
+\i (00:07:17) setwindow pcb
+\i (00:07:17) generaledit 
+\i (00:07:23) artwork 
+\i (00:07:24) setwindow form.film_control
+\i (00:07:24) FORM film_control filmtree  Soldermask_Bottom 
+\i (00:07:28) FORM film_control undefined_line_width 0.2 
+\i (00:07:28) FORM film_control filmtree  Soldermask_Top 
+\i (00:07:28) FORM film_control filmtree  TOP 
+\i (00:07:29) FORM film_control filmtree  Soldermask_Top 
+\i (00:07:29) FORM film_control filmtree  Soldermask_Bottom 
+\i (00:07:29) FORM film_control filmtree  SILK_TOP 
+\i (00:07:30) FORM film_control filmtree  BOTTOM 
+\i (00:07:31) FORM film_control ok  
+\i (00:07:31) setwindow pcb
+\i (00:07:31) generaledit 
+\i (00:07:36) color192 
+\i (00:07:36) generaledit 
+\i (00:07:42) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:07:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:07:48) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 9 0
+\i (00:07:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Outline BrdGeo
+\i (00:07:48) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:07:52) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:07:53) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:07:54) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 4 0
+\i (00:07:54) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Nclegend-1-2 Mfg
+\i (00:07:54) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:01) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:08:04) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:08:09) artwork 
+\i (00:08:14) setwindow form.film_control
+\i (00:08:14) FORM film_control filmtree popup Add TOP 
+\i (00:08:31) fillin "Drill_Draw"
+\i (00:08:35) FORM film_control filmtree  Drill_Draw 
+\i (00:09:17) FORM film_control undefined_line_width 0.2 
+\i (00:09:17) FORM film_control ok  
+\i (00:09:17) setwindow pcb
+\i (00:09:17) generaledit 
+\i (00:09:26) artwork 
+\i (00:09:29) setwindow form.film_control
+\i (00:09:29) FORM film_control select_all  
+\i (00:09:33) FORM film_control create  
+\i (00:09:43) fillin yes 
+\t (00:09:43) Checking db records
+\t (00:09:43)     checking for orphans...
+\t (00:09:43)     Checked 100 percent
+\t (00:09:43) Done dbdoctor.
+\e (00:09:43) Database has errors; artwork generation canceled.  Please run dbdoctor.
+\i (00:09:48) fillin confirm
+\i (00:09:57) FORM film_control create  
+\i (00:10:26) fillin yes 
+\t (00:10:26) Checking db records
+\t (00:10:26)     checking for orphans...
+\t (00:10:26)     Checked 100 percent
+\t (00:10:26) Done dbdoctor.
+\e (00:10:26) Database has errors; artwork generation canceled.  Please run dbdoctor.
+\i (00:10:29) fillin confirm
+\i (00:11:35) setwindow pcb
+\i (00:11:35) exit 
+\e (00:11:35) Do you want to save the changes you made to diode_array_ver00.brd?
+\i (00:11:36) fillin yes 
+   (00:11:37) Loading signal.cxt 
+\t (00:11:37)     Journal end - Wed Aug 08 21:18:22 2018

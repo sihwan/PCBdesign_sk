@@ -1,0 +1,78 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : diode_array_ver00.brd                         )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Aug 08 21:21:17 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		3.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		YES
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+            1.0  P        T01            0.100000     0.100000
+            8.0  N        T02            0.100000     0.100000
+
+
+Drill files being output to directory 'C:/Github/Artificial Eye/PCBdesign_sk/Diode_array_ver00/allegro' ...
+
+
+
+     'diode_array_ver00-1-2.drl' created for holes connecting TOP and BOTTOM ; Plating = PLATED
+     ------------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   1.0000    0.1000/  0.1000      PLATED         48
+
+     ---- Total holes:                                         48
+
+     ---- Total head travel:              0.60 feet (0.18 meters)
+
+
+
+
+     'diode_array_ver00-1-2-np.drl' created for holes connecting TOP and BOTTOM ; Plating = NON_PLATED
+     -------------------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T02    1.   8.0000    0.1000/  0.1000  NON_PLATED          1
+
+     ---- Total holes:                                          1
+
+     ---- Total head travel:              0.00 feet (0.00 meters)
+

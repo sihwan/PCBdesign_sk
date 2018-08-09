@@ -1,13 +1,15 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    PLCTXT Log                                                       )
 (                                                                     )
 (    Drawing          : diode_array_ver00.brd                         )
-(    Software Version : 17.2P028                                      )
-(    Date/Time        : Wed Aug 08 21:18:51 2018                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Aug 08 22:09:09 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-0 warnings, 0 errors detected, 0 errors could be fixed.
+ Create a placement by text file: place_txt.txt
+
+ Successfully processed 1 placed components

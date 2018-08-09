@@ -1,0 +1,10 @@
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : diode_array_ver00-1-2-np.drl for board #Taaaaag14968.tmp ... layers TOP and BOTTOM
+;T02 Holesize 1. = 8.000000 Tolerance = +0.100000/-0.100000 NON_PLATED MM Quantity = 1
+%
+G90
+T02
+X0Y0
+M30
